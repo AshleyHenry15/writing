@@ -1,0 +1,11 @@
+---
+title: Best practices
+---
+
+## Link instead of duplicate
+
+
+## Topic types
+
+
+## Docs-first

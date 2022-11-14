@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  title: "Technical Writing at Posit"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Getting Started"
+        file: getting-started/getting-started.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Getting Started"
+        contents:
+          - text: Start here
+            href: getting-started/getting-started.qmd
+          - text: Types of doc
+            href: getting-started/types.qmd
+          - text: Where should it live?
+            href: getting-started/location.qmd
+          - text: How to write
+            href: getting-started/how-to-write.md
+      - section: "Guides"
+        contents:
+          - section: "Onboarding"
+            contents:
+              - text: Training
+                href: guides/onboarding.qmd
+              - text: Testing Envs
+                href: guides/onboarding/testing-envs.qmd
+          - section: "Doc Requests"
+            contents:
+            - text: Workflow
+              href: guides/doc-requests.qmd
+            - text: Triage
+              href: guides/triage.qmd
+      - section: "References"
+        contents:
+            - text: POCs
+              href: guides/onboarding/pocs.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

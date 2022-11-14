@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 5860e56b-7402-455f-9385-1ed826760eb3
+      url: 'https://stalwart-brigadeiros-3b7eea.netlify.app'

@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "best-practices.html#topic-types",
+    "href": "best-practices.html#topic-types",
+    "title": "Best practices",
+    "section": "Topic types",
+    "text": "Topic types"
+  },
+  {
+    "objectID": "best-practices.html#docs-first",
+    "href": "best-practices.html#docs-first",
+    "title": "Best practices",
+    "section": "Docs-first",
+    "text": "Docs-first"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Technical Writing at Posit",
+    "section": "",
+    "text": "At Posit, every developer/engineer is also a technical writer.\nThis site is a collection of resources to assist you when creating technical writing for our professional (enterprise) products."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The technical writing team includes two writers:\n\nAshley Henry\nName"
+  },
+  {
+    "objectID": "getting-started/how-to-write.html",
+    "href": "getting-started/how-to-write.html",
+    "title": "How to write",
+    "section": "",
+    "text": "Determine the reason for the documentation change/request\nDetermine what type of documentation is required\nDetermine where the documentation should “live”\nSearch ALL documentation to verify:\n\nIf this is already documented\nHow many places may require an update\nIf other documented features may also require an update based on these changes"
+  },
+  {
+    "objectID": "getting-started/getting-started.html",
+    "href": "getting-started/getting-started.html",
+    "title": "Technical Writing at Posit",
+    "section": "",
+    "text": "Here at Posit we have both enterprise/commercial professional products and open source products. Our commercial professional products include:\n\nPosit Workbench/RStudio Server Pro\nPosit Connect\nPosit Package Manager\nPosit Team (software bundle)\n\n\n\nThe developers for each product team are responsible for updating and maintaining documentation.\nHowever, documentation hosted at https://docs.rstudio.com (“docs proper”), is typically maintained by the technical writing team with the assistance of the developers.\n\n\n\nA high-level documentation workflow, regardless of your team, should look something like the following:\nPlanning/Grooming:\n\nDoes the development of a feature require documentation?\nSEARCH all of our resources to make sure that it isn’t already documented and/or to find other places that require updates\n\nDocumentation estimates (how many files/places will require updates)\nWhere should this documentation live? Should it live in the product’s admin guide? Does this actually below in a how-to guide on the docs site?\n\nWriting development:\n\nReview our Style Guide and Formatting Standards\nOnce you decide where the doc should live: add, update, and/or remove documentation, if necessary\nValidate/test the documentation (this can be done by the developer/writer/QA)\nFinal Review - Copy/edit\nMerge\n\n\n\n\n\nAdmin: IT Admins\nUser: Data Scientists\nAdmin/User: Data scientists that may have to make changes to the product’s configuration to use certain features\n\n\n\n\nEnergetic: Whether our reader is a new programmer or a seasoned pro, it is so exciting that we get to show them what’s possible with our amazing resources and tools!\nCompassionate/empathetic: Programming can be hard. Readers have different experiences with coding. There are lots of tools and it can be hard to figure which one is the right tool for the job. Our blog posts acknowledges that we are all doing our best to become better in data without being critical of approaches, tools, or backgrounds.\nSimplicity: If our reader has to reread a sentence multiple times, gets stuck on a word, or gets “lost”, then we are missing the mark. Keep sentences simple and short.\n\n\nThe vast majority of our writing should be in an active voice.\nActive = noun/actor + verb + target\nExample: Python interprets code.\n\nnoun/actor: Python\nverb (active): interprets\ntarget: code\n\nPassive = target + verb + noun/actor\n\ntarget: code\nverb (passive): is interpreted\nnoun/actor: Python\n\nExample: Code is interpreted by Python."
+  },
+  {
+    "objectID": "guides/doc-requests.html",
+    "href": "guides/doc-requests.html",
+    "title": "Doc requests",
+    "section": "",
+    "text": "What is docs proper?\n\n\n\nCreate an issue in the docs.rstudio GitHub repository here.\nPopulate the Doc Requests issues template.\nMention/assign Ashley.\n\n\n\n\nChannel Name: #docs-rstudio-requests"
+  },
+  {
+    "objectID": "guides/triage.html",
+    "href": "guides/triage.html",
+    "title": "Triage",
+    "section": "",
+    "text": "Admin Guide: GitHub repo\nUser Guide: GitHub repo\nRelease Notes: Link to code\n\n\n\n\n\nAdmin, User, API, Cookbook,& Release Notes: GitHub repo\n\n\n\n\n\nAdmin, API, & Release Notes: GitHub repo"
+  }
+]

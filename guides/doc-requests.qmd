@@ -1,0 +1,20 @@
+---
+title: Doc requests
+---
+
+## Docs Proper
+
+What is docs proper?
+
+### GitHub
+
+1. Create an issue in the docs.rstudio GitHub repository [here](https://github.com/rstudio/docs.rstudio.com/issues/new/choose).
+1. Populate the Doc Requests issues template.
+1. Mention/assign Ashley.     
+
+### Slack
+
+**Channel Name**: #docs-rstudio-requests
+
+
+

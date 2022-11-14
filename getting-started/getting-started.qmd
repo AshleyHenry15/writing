@@ -1,0 +1,69 @@
+# Getting Started
+
+Here at Posit we have both enterprise/commercial professional products and open source products. Our commercial professional products include:
+
+- Posit Workbench/RStudio Server Pro
+- Posit Connect
+- Posit Package Manager
+- Posit Team (software bundle)
+
+
+## Process
+
+The developers for each product team are responsible for updating and maintaining documentation. 
+
+However, documentation hosted at https://docs.rstudio.com ("docs proper"), is typically maintained by the technical writing team with the assistance of the developers.
+
+## Documentation Workflow
+
+A high-level documentation workflow, regardless of your team, should look something like the following:
+
+Planning/Grooming:
+
+- Does the development of a feature require documentation?
+- **SEARCH** all of our resources to make sure that it isn't already documented and/or to find other places that require updates   
+- Documentation estimates (how many files/places will require updates)
+- Where should this documentation live? Should it live in the product's admin guide? Does this actually below in a how-to guide on the docs site?
+
+Writing development:
+
+- Review our Style Guide and Formatting Standards
+- Once you decide where the doc should live:
+add, update, and/or remove documentation, if necessary
+- Validate/test the documentation (this can be done by the developer/writer/QA)
+- Final Review - Copy/edit
+- Merge 
+
+## Target Audience/end-user personna
+
+- Admin: IT Admins
+- User: Data Scientists
+- Admin/User: Data scientists that may have to make changes to the product's configuration to use certain features
+
+## Posit Voice
+
+Energetic: Whether our reader is a new programmer or a seasoned pro, it is so exciting that we get to show them what’s possible with our amazing resources and tools!
+
+Compassionate/empathetic: Programming can be hard. Readers have different experiences with coding. There are lots of tools and it can be hard to figure which one is the right tool for the job. Our blog posts acknowledges that we are all doing our best to become better in data without being critical of approaches, tools, or backgrounds.
+
+Simplicity: If our reader has to reread a sentence multiple times, gets stuck on a word, or gets "lost", then we are missing the mark. Keep sentences simple and short.
+
+### Active
+
+The vast majority of our writing should be in an active voice.
+
+Active = noun/actor + verb + target
+
+Example: Python interprets code.
+
+- noun/actor: Python
+- verb (active): interprets
+- target: code
+
+Passive = target + verb + noun/actor
+
+- target: code
+- verb (passive): is interpreted
+- noun/actor: Python
+
+Example: Code is interpreted by Python.
