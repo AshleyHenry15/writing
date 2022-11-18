@@ -1,0 +1,18 @@
+# Authoring tools
+
+Our professional product documentation uses several authoring tools.
+
+Currently, we use:
+
+- [MkDocs - Material](https://squidfunk.github.io/mkdocs-material/)
+- [Quarto](https://quarto.org/)
+- [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
+
+
+| Product        | Authoring tool    |
+|----------------|:------------------|
+| docs.posit.co  | MkDocs Material   |
+| Connect        | MkDocs Material   |
+| Package Manager        | MkDocs Material   |
+| Workbench        | Quarto  |
+| Shiny Server Pro        | Pandoc Markdown   |

@@ -2,9 +2,18 @@
 title: Doc requests
 ---
 
-## Docs Proper
+This topic covers the doc request workflow for "the docs site".
 
-What is docs proper?
+If you need to open a doc request for an individual product guide, reference the [Triage](triage.qmd) page.
+
+## The "docs site"
+
+>What is the docs site/docs proper?
+
+"Docs proper" is the [source code](https://github.com/rstudio/docs.rstudio.com) that lives within the "main" docs.posit.co index directory structure. This differs from our individual professional product guides, which live in the corresponding product's source code.
+
+For example, https://docs.posit.co/rsc/installation/ is hosted at "docs proper", while https://docs.posit.co/connect/admin/ is hosted within  Connect's source code/repository.
+
 
 ### GitHub
 

@@ -39,14 +39,14 @@
     "href": "getting-started/getting-started.html",
     "title": "Technical Writing at Posit",
     "section": "",
-    "text": "Here at Posit we have both enterprise/commercial professional products and open source products. Our commercial professional products include:\n\nPosit Workbench/RStudio Server Pro\nPosit Connect\nPosit Package Manager\nPosit Team (software bundle)\n\n\n\nThe developers for each product team are responsible for updating and maintaining documentation.\nHowever, documentation hosted at https://docs.rstudio.com (“docs proper”), is typically maintained by the technical writing team with the assistance of the developers.\n\n\n\nA high-level documentation workflow, regardless of your team, should look something like the following:\nPlanning/Grooming:\n\nDoes the development of a feature require documentation?\nSEARCH all of our resources to make sure that it isn’t already documented and/or to find other places that require updates\n\nDocumentation estimates (how many files/places will require updates)\nWhere should this documentation live? Should it live in the product’s admin guide? Does this actually below in a how-to guide on the docs site?\n\nWriting development:\n\nReview our Style Guide and Formatting Standards\nOnce you decide where the doc should live: add, update, and/or remove documentation, if necessary\nValidate/test the documentation (this can be done by the developer/writer/QA)\nFinal Review - Copy/edit\nMerge\n\n\n\n\n\nAdmin: IT Admins\nUser: Data Scientists\nAdmin/User: Data scientists that may have to make changes to the product’s configuration to use certain features\n\n\n\n\nEnergetic: Whether our reader is a new programmer or a seasoned pro, it is so exciting that we get to show them what’s possible with our amazing resources and tools!\nCompassionate/empathetic: Programming can be hard. Readers have different experiences with coding. There are lots of tools and it can be hard to figure which one is the right tool for the job. Our blog posts acknowledges that we are all doing our best to become better in data without being critical of approaches, tools, or backgrounds.\nSimplicity: If our reader has to reread a sentence multiple times, gets stuck on a word, or gets “lost”, then we are missing the mark. Keep sentences simple and short.\n\n\nThe vast majority of our writing should be in an active voice.\nActive = noun/actor + verb + target\nExample: Python interprets code.\n\nnoun/actor: Python\nverb (active): interprets\ntarget: code\n\nPassive = target + verb + noun/actor\n\ntarget: code\nverb (passive): is interpreted\nnoun/actor: Python\n\nExample: Code is interpreted by Python."
+    "text": "Here at Posit we have both enterprise/commercial professional products and open source products. Our commercial professional products include:\n\nPosit Workbench/RStudio Server Pro\nPosit Connect\nPosit Package Manager\nPosit Team (software bundle)\n\n\n\nThe developers for each product team are responsible for updating and maintaining documentation.\nHowever, documentation hosted at https://docs.rstudio.com (“docs proper”), is typically maintained by the technical writing team with the assistance of the developers.\n\n\n\nA high-level documentation workflow, regardless of your team, should look something like the following:\nPlanning/Grooming:\n\nDoes the development of a feature require documentation?\nSEARCH all of our resources to make sure that it isn’t already documented and/or to find other places that require updates\n\nDocumentation estimates (how many files/places will require updates)\nWhere should this documentation live? Should it live in the product’s admin guide? Does this actually below in a how-to guide on the docs site?\n\nWriting development:\n\nReview our Style Guide and Formatting Standards\nOnce you decide where the doc should live: add, update, and/or remove documentation, if necessary\nValidate/test the documentation (this can be done by the developer/writer/QA)\nOpen a PR (if you haven’t already)\nAssign at least one reviewer for approval\nMerge\n\n\n\n\n\n\n\nImportant\n\n\n\nUse PRs (pull requests) w/ at least one reviewer ALWAYS.\n\n\n\n\n\n\nAdmin: IT Admins\nUser: Data Scientists\nAdmin/User: Data scientists that may have to make changes to the product’s configuration to use certain features\n\n\n\n\nEnergetic: Whether our reader is a new programmer or a seasoned pro, it is so exciting that we get to show them what’s possible with our amazing resources and tools!\nCompassionate/empathetic: Programming can be hard. Readers have different experiences with coding. There are lots of tools and it can be hard to figure which one is the right tool for the job. Our blog posts acknowledges that we are all doing our best to become better in data without being critical of approaches, tools, or backgrounds.\nSimplicity: If our reader has to reread a sentence multiple times, gets stuck on a word, or gets “lost”, then we are missing the mark. Keep sentences simple and short.\n\n\nThe vast majority of our writing should be in an active voice.\nActive = noun/actor + verb + target\nExample: Python interprets code.\n\nnoun/actor: Python\nverb (active): interprets\ntarget: code\n\nPassive = target + verb + noun/actor\n\ntarget: code\nverb (passive): is interpreted\nnoun/actor: Python\n\nExample: Code is interpreted by Python."
   },
   {
     "objectID": "guides/doc-requests.html",
     "href": "guides/doc-requests.html",
     "title": "Doc requests",
     "section": "",
-    "text": "What is docs proper?\n\n\n\nCreate an issue in the docs.rstudio GitHub repository here.\nPopulate the Doc Requests issues template.\nMention/assign Ashley.\n\n\n\n\nChannel Name: #docs-rstudio-requests"
+    "text": "This topic covers the doc request workflow for “the docs site”.\nIf you need to open a doc request for an individual product guide, reference the Triage page."
   },
   {
     "objectID": "guides/triage.html",
@@ -54,5 +54,33 @@
     "title": "Triage",
     "section": "",
     "text": "Admin Guide: GitHub repo\nUser Guide: GitHub repo\nRelease Notes: Link to code\n\n\n\n\n\nAdmin, User, API, Cookbook,& Release Notes: GitHub repo\n\n\n\n\n\nAdmin, API, & Release Notes: GitHub repo"
+  },
+  {
+    "objectID": "getting-started/authoring-tools.html",
+    "href": "getting-started/authoring-tools.html",
+    "title": "Technical Writing at Posit",
+    "section": "",
+    "text": "Authoring tools\nOur professional product documentation uses several authoring tools.\nCurrently, we use:\n\nMkDocs - Material\nQuarto\nPandoc Markdown\n\n\n\n\nProduct\nAuthoring tool\n\n\n\n\ndocs.posit.co\nMkDocs Material\n\n\nConnect\nMkDocs Material\n\n\nPackage Manager\nMkDocs Material\n\n\nWorkbench\nQuarto\n\n\nShiny Server Pro\nPandoc Markdown"
+  },
+  {
+    "objectID": "getting-started/philosophy.html",
+    "href": "getting-started/philosophy.html",
+    "title": "Technical Writing at Posit",
+    "section": "",
+    "text": "Docs as code"
+  },
+  {
+    "objectID": "getting-started/approach.html",
+    "href": "getting-started/approach.html",
+    "title": "Approaching docs",
+    "section": "",
+    "text": "Determine:\n\nThe reason for the documentation change/request\nWhat type of documentation is required\nWhere the new documentation should “live”\n\nExisting: Determine where the source code of the current documentation lives\n\nSearch ALL documentation to verify:\n\nIf this is already documented\nHow many places may require an update\nIf other documented features may also require an update based on these changes\n\nCoordinate with the product’s documentation owner. See POC"
+  },
+  {
+    "objectID": "guides/doc-requests.html#the-docs-site",
+    "href": "guides/doc-requests.html#the-docs-site",
+    "title": "Doc requests",
+    "section": "The “docs site”",
+    "text": "The “docs site”\n\nWhat is the docs site/docs proper?\n\n“Docs proper” is the source code that lives within the “main” docs.posit.co index directory structure. This differs from our individual professional product guides, which live in the corresponding product’s source code.\nFor example, https://docs.posit.co/rsc/installation/ is hosted at “docs proper”, while https://docs.posit.co/connect/admin/ is hosted within Connect’s source code/repository.\n\nGitHub\n\nCreate an issue in the docs.rstudio GitHub repository here.\nPopulate the Doc Requests issues template.\nMention/assign Ashley.\n\n\n\nSlack\nChannel Name: #docs-rstudio-requests"
   }
 ]

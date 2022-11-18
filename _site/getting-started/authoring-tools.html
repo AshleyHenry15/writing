@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Technical Writing at Posit – getting-started</title>
+<title>Technical Writing at Posit – authoring-tools</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../getting-started/approach.html" rel="next">
+<link href="../getting-started/getting-started.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -122,17 +124,17 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../getting-started/getting-started.html" class="sidebar-item-text sidebar-link active">Start here</a>
+  <a href="../getting-started/getting-started.html" class="sidebar-item-text sidebar-link">Start here</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../getting-started/authoring-tools.html" class="sidebar-item-text sidebar-link">Authoring tools</a>
+  <a href="../getting-started/authoring-tools.html" class="sidebar-item-text sidebar-link active">Authoring tools</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../getting-started/how-to-write.html" class="sidebar-item-text sidebar-link">How to write</a>
+  <a href="../getting-started/approach.html" class="sidebar-item-text sidebar-link">Approach</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -165,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/onboarding/approach.html" class="sidebar-item-text sidebar-link">Approach</a>
+  <a href="../guides/onboarding/philosophy.html" class="sidebar-item-text sidebar-link">Approach</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -207,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/onboarding/pocs.html" class="sidebar-item-text sidebar-link">POCs</a>
+  <a href="../references/pocs.html" class="sidebar-item-text sidebar-link">POCs</a>
   </div>
 </li>
       </ul>
@@ -221,16 +223,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a>
-  <ul class="collapse">
-  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
-  <li><a href="#documentation-workflow" id="toc-documentation-workflow" class="nav-link" data-scroll-target="#documentation-workflow">Documentation Workflow</a></li>
-  <li><a href="#target-audienceend-user-personna" id="toc-target-audienceend-user-personna" class="nav-link" data-scroll-target="#target-audienceend-user-personna">Target Audience/end-user personna</a></li>
-  <li><a href="#posit-voice" id="toc-posit-voice" class="nav-link" data-scroll-target="#posit-voice">Posit Voice</a>
-  <ul class="collapse">
-  <li><a href="#active" id="toc-active" class="nav-link" data-scroll-target="#active">Active</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#authoring-tools" id="toc-authoring-tools" class="nav-link active" data-scroll-target="#authoring-tools">Authoring tools</a></li>
   </ul>
 </nav>
     </div>
@@ -239,88 +232,47 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="getting-started" class="level1">
-<h1>Getting Started</h1>
-<p>Here at Posit we have both enterprise/commercial professional products and open source products. Our commercial professional products include:</p>
+<section id="authoring-tools" class="level1">
+<h1>Authoring tools</h1>
+<p>Our professional product documentation uses several authoring tools.</p>
+<p>Currently, we use:</p>
 <ul>
-<li>Posit Workbench/RStudio Server Pro</li>
-<li>Posit Connect</li>
-<li>Posit Package Manager</li>
-<li>Posit Team (software bundle)</li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/">MkDocs - Material</a></li>
+<li><a href="https://quarto.org/">Quarto</a></li>
+<li><a href="https://pandoc.org/MANUAL.html#pandocs-markdown">Pandoc Markdown</a></li>
 </ul>
-<section id="process" class="level2">
-<h2 class="anchored" data-anchor-id="process">Process</h2>
-<p>The developers for each product team are responsible for updating and maintaining documentation.</p>
-<p>However, documentation hosted at https://docs.rstudio.com (“docs proper”), is typically maintained by the technical writing team with the assistance of the developers.</p>
-</section>
-<section id="documentation-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="documentation-workflow">Documentation Workflow</h2>
-<p>A high-level documentation workflow, regardless of your team, should look something like the following:</p>
-<p>Planning/Grooming:</p>
-<ul>
-<li>Does the development of a feature require documentation?</li>
-<li><strong>SEARCH</strong> all of our resources to make sure that it isn’t already documented and/or to find other places that require updates<br>
-</li>
-<li>Documentation estimates (how many files/places will require updates)</li>
-<li>Where should this documentation live? Should it live in the product’s admin guide? Does this actually below in a how-to guide on the docs site?</li>
-</ul>
-<p>Writing development:</p>
-<ul>
-<li>Review our Style Guide and Formatting Standards</li>
-<li>Once you decide where the doc should live: add, update, and/or remove documentation, if necessary</li>
-<li>Validate/test the documentation (this can be done by the developer/writer/QA)</li>
-<li>Open a PR (if you haven’t already)</li>
-<li>Assign at least one reviewer for approval</li>
-<li>Merge</li>
-</ul>
-<div class="callout-important callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use PRs (pull requests) w/ at least one reviewer ALWAYS.</p>
-</div>
-</div>
-</section>
-<section id="target-audienceend-user-personna" class="level2">
-<h2 class="anchored" data-anchor-id="target-audienceend-user-personna">Target Audience/end-user personna</h2>
-<ul>
-<li>Admin: IT Admins</li>
-<li>User: Data Scientists</li>
-<li>Admin/User: Data scientists that may have to make changes to the product’s configuration to use certain features</li>
-</ul>
-</section>
-<section id="posit-voice" class="level2">
-<h2 class="anchored" data-anchor-id="posit-voice">Posit Voice</h2>
-<p>Energetic: Whether our reader is a new programmer or a seasoned pro, it is so exciting that we get to show them what’s possible with our amazing resources and tools!</p>
-<p>Compassionate/empathetic: Programming can be hard. Readers have different experiences with coding. There are lots of tools and it can be hard to figure which one is the right tool for the job. Our blog posts acknowledges that we are all doing our best to become better in data without being critical of approaches, tools, or backgrounds.</p>
-<p>Simplicity: If our reader has to reread a sentence multiple times, gets stuck on a word, or gets “lost”, then we are missing the mark. Keep sentences simple and short.</p>
-<section id="active" class="level3">
-<h3 class="anchored" data-anchor-id="active">Active</h3>
-<p>The vast majority of our writing should be in an active voice.</p>
-<p>Active = noun/actor + verb + target</p>
-<p>Example: Python interprets code.</p>
-<ul>
-<li>noun/actor: Python</li>
-<li>verb (active): interprets</li>
-<li>target: code</li>
-</ul>
-<p>Passive = target + verb + noun/actor</p>
-<ul>
-<li>target: code</li>
-<li>verb (passive): is interpreted</li>
-<li>noun/actor: Python</li>
-</ul>
-<p>Example: Code is interpreted by Python.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Product</th>
+<th style="text-align: left;">Authoring tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>docs.posit.co</td>
+<td style="text-align: left;">MkDocs Material</td>
+</tr>
+<tr class="even">
+<td>Connect</td>
+<td style="text-align: left;">MkDocs Material</td>
+</tr>
+<tr class="odd">
+<td>Package Manager</td>
+<td style="text-align: left;">MkDocs Material</td>
+</tr>
+<tr class="even">
+<td>Workbench</td>
+<td style="text-align: left;">Quarto</td>
+</tr>
+<tr class="odd">
+<td>Shiny Server Pro</td>
+<td style="text-align: left;">Pandoc Markdown</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -457,6 +409,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../getting-started/getting-started.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Start here</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../getting-started/approach.html" class="pagination-link">
+        <span class="nav-page-text">Approach</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

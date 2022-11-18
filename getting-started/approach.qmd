@@ -1,0 +1,17 @@
+---
+title: Approaching docs
+---
+
+## Writing checklist
+
+Determine:
+
+- The reason for the documentation change/request
+- What type of documentation is required
+- Where the new documentation should "live"
+    - Existing: Determine where the source code of the current documentation lives
+- Search ALL documentation to verify:
+   - If this is already documented
+   - How many places may require an update
+   - If other documented features may also require an update based on these changes
+- Coordinate with the product's documentation owner. See [POC](../references/pocs.qmd)

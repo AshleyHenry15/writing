@@ -31,8 +31,13 @@ Writing development:
 - Once you decide where the doc should live:
 add, update, and/or remove documentation, if necessary
 - Validate/test the documentation (this can be done by the developer/writer/QA)
-- Final Review - Copy/edit
+- Open a PR (if you haven't already)
+- Assign at least one reviewer for approval
 - Merge 
+
+::: {.callout-important}
+Use PRs (pull requests) w/ at least one reviewer ALWAYS.
+:::
 
 ## Target Audience/end-user personna
 

@@ -11,6 +11,7 @@ website:
         file: index.qmd
       - text: "Getting Started"
         file: getting-started/getting-started.qmd
+  page-navigation: true      
   sidebar:
     style: "docked"
     search: true
@@ -19,18 +20,20 @@ website:
         contents:
           - text: Start here
             href: getting-started/getting-started.qmd
-          - text: Types of doc
-            href: getting-started/types.qmd
+          - text: Authoring tools
+            href: getting-started/authoring-tools.qmd
+          - text: Approach
+            href: getting-started/approach.qmd
           - text: Where should it live?
             href: getting-started/location.qmd
-          - text: How to write
-            href: getting-started/how-to-write.md
       - section: "Guides"
         contents:
           - section: "Onboarding"
             contents:
               - text: Training
                 href: guides/onboarding.qmd
+              - text: Approach  
+                href: guides/onboarding/philosophy.qmd                
               - text: Testing Envs
                 href: guides/onboarding/testing-envs.qmd
           - section: "Doc Requests"
@@ -42,7 +45,7 @@ website:
       - section: "References"
         contents:
             - text: POCs
-              href: guides/onboarding/pocs.qmd
+              href: references/pocs.qmd
 
 format:
   html:
