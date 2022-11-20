@@ -28,11 +28,18 @@
     "text": "The technical writing team includes two writers:\n\nAshley Henry\nName"
   },
   {
-    "objectID": "getting-started/how-to-write.html",
-    "href": "getting-started/how-to-write.html",
-    "title": "How to write",
+    "objectID": "getting-started/approach.html",
+    "href": "getting-started/approach.html",
+    "title": "Approaching docs",
     "section": "",
-    "text": "Determine the reason for the documentation change/request\nDetermine what type of documentation is required\nDetermine where the documentation should “live”\nSearch ALL documentation to verify:\n\nIf this is already documented\nHow many places may require an update\nIf other documented features may also require an update based on these changes"
+    "text": "Determine:\n\nThe reason for the documentation change/request\nWhat type of documentation is required\nWhere the new documentation should “live”\n\nExisting: Determine where the source code of the current documentation lives\n\nSearch ALL documentation to verify:\n\nIf this is already documented\nHow many places may require an update\nIf other documented features may also require an update based on these changes\n\nCoordinate with the product’s documentation owner. See POC"
+  },
+  {
+    "objectID": "getting-started/authoring-tools.html",
+    "href": "getting-started/authoring-tools.html",
+    "title": "Technical Writing at Posit",
+    "section": "",
+    "text": "Authoring tools\nOur professional product documentation uses several authoring tools.\nCurrently, we use:\n\nMkDocs - Material\nQuarto\nPandoc Markdown\n\n\n\n\nProduct\nAuthoring tool\n\n\n\n\ndocs.posit.co\nMkDocs Material\n\n\nConnect\nMkDocs Material\n\n\nPackage Manager\nMkDocs Material\n\n\nWorkbench\nQuarto\n\n\nShiny Server Pro\nPandoc Markdown"
   },
   {
     "objectID": "getting-started/getting-started.html",
@@ -49,38 +56,17 @@
     "text": "This topic covers the doc request workflow for “the docs site”.\nIf you need to open a doc request for an individual product guide, reference the Triage page."
   },
   {
-    "objectID": "guides/triage.html",
-    "href": "guides/triage.html",
-    "title": "Triage",
-    "section": "",
-    "text": "Admin Guide: GitHub repo\nUser Guide: GitHub repo\nRelease Notes: Link to code\n\n\n\n\n\nAdmin, User, API, Cookbook,& Release Notes: GitHub repo\n\n\n\n\n\nAdmin, API, & Release Notes: GitHub repo"
-  },
-  {
-    "objectID": "getting-started/authoring-tools.html",
-    "href": "getting-started/authoring-tools.html",
-    "title": "Technical Writing at Posit",
-    "section": "",
-    "text": "Authoring tools\nOur professional product documentation uses several authoring tools.\nCurrently, we use:\n\nMkDocs - Material\nQuarto\nPandoc Markdown\n\n\n\n\nProduct\nAuthoring tool\n\n\n\n\ndocs.posit.co\nMkDocs Material\n\n\nConnect\nMkDocs Material\n\n\nPackage Manager\nMkDocs Material\n\n\nWorkbench\nQuarto\n\n\nShiny Server Pro\nPandoc Markdown"
-  },
-  {
-    "objectID": "getting-started/philosophy.html",
-    "href": "getting-started/philosophy.html",
-    "title": "Technical Writing at Posit",
-    "section": "",
-    "text": "Docs as code"
-  },
-  {
-    "objectID": "getting-started/approach.html",
-    "href": "getting-started/approach.html",
-    "title": "Approaching docs",
-    "section": "",
-    "text": "Determine:\n\nThe reason for the documentation change/request\nWhat type of documentation is required\nWhere the new documentation should “live”\n\nExisting: Determine where the source code of the current documentation lives\n\nSearch ALL documentation to verify:\n\nIf this is already documented\nHow many places may require an update\nIf other documented features may also require an update based on these changes\n\nCoordinate with the product’s documentation owner. See POC"
-  },
-  {
     "objectID": "guides/doc-requests.html#the-docs-site",
     "href": "guides/doc-requests.html#the-docs-site",
     "title": "Doc requests",
     "section": "The “docs site”",
     "text": "The “docs site”\n\nWhat is the docs site/docs proper?\n\n“Docs proper” is the source code that lives within the “main” docs.posit.co index directory structure. This differs from our individual professional product guides, which live in the corresponding product’s source code.\nFor example, https://docs.posit.co/rsc/installation/ is hosted at “docs proper”, while https://docs.posit.co/connect/admin/ is hosted within Connect’s source code/repository.\n\nGitHub\n\nCreate an issue in the docs.rstudio GitHub repository here.\nPopulate the Doc Requests issues template.\nMention/assign Ashley.\n\n\n\nSlack\nChannel Name: #docs-rstudio-requests"
+  },
+  {
+    "objectID": "guides/triage.html",
+    "href": "guides/triage.html",
+    "title": "Triage",
+    "section": "",
+    "text": "Admin Guide: GitHub repo\nUser Guide: GitHub repo\nRelease Notes: Link to code\n\n\n\n\n\nAdmin, User, API, Cookbook,& Release Notes: GitHub repo\n\n\n\n\n\nAdmin, API, & Release Notes: GitHub repo"
   }
 ]
