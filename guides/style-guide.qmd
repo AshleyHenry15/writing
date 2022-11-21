@@ -1,0 +1,93 @@
+---
+title: Style Guide
+---
+
+This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation.
+
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Formatting Guide
+
+The Doc Checklist & Formatting Style Guide is a separate guide providing:
+
+- Syntax references
+- Formatting references
+- The documentation workflow 
+- Documentation checklists for authoring and reviewing the documentation
+:::
+
+## Best Practices
+
+Consistency & shared vocabulary
+Utilize this guide to help our documentation become consistent and to assist our teams to write with a unified voice. 
+
+### Avoid Duplication
+
+If possible, avoid duplicating documentation. If you need to reuse information:
+
+- Use language that may not need to be updated frequently and add a link to the full documentation
+- Use cross-references & links
+- Use snippets
+
+### Readability
+
+Be direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it.
+
+Test its readability here: [Readability Test Tool](https://www.webfx.com/tools/read-able/)
+
+### Accessibility
+
+We should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action. 
+
+Please review our [Product Accessibility in a Nutshell](https://github.com/rstudio/rstudio/wiki/Accessibility) documentation.
+
+### Authentic
+
+Claims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community.
+
+## Grammar
+
+### Parentheses 
+
+APA Style 6th Edition:
+
+- Punctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.
+
+- Punctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.
+
+### Contractions
+
+*Avoid*
+
+### Quotation marks
+
+Punctuation - (inside vs outside):
+
+- Inside quotation marks. Piece of code = outside. 
+- Examples:     
+
+    - grammar: “My friend Mary,” she said, “is crazy!”  
+    - code: To start the program, run `runApp`.
+
+Oxford (serial) comma
+
+- Include the final comma in a list of three or more items. The cat liked to jump, eat, and meow.
+
+### Dashes
+
+- En dash vs. Em dash:
+- En dash:  A dash the width of an “n”. Use for ranges or spans of numbers.
+- Em dash: A dash the width of an “m”. Can take the place of colons.
+
+### i.e. vs. e.g.
+
+- i.e. = In other words
+- e.g. =  For example
+
+### etc.
+
+- When used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.
+- If used at the end of a sentence, simply use a period.
+- If enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed.
+
+## Writing rules

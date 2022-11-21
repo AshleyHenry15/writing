@@ -68,5 +68,82 @@
     "title": "Triage",
     "section": "",
     "text": "Admin Guide: GitHub repo\nUser Guide: GitHub repo\nRelease Notes: Link to code\n\n\n\n\n\nAdmin, User, API, Cookbook,& Release Notes: GitHub repo\n\n\n\n\n\nAdmin, API, & Release Notes: GitHub repo"
+  },
+  {
+    "objectID": "guides/style-guide.html",
+    "href": "guides/style-guide.html",
+    "title": "Style Guide",
+    "section": "",
+    "text": "This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation."
+  },
+  {
+    "objectID": "guides/style-guide.html#best-practices",
+    "href": "guides/style-guide.html#best-practices",
+    "title": "Style Guide",
+    "section": "Best Practices",
+    "text": "Best Practices\nConsistency & shared vocabulary Utilize this guide to help our documentation become consistent and to assist our teams to write with a unified voice.\n\nAvoid Duplication\nIf possible, avoid duplicating documentation. If you need to reuse information:\n\nUse language that may not need to be updated frequently and add a link to the full documentation\nUse cross-references & links\nUse snippets\n\n\n\nReadability\nBe direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it.\nTest its readability here: Readability Test Tool\n\n\nAccessibility\nWe should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action.\nPlease review our Product Accessibility in a Nutshell documentation.\n\n\nAuthentic\nClaims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community."
+  },
+  {
+    "objectID": "guides/style-guide.html#avoid-duplication",
+    "href": "guides/style-guide.html#avoid-duplication",
+    "title": "Style Guide",
+    "section": "Avoid Duplication",
+    "text": "Avoid Duplication\nIf possible, avoid duplicating documentation. If you need to reuse information:\n\nUse language that may not need to be updated frequently and add a link to the full documentation\nUse cross-references & links\nUse snippets"
+  },
+  {
+    "objectID": "guides/style-guide.html#readability",
+    "href": "guides/style-guide.html#readability",
+    "title": "Style Guide",
+    "section": "Readability",
+    "text": "Readability\nBe direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it. Test its readability here: Readability Test Tool"
+  },
+  {
+    "objectID": "guides/style-guide.html#accessibility",
+    "href": "guides/style-guide.html#accessibility",
+    "title": "Style Guide",
+    "section": "Accessibility",
+    "text": "Accessibility\nWe should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action. Please review our Product Accessibility in a Nutshell article."
+  },
+  {
+    "objectID": "guides/style-guide.html#authentic",
+    "href": "guides/style-guide.html#authentic",
+    "title": "Style Guide",
+    "section": "Authentic",
+    "text": "Authentic\nClaims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community."
+  },
+  {
+    "objectID": "getting-started/location.html",
+    "href": "getting-started/location.html",
+    "title": "Where should the docs live?",
+    "section": "",
+    "text": "Where we write/place documentation depends in a few key factors:\n\nThe type of documentation\nThe product that the documentation covers/belongs to\nWho is responsible for maintaining the content once it is published\n\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAdmin Gude\nAn administrator uses these guides to install, configure, or reference before handing the product off to the user. Generally, anything that may require elevated privileges.\n\n\nUser Guide\nExplanations of features, feature configurations, and step-by-step instructions, examples, etc. User guides tend to be informal and contain standalone topics.\n\n\nQuickStart Guide\nFor users that are familiar with our product, Linux distributions, code languages, etc., and want to accomplish a task as quickly as possible. They can be written in sequential order or as a series of tasks. It should be based on existing documentation.\n\n\nGetting Start Guide\nFor an audience that is unfamiliar with our products, Linux distributions, code languages, etc. These guides provide a more detailed description of what it does, basic concepts, detailed setup instructions, and basic explanations/examples about what they are doing and why. Should be based on existing documentation.\n\n\nInstall Guide\nDescribes the steps that are needed to install our products, provided as a one-off guide.\n\n\nTutorials\nLearning-oriented documentation/videos that teach a user how to do something.\n\n\nHow-to guide Guide\nGoal-oriented documentation that solves a specific problem in a series of steps. Should be based on existing documentation, if applicable."
+  },
+  {
+    "objectID": "getting-started/location.html#types-of-documentation",
+    "href": "getting-started/location.html#types-of-documentation",
+    "title": "Where should the docs live?",
+    "section": "Types of documentation",
+    "text": "Types of documentation\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAdmin Gude\nAn administrator uses these guides to install, configure, or reference before handing the product off to the user. Generally, anything that may require elevated privileges.\n\n\nUser Guide\nExplanations of features, feature configurations, and step-by-step instructions, examples, etc. User guides tend to be informal and contain standalone topics.\n\n\nQuickStart Guide\nFor users that are familiar with our product, Linux distributions, code languages, etc., and want to accomplish a task as quickly as possible. They can be written in sequential order or as a series of tasks. It should be based on existing documentation.\n\n\nGetting Start Guide\nFor an audience that is unfamiliar with our products, Linux distributions, code languages, etc. These guides provide a more detailed description of what it does, basic concepts, detailed setup instructions, and basic explanations/examples about what they are doing and why. Should be based on existing documentation.\n\n\nInstall Guide\nDescribes the steps that are needed to install our products, provided as a one-off guide.\n\n\nTutorials\nLearning-oriented documentation/videos that teach a user how to do something.\n\n\nHow-to guide Guide\nGoal-oriented documentation that solves a specific problem in a series of steps. Should be based on existing documentation, if applicable."
+  },
+  {
+    "objectID": "guides/style-guide.html#grammar-writing-rules",
+    "href": "guides/style-guide.html#grammar-writing-rules",
+    "title": "Style Guide",
+    "section": "Grammar & writing rules",
+    "text": "Grammar & writing rules\n\nGeneral grammar\n\nParentheses\nAPA Style 6th Edition:\n\nPunctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.\nPunctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.\n\n\n\nContractions\nAvoid\n\n\nQuotation marks\nPunctuation - (inside vs outside):\n\nInside quotation marks. Piece of code = outside.\nExamples:\n\ngrammar: “My friend Mary,” she said, “is crazy!”\n\ncode: To start the program, run runApp.\n\n\nOxford (serial) comma\n\nInclude the final comma in a list of three or more items. The cat liked to jump, eat, and meow.\n\n\n\nDashes\n\nEn dash vs. Em dash:\nEn dash: A dash the width of an “n”. Use for ranges or spans of numbers.\nEm dash: A dash the width of an “m”. Can take the place of colons.\n\n\n\ni.e. vs. e.g.\n\ni.e. = In other words\ne.g. = For example\n\n\n\netc.\n\nWhen used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.\nIf used at the end of a sentence, simply use a period.\nIf enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed.\n\n\n\n\nWriting rules"
+  },
+  {
+    "objectID": "guides/style-guide.html#grammar",
+    "href": "guides/style-guide.html#grammar",
+    "title": "Style Guide",
+    "section": "Grammar",
+    "text": "Grammar\n\nParentheses\nAPA Style 6th Edition:\n\nPunctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.\nPunctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.\n\n\n\nContractions\nAvoid\n\n\nQuotation marks\nPunctuation - (inside vs outside):\n\nInside quotation marks. Piece of code = outside.\nExamples:\n\ngrammar: “My friend Mary,” she said, “is crazy!”\n\ncode: To start the program, run runApp.\n\n\nOxford (serial) comma\n\nInclude the final comma in a list of three or more items. The cat liked to jump, eat, and meow.\n\n\n\nDashes\n\nEn dash vs. Em dash:\nEn dash: A dash the width of an “n”. Use for ranges or spans of numbers.\nEm dash: A dash the width of an “m”. Can take the place of colons.\n\n\n\ni.e. vs. e.g.\n\ni.e. = In other words\ne.g. = For example\n\n\n\netc.\n\nWhen used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.\nIf used at the end of a sentence, simply use a period.\nIf enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed."
+  },
+  {
+    "objectID": "guides/style-guide.html#writing-rules",
+    "href": "guides/style-guide.html#writing-rules",
+    "title": "Style Guide",
+    "section": "Writing rules",
+    "text": "Writing rules"
   }
 ]

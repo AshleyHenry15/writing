@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Technical Writing at Posit – style-guide</title>
+<title>Technical Writing at Posit - Style Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../guides/onboarding.html" rel="next">
+<link href="../getting-started/location.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -94,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"></h1>
+      <h1 class="quarto-secondary-nav-title">Style Guide</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -150,6 +152,11 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../guides/style-guide.html" class="sidebar-item-text sidebar-link active">Style Guide</a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Onboarding</a>
@@ -217,15 +224,160 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#best-practices" id="toc-best-practices" class="nav-link active" data-scroll-target="#best-practices">Best Practices</a>
+  <ul class="collapse">
+  <li><a href="#avoid-duplication" id="toc-avoid-duplication" class="nav-link" data-scroll-target="#avoid-duplication">Avoid Duplication</a></li>
+  <li><a href="#readability" id="toc-readability" class="nav-link" data-scroll-target="#readability">Readability</a></li>
+  <li><a href="#accessibility" id="toc-accessibility" class="nav-link" data-scroll-target="#accessibility">Accessibility</a></li>
+  <li><a href="#authentic" id="toc-authentic" class="nav-link" data-scroll-target="#authentic">Authentic</a></li>
+  </ul></li>
+  <li><a href="#grammar" id="toc-grammar" class="nav-link" data-scroll-target="#grammar">Grammar</a>
+  <ul class="collapse">
+  <li><a href="#parentheses" id="toc-parentheses" class="nav-link" data-scroll-target="#parentheses">Parentheses</a></li>
+  <li><a href="#contractions" id="toc-contractions" class="nav-link" data-scroll-target="#contractions">Contractions</a></li>
+  <li><a href="#quotation-marks" id="toc-quotation-marks" class="nav-link" data-scroll-target="#quotation-marks">Quotation marks</a></li>
+  <li><a href="#dashes" id="toc-dashes" class="nav-link" data-scroll-target="#dashes">Dashes</a></li>
+  <li><a href="#i.e.-vs.-e.g." id="toc-i.e.-vs.-e.g." class="nav-link" data-scroll-target="#i.e.-vs.-e.g.">i.e.&nbsp;vs.&nbsp;e.g.</a></li>
+  <li><a href="#etc." id="toc-etc." class="nav-link" data-scroll-target="#etc.">etc.</a></li>
+  </ul></li>
+  <li><a href="#writing-rules" id="toc-writing-rules" class="nav-link" data-scroll-target="#writing-rules">Writing rules</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Style Guide</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation.</p>
+<div class="callout-note callout callout-style-simple callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Formatting Guide
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The Doc Checklist &amp; Formatting Style Guide is a separate guide providing:</p>
+<ul>
+<li>Syntax references</li>
+<li>Formatting references</li>
+<li>The documentation workflow</li>
+<li>Documentation checklists for authoring and reviewing the documentation</li>
+</ul>
+</div>
+</div>
+</div>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
+<p>Consistency &amp; shared vocabulary Utilize this guide to help our documentation become consistent and to assist our teams to write with a unified voice.</p>
+<section id="avoid-duplication" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-duplication">Avoid Duplication</h3>
+<p>If possible, avoid duplicating documentation. If you need to reuse information:</p>
+<ul>
+<li>Use language that may not need to be updated frequently and add a link to the full documentation</li>
+<li>Use cross-references &amp; links</li>
+<li>Use snippets</li>
+</ul>
+</section>
+<section id="readability" class="level3">
+<h3 class="anchored" data-anchor-id="readability">Readability</h3>
+<p>Be direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it.</p>
+<p>Test its readability here: <a href="https://www.webfx.com/tools/read-able/">Readability Test Tool</a></p>
+</section>
+<section id="accessibility" class="level3">
+<h3 class="anchored" data-anchor-id="accessibility">Accessibility</h3>
+<p>We should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action.</p>
+<p>Please review our <a href="https://github.com/rstudio/rstudio/wiki/Accessibility">Product Accessibility in a Nutshell</a> documentation.</p>
+</section>
+<section id="authentic" class="level3">
+<h3 class="anchored" data-anchor-id="authentic">Authentic</h3>
+<p>Claims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community.</p>
+</section>
+</section>
+<section id="grammar" class="level2">
+<h2 class="anchored" data-anchor-id="grammar">Grammar</h2>
+<section id="parentheses" class="level3">
+<h3 class="anchored" data-anchor-id="parentheses">Parentheses</h3>
+<p>APA Style 6th Edition:</p>
+<ul>
+<li><p>Punctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.</p></li>
+<li><p>Punctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.</p></li>
+</ul>
+</section>
+<section id="contractions" class="level3">
+<h3 class="anchored" data-anchor-id="contractions">Contractions</h3>
+<p><em>Avoid</em></p>
+</section>
+<section id="quotation-marks" class="level3">
+<h3 class="anchored" data-anchor-id="quotation-marks">Quotation marks</h3>
+<p>Punctuation - (inside vs outside):</p>
+<ul>
+<li><p>Inside quotation marks. Piece of code = outside.</p></li>
+<li><p>Examples:</p>
+<ul>
+<li>grammar: “My friend Mary,” she said, “is crazy!”<br>
+</li>
+<li>code: To start the program, run <code>runApp</code>.</li>
+</ul></li>
+</ul>
+<p>Oxford (serial) comma</p>
+<ul>
+<li>Include the final comma in a list of three or more items. The cat liked to jump, eat, and meow.</li>
+</ul>
+</section>
+<section id="dashes" class="level3">
+<h3 class="anchored" data-anchor-id="dashes">Dashes</h3>
+<ul>
+<li>En dash vs.&nbsp;Em dash:</li>
+<li>En dash: A dash the width of an “n”. Use for ranges or spans of numbers.</li>
+<li>Em dash: A dash the width of an “m”. Can take the place of colons.</li>
+</ul>
+</section>
+<section id="i.e.-vs.-e.g." class="level3">
+<h3 class="anchored" data-anchor-id="i.e.-vs.-e.g.">i.e.&nbsp;vs.&nbsp;e.g.</h3>
+<ul>
+<li>i.e.&nbsp;= In other words</li>
+<li>e.g.&nbsp;= For example</li>
+</ul>
+</section>
+<section id="etc." class="level3">
+<h3 class="anchored" data-anchor-id="etc.">etc.</h3>
+<ul>
+<li>When used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.</li>
+<li>If used at the end of a sentence, simply use a period.</li>
+<li>If enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed.</li>
+</ul>
+</section>
+</section>
+<section id="writing-rules" class="level2">
+<h2 class="anchored" data-anchor-id="writing-rules">Writing rules</h2>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -361,6 +513,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../getting-started/location.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Where should it live?</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../guides/onboarding.html" class="pagination-link">
+        <span class="nav-page-text">Training</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

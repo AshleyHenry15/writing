@@ -2,5 +2,20 @@
 title: Where should the docs live?
 ---
 
+Where we write/place documentation depends in a few key factors:
+
+- The type of documentation
+- The product that the documentation covers/belongs to
+- Who is responsible for maintaining the content once it is published
+
+| Type | Definition |
+-------------|------------------------------------------------------|
+| Admin Gude | An administrator uses these guides to install, configure, or reference before handing the product off to the user. Generally, anything that may require elevated privileges. |
+| User Guide | Explanations of features, feature configurations, and step-by-step instructions, examples, etc. User guides tend to be informal and contain standalone topics. |
+| QuickStart Guide | For users that are familiar with our product, Linux distributions, code languages, etc.,  and want to accomplish a task as quickly as possible. They can be written in sequential order or as a series of tasks. It should be based on existing documentation. |
+| Getting Start Guide | For an audience that is unfamiliar with our products, Linux distributions, code languages, etc. These guides provide a more detailed description of what it does, basic concepts, detailed setup instructions, and basic explanations/examples about what they are doing and why. Should be based on existing documentation. |
+| Install Guide | Describes the steps that are needed to install our products, provided as a one-off guide. |
+| Tutorials | Learning-oriented documentation/videos that teach a user how to do something. |
+| How-to guide Guide | Goal-oriented documentation that solves a specific problem in a series of steps. Should be based on existing documentation, if applicable. |
 
 
