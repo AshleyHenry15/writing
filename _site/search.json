@@ -56,34 +56,6 @@
     "text": "Where we write/place documentation depends in a few key factors:\n\nThe type of documentation\nThe product that the documentation covers/belongs to\nWho is responsible for maintaining the content once it is published\n\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAdmin Gude\nAn administrator uses these guides to install, configure, or reference before handing the product off to the user. Generally, anything that may require elevated privileges.\n\n\nUser Guide\nExplanations of features, feature configurations, and step-by-step instructions, examples, etc. User guides tend to be informal and contain standalone topics.\n\n\nQuickStart Guide\nFor users that are familiar with our product, Linux distributions, code languages, etc., and want to accomplish a task as quickly as possible. They can be written in sequential order or as a series of tasks. It should be based on existing documentation.\n\n\nGetting Start Guide\nFor an audience that is unfamiliar with our products, Linux distributions, code languages, etc. These guides provide a more detailed description of what it does, basic concepts, detailed setup instructions, and basic explanations/examples about what they are doing and why. Should be based on existing documentation.\n\n\nInstall Guide\nDescribes the steps that are needed to install our products, provided as a one-off guide.\n\n\nTutorials\nLearning-oriented documentation/videos that teach a user how to do something.\n\n\nHow-to guide Guide\nGoal-oriented documentation that solves a specific problem in a series of steps. Should be based on existing documentation, if applicable."
   },
   {
-    "objectID": "guides/style-guide.html",
-    "href": "guides/style-guide.html",
-    "title": "Style Guide",
-    "section": "",
-    "text": "This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation."
-  },
-  {
-    "objectID": "guides/style-guide.html#best-practices",
-    "href": "guides/style-guide.html#best-practices",
-    "title": "Style Guide",
-    "section": "Best Practices",
-    "text": "Best Practices\nConsistency & shared vocabulary Utilize this guide to help our documentation become consistent and to assist our teams to write with a unified voice.\n\nAvoid Duplication\nIf possible, avoid duplicating documentation. If you need to reuse information:\n\nUse language that may not need to be updated frequently and add a link to the full documentation\nUse cross-references & links\nUse snippets\n\n\n\nReadability\nBe direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it.\nTest its readability here: Readability Test Tool\n\n\nAccessibility\nWe should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action.\nPlease review our Product Accessibility in a Nutshell documentation.\n\n\nAuthentic\nClaims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community."
-  },
-  {
-    "objectID": "guides/style-guide.html#grammar",
-    "href": "guides/style-guide.html#grammar",
-    "title": "Style Guide",
-    "section": "Grammar",
-    "text": "Grammar\n\nParentheses\nAPA Style 6th Edition:\n\nPunctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.\nPunctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.\n\n\n\nContractions\nAvoid\n\n\nQuotation marks\nPunctuation - (inside vs. outside):\n\nInside quotation marks. Piece of code = outside.\nExamples:\n\ngrammar: “My friend Mary,” she said, “is crazy!”\n\ncode: To start the program, run runApp.\n\n\n\n\nOxford (serial) comma\n\nInclude the final comma in a list of three or more items. The cat liked to jump, eat, and meow.\n\n\n\nDashes\n\nEn dash vs. Em dash:\n\nEn dash: A dash the width of an “n”. Use for ranges or spans of numbers.\nEm dash: A dash the width of an “m”. Can take the place of colons.\n\n\n\n\ni.e. vs. e.g.\n\ni.e.: In other words\ne.g.: For example\n\n\n\netc.\n\nWhen used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.\nIf used at the end of a sentence, simply use a period.\nIf enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed."
-  },
-  {
-    "objectID": "guides/style-guide.html#writing-rules",
-    "href": "guides/style-guide.html#writing-rules",
-    "title": "Style Guide",
-    "section": "Writing rules",
-    "text": "Writing rules\n\nTitles and headings\n\nTitles and H1s: Title Case\nAll other headings: Sentence case\n\n\n\nProper nouns and UI naming\n\nAre always capitalized.\nHowever, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.\n\nFor example, if a menu name isn’t capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.\n\n\n\n\nActive/passive voice\n\nAvoid passive voice unless it is unavoidable.\nUse the active form of nouns (displays -not- displayed).\n\nPer the Microsoft Manual of Style:\n\nActive voice emphasizes the person or thing performing the action.\nIt’s more direct than passive voice, which can be confusing or sound formal.\n\n\n\n\n\n\n\nTip\n\n\n\nPlease review the Posit Voice section for additional information.\n\n\n\n\nProcedures/steps: Action - Result writing\nAction → Result should always be part of the action step\nExamples:\n\nClick OK. A dialog displays.\nThe configuration section allows you to configure your product. Deleting this file may result in a loss of data.\n\n\n\nCalls to code\nCalls to R, Python code, shell commands, & other languages.\nDenote calls with the accent grave (example: runApp). Use the accent marks/backticks wherever appropriate. Ensure that the text within already written accent marks exactly matches the code, since it may change how code is run and result in errors.\nIf the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.\n\n\nGerunds & Tech jargon\nAvoid.\n\n\nNumbers\nAs a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.\n\n\nAcronyms\n\nSpell out the first occurrence of an acronym per topic/page/file, followed by the acronym in parentheses.\nYou do not need to define common acronyms, such as IP.\n\nExample: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function."
-  },
-  {
     "objectID": "guides/doc-requests.html",
     "href": "guides/doc-requests.html",
     "title": "Doc requests",
@@ -105,32 +77,39 @@
     "text": "Admin Guide: GitHub repo\nUser Guide: GitHub repo\nRelease Notes: Link to code\n\n\n\n\n\nAdmin, User, API, Cookbook,& Release Notes: GitHub repo\n\n\n\n\n\nAdmin, API, & Release Notes: GitHub repo"
   },
   {
-    "objectID": "writing/style-guide.html",
-    "href": "writing/style-guide.html",
-    "title": "Style Guide",
+    "objectID": "guides/onboarding/training/github/clone-repo.html",
+    "href": "guides/onboarding/training/github/clone-repo.html",
+    "title": "Cloning a Repository",
     "section": "",
-    "text": "This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation."
+    "text": "This documentation walks you through pulling a remote repository, pulling changes from main, and creating a branch."
   },
   {
-    "objectID": "writing/style-guide.html#best-practices",
-    "href": "writing/style-guide.html#best-practices",
-    "title": "Style Guide",
-    "section": "Best Practices",
-    "text": "Best Practices\nConsistency & shared vocabulary Utilize this guide to help our documentation become consistent and to assist our teams to write with a unified voice.\n\nAvoid Duplication\nIf possible, avoid duplicating documentation. If you need to reuse information:\n\nUse language that may not need to be updated frequently and add a link to the full documentation\nUse cross-references & links\nUse snippets\n\n\n\nReadability\nBe direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it.\nTest its readability here: Readability Test Tool\n\n\nAccessibility\nWe should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action.\nPlease review our Product Accessibility in a Nutshell documentation.\n\n\nAuthentic\nClaims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community."
+    "objectID": "guides/onboarding/training/github/clone-repo.html#prerequisites",
+    "href": "guides/onboarding/training/github/clone-repo.html#prerequisites",
+    "title": "Cloning a Repository",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nThe following instructions use GitHub Desktop.\nAccess to the docs.rstudio.com repo (Contact Ashley Henry for access requests)"
   },
   {
-    "objectID": "writing/style-guide.html#grammar",
-    "href": "writing/style-guide.html#grammar",
-    "title": "Style Guide",
-    "section": "Grammar",
-    "text": "Grammar\n\nActive/passive voice\n\nAvoid passive voice unless it is unavoidable.\nUse the active form of nouns (displays -not- displayed).\n\nPer the Microsoft Manual of Style:\n\nActive voice emphasizes the person or thing performing the action.\nIt’s more direct than passive voice, which can be confusing or sound formal.\n\n\n\n\n\n\n\nTip\n\n\n\nPlease review the Posit Voice section for additional information.\n\n\n\n\nParentheses\nAPA Style 6th Edition:\n\nPunctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.\nPunctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.\n\n\n\nContractions\nAvoid\n\n\nQuotation marks\nPunctuation - (inside vs. outside):\n\nInside quotation marks. Piece of code = outside.\nExamples:\n\ngrammar: “My friend Mary,” she said, “is crazy!”\n\ncode: To start the program, run runApp.\n\n\n\n\nOxford (serial) comma\n\nInclude the final comma in a list of three or more items. The cat liked to jump, eat, and meow.\n\n\n\nDashes\n\nEn dash vs. Em dash:\n\nEn dash: A dash the width of an “n”. Use for ranges or spans of numbers.\nEm dash: A dash the width of an “m”. Can take the place of colons.\n\n\n\n\ni.e. vs. e.g.\n\ni.e.: In other words\ne.g.: For example\n\n\n\netc.\n\nWhen used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.\nIf used at the end of a sentence, simply use a period.\nIf enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed."
+    "objectID": "guides/onboarding/training/github/clone-repo.html#clone-via-https",
+    "href": "guides/onboarding/training/github/clone-repo.html#clone-via-https",
+    "title": "Cloning a Repository",
+    "section": "Clone via HTTPS",
+    "text": "Clone via HTTPS\n\nNavigate to: https://github.com/rstudio/docs.rstudio.com\nCopy the URL: \nOpen GitHub Desktop.\nFrom the File menu, click Clone Repository…: \nDo the following:\n\nIn the Repository URL or GitHub username and repository field, paste the URL that you copied in Step 2. \nIn the Local Path field, either paste, type, or Choose… a location for the cloned repo.\nClick Clone.\n\n\n\n\n\n\n\n\nTip\n\n\n\nA best practice is to create a local GitHub/Repositories dirctory (folder) and save all individual cloned repositories to that folder.\n\n\nOnce all the repository has been cloned locally, you now have local access to all of the directories and files that live in the upstream repo."
   },
   {
-    "objectID": "writing/style-guide.html#writing-rules",
-    "href": "writing/style-guide.html#writing-rules",
-    "title": "Style Guide",
-    "section": "Writing rules",
-    "text": "Writing rules\n\nTitles and headings\n\nTitles and H1s: Title Case\nAll other headings: Sentence case\n\n\n\nProper nouns and UI naming\n\nAre always capitalized.\nHowever, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.\n\nFor example, if a menu name isn’t capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.\n\n\n\n\nActive/passive voice\n\nAvoid passive voice unless it is unavoidable.\nUse the active form of nouns (displays -not- displayed).\n\nPer the Microsoft Manual of Style:\n\nActive voice emphasizes the person or thing performing the action.\nIt’s more direct than passive voice, which can be confusing or sound formal.\n\n\n\n\n\n\n\nTip\n\n\n\nPlease review the Posit Voice section for additional information.\n\n\n\n\nProcedures/steps: Action - Result writing\nAction → Result should always be part of the action step\nExamples:\n\nClick OK. A dialog displays.\nThe configuration section allows you to configure your product. Deleting this file may result in a loss of data.\n\n\n\nCalls to code\nCalls to R, Python code, shell commands, & other languages.\nDenote calls with the accent grave (example: runApp). Use the accent marks/backticks wherever appropriate. Ensure that the text within already written accent marks exactly matches the code, since it may change how code is run and result in errors.\nIf the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.\n\n\nGerunds & Tech jargon\nAvoid.\n\n\nNumbers\nAs a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.\n\n\nAcronyms\n\nSpell out the first occurrence of an acronym per topic/page/file, followed by the acronym in parentheses.\nYou do not need to define common acronyms, such as IP.\n\nExample: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function."
+    "objectID": "guides/onboarding/training/github/clone-repo.html#pull-main",
+    "href": "guides/onboarding/training/github/clone-repo.html#pull-main",
+    "title": "Cloning a Repository",
+    "section": "Pull main",
+    "text": "Pull main\nNow that you have cloned the repository, let’s make sure that you are synced with the main branch.\n\nDo the following:\n\n\nFrom the GitHub Desktop app, verify that the branch that you cloned is selected from the Current Repository drop-down menu.\nFrom the Current Branch drop-down menu, select main.\nClick Fetch origin.\n\n\nIf main has changes that you do not have locally, the Fetch origin button will display a Pull option with a count of the number of changes that you are behind main. Go ahead and click that button to pull the latest changes to sync with themain` upstream branch."
+  },
+  {
+    "objectID": "guides/onboarding/training/github/clone-repo.html#create-a-branch",
+    "href": "guides/onboarding/training/github/clone-repo.html#create-a-branch",
+    "title": "Cloning a Repository",
+    "section": "Create a branch",
+    "text": "Create a branch\n\nOpen GitHub Desktop.\nClick the Current Branch drop-down menu and select New Branch. \nAdd a name for your branch and click Create Branch. \n\nYour new branch is automatically selected in the Current Branch drop-down menu.\nWhen you make a local change, you can commit the change, publish/push changes upstream to your branch in GitHub."
   },
   {
     "objectID": "writing/doc-rules.html",
@@ -140,11 +119,18 @@
     "text": "Consistency & shared vocabulary Utilize this guide to help our documentation become consistent and to assist our teams to write with a unified voice.\n\n\nIf possible, avoid duplicating documentation. If you need to reuse information:\n\nUse language that may not need to be updated frequently and add a link to the full documentation\nUse cross-references & links\nUse snippets\n\n\n\n\nBe direct and avoid fluff. Keep our documentation transparent, easy to read, efficient, and search-friendly. Keep the topics and sentences simple, short, and concise. Do not write over our audience’s head or write drastically under it.\nTest its readability here: Readability Test Tool\n\n\n\nWe should aspire to provide documentation that is helpful and easy for everyone to use. When planning, writing, and reviewing documentation, take the time to consider that someone may be using a screen reader to listen to our documentation. For example, ensure that you are writing documentation that is clear and isn’t relying on images to explain an action.\nPlease review our Product Accessibility in a Nutshell documentation.\n\n\n\nClaims should capture what our products and company can, and cannot do. We do not want to make false promises to our customers and there is no need to state that we may support something in the future. We are supporters of the open-source community and have an interdependent relationship with the open source community.\n\n\n\n\nFollow a general template to help standardize our documentation.\nSee topic structure/template.\n\n\n\n\nInsert new content in the most logical or intuitive section of the guide.\nDo not just “stick it at the bottom”.\n\n\n\n\nInconsistent names for the same object may confuse our users. Use consistent names whenever you:\n\nIntroduce a new feature.\nRefer to an existing feature.\nRefer to a specific UI item.\nUpdate existing documentation.\n\n\n\n\n\n\n\nImportant\n\n\n\nBe sure to search ALL of our documentation to ensure that your product/menu/UI naming is consistent. The Product names and open source product names reference is shown below.\n\n\n\n\nRefer to menus, buttons, elements, etc., exactly how they are displayed in the UI. For example, if there is a SUBMIT button, then it would be in ALL CAPS (and bolded) in the documentation.\n\n\n\n\nClick to view full-sized/zoomed in UI Elements Image\n\n\n\n\nWhen you refer to a specific package in R, use the actual capitalization of the package name (which is usually lowercase, but not always). Follow this rule even if the package name appears at the beginning of a sentence. Why? Because the package name is actual code that the user may type into R; incorrect capitalization could cause an error. Example: ggvis or ggplot2.\nWhen you describe a general product/framework that RStudio has developed, like Shiny or R Markdown, use the RStudio capitalization of the product name. It does get tricky, but here is a heuristic: if you are praising a product to a general audience, go with R Markdown; if you are instructing programmers on how to do something, go with rmarkdown."
   },
   {
-    "objectID": "writing/style-guide.html#writing",
-    "href": "writing/style-guide.html#writing",
+    "objectID": "writing/style-guide.html",
+    "href": "writing/style-guide.html",
     "title": "Style Guide",
-    "section": "Writing",
-    "text": "Writing\n\nTitles and headings\n\nTitles and H1s: Title Case\nAll other headings: Sentence case\n\n\n\nProper nouns and UI naming\n\nAre always capitalized.\nHowever, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.\n\nFor example, if a menu name isn’t capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.\n\n\n\n\nActive/passive voice\n\nAvoid passive voice unless it is unavoidable.\nUse the active form of nouns (displays -not- displayed).\n\nPer the Microsoft Manual of Style:\n\nActive voice emphasizes the person or thing performing the action.\nIt’s more direct than passive voice, which can be confusing or sound formal.\n\n\n\n\n\n\n\nTip\n\n\n\nPlease review the Posit Voice section for additional information.\n\n\n\n\nProcedures/steps: Action - Result writing\nAction → Result should always be part of the action step\nExamples:\n\nClick OK. A dialog displays.\nThe configuration section allows you to configure your product. Deleting this file may result in a loss of data.\n\n\n\nCalls to code\nCalls to R, Python code, shell commands, & other languages.\nDenote calls with the accent grave (example: runApp). Use the accent marks/backticks wherever appropriate. Ensure that the text within already written accent marks exactly matches the code, since it may change how code is run and result in errors.\nIf the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.\n\n\nGerunds & Tech jargon\nAvoid.\n\n\nNumbers\nAs a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.\n\n\nAcronyms\n\nSpell out the first occurrence of an acronym per topic/page/file, followed by the acronym in parentheses.\nYou do not need to define common acronyms, such as IP.\n\nExample: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function."
+    "section": "",
+    "text": "This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation."
+  },
+  {
+    "objectID": "writing/style-guide.html#grammar",
+    "href": "writing/style-guide.html#grammar",
+    "title": "Style Guide",
+    "section": "Grammar",
+    "text": "Grammar\n\nActive/passive voice\n\nAvoid passive voice unless it is unavoidable.\nUse the active form of nouns (displays -not- displayed).\n\nPer the Microsoft Manual of Style:\n\nActive voice emphasizes the person or thing performing the action.\nIt’s more direct than passive voice, which can be confusing or sound formal.\n\n\n\n\n\n\n\nTip\n\n\n\nPlease review the Posit Voice section for additional information.\n\n\n\n\nParentheses\nAPA Style 6th Edition:\n\nPunctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.\nPunctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.\n\n\n\nContractions\nAvoid\n\n\nQuotation marks\nPunctuation - (inside vs. outside):\n\nInside quotation marks. Piece of code = outside.\nExamples:\n\ngrammar: “My friend Mary,” she said, “is crazy!”\n\ncode: To start the program, run runApp.\n\n\n\n\nOxford (serial) comma\n\nInclude the final comma in a list of three or more items. The cat liked to jump, eat, and meow.\n\n\n\nDashes\n\nEn dash vs. Em dash:\n\nEn dash: A dash the width of an “n”. Use for ranges or spans of numbers.\nEm dash: A dash the width of an “m”. Can take the place of colons.\n\n\n\n\ni.e. vs. e.g.\n\ni.e.: In other words\ne.g.: For example\n\n\n\netc.\n\nWhen used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.\nIf used at the end of a sentence, simply use a period.\nIf enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed."
   },
   {
     "objectID": "writing/style-guide.html#content",
@@ -152,40 +138,5 @@
     "title": "Style Guide",
     "section": "Content",
     "text": "Content\n\nTitles and headings\n\nTitles and H1s: Title Case\nAll other headings: Sentence case\n\n\n\n\n\n\n\nSteps as headings\n\n\n\n\n\nEspecially for docs.posit.co - proper:\n\nIf you are going to use a heading to represent a step/procedure, then the name of the heading should include the word “Step”.\nFor example, an H2 representing a step/procedure would be written as, “Step 1: Install RStudio Connect”.\n\nThis is extremely important from an Accessibility perspective, especially for those who may be using a screen reader to listen to our documentation.\n\n\n\n\n\nCallouts\nCallouts, sometimes referred to as “admonitions”, are used to draw attention to content and/or information that doesn’t fit into the normal flow of text.\nQuarto and MkDocs Material offer different types of callouts.\n\n\n\nCallout type\nDefinition\n\n\n\n\nnote\n\n\n\n\n\n\n\n\n\n\nProper nouns and UI elements\n\nAre always capitalized.\nHowever, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.\n\nFor example, if a menu name isn’t capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.\n\n\n\n\nProcedures/steps\nAction → Result should always be part of the action step\nExamples:\n\nClick OK. A dialog displays.\nThe configuration section allows you to configure your product. Deleting this file may result in a loss of data.\n\n\nProcedure formatting definitions\nThe checklist and formatting style guide has examples of when to use this formatting here.\n\n\n\n\n\n\n\nFormatting\nDefinition\n\n\n\n\nBold\nThe name of any button, panel, field, drop-down, etc., should be bolded.\n\n\nItalics\nUse as a placeholder, for emphasis, or for mathematical constants and variables.\n\n\nQuotes\nUse quotes when instructing the user to type something specific.\n\n\n\n\n\n\nLists\n\nBulleted lists:\n\nEnding punctuation: Be consistent. For each item in a list, stick to using ending punctuation or don’t use it at all.\nIf there are two items/steps or fewer, then use bullet points or nothing at all.\nWhen giving a user multiple options, for example:\n\nTo install RStudio, do one of the following:\n\nManual installation\nGuided installation\n\n\n\n\n\nNumbered lists\n\nUse ending punctuation.\nUse when a procedure needs to be specifically referenced.\nUse to describe things that need to be done in a sequential order\n\nPlease see Procedures/steps for more information.\n\n\n\nCalls to code\nCalls to R, Python code, shell commands, & other languages.\nDenote calls with the accent grave (example: runApp). Use the accent marks/backticks wherever appropriate. Ensure that the text within already written accent marks exactly matches the code, since it may change how code is run and result in errors.\nIf the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.\n\n\nGerunds & Tech jargon\nAvoid.\n\n\nNumbers\nAs a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.\n\n\nAcronyms\n\nSpell out the first occurrence of an acronym per topic/page/file, followed by the acronym in parentheses.\nYou do not need to define common acronyms, such as IP.\n\nExample: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function."
-  },
-  {
-    "objectID": "guides/onboarding/training/clone-repo.html",
-    "href": "guides/onboarding/training/clone-repo.html",
-    "title": "Cloning a Repository",
-    "section": "",
-    "text": "This documentation walks you through pulling a remote repository, pulling changes from main, and creating a branch."
-  },
-  {
-    "objectID": "guides/onboarding/training/clone-repo.html#clone-via-https",
-    "href": "guides/onboarding/training/clone-repo.html#clone-via-https",
-    "title": "Cloning a Repository",
-    "section": "Clone via HTTPS",
-    "text": "Clone via HTTPS\n\nNavigate to: https://github.com/rstudio/docs.rstudio.com\nCopy the URL: \nOpen GitHub Desktop.\nFrom the File menu, click Clone Repository…: \nDo the following:\n\nIn the Repository URL or GitHub username and repository field, paste the URL that you copied in Step 2. \nIn the Local Path field, either paste, type, or Choose… a location for the cloned repo.\nClick Clone.\n\n\n\n\n\n\n\n\nTip\n\n\n\nA best practice is to create a local GitHub/Repositories dirctory (folder) and save all individual cloned repositories to that folder.\n\n\nOnce all the repository has been cloned locally, you now have local access to all of the directories and files that live in the upstream repo."
-  },
-  {
-    "objectID": "guides/onboarding/training/clone-repo.html#pull-main",
-    "href": "guides/onboarding/training/clone-repo.html#pull-main",
-    "title": "Cloning a Repository",
-    "section": "Pull main",
-    "text": "Pull main\nNow that you have cloned the repository, let’s make sure that you are synced with the main branch.\n\nDo the following:\n\n\nFrom the GitHub Desktop app, verify that the branch that you cloned is selected from the Current Repository drop-down menu.\nFrom the Current Branch drop-down menu, select main.\nClick Fetch origin.\n\n\nIf main has changes that you do not have locally, the Fetch origin button will display a Pull option with a count of the number of changes that you are behind main. Go ahead and click that button to pull the latest changes to sync with themain` upstream branch."
-  },
-  {
-    "objectID": "guides/onboarding/training/clone-repo.html#create-a-branch",
-    "href": "guides/onboarding/training/clone-repo.html#create-a-branch",
-    "title": "Cloning a Repository",
-    "section": "Create a branch",
-    "text": "Create a branch\n\nOpen GitHub Desktop.\nClick the Current Branch drop-down menu and select New Branch. \nAdd a name for your branch and click Create Branch. \n\nYour new branch is automatically selected in the Current Branch drop-down menu.\nWhen you make a local change, you can commit the change, publish/push changes upstream to your branch in GitHub."
-  },
-  {
-    "objectID": "guides/onboarding/training/clone-repo.html#prerequisites",
-    "href": "guides/onboarding/training/clone-repo.html#prerequisites",
-    "title": "Cloning a Repository",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nThe following instructions use GitHub Desktop.\nAccess to the docs.rstudio.com repo (Contact Ashley Henry for access requests)"
   }
 ]

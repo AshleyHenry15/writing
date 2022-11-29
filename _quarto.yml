@@ -34,18 +34,18 @@ website:
             href: writing/doc-rules.qmd  
       - section: "Onboarding"
         contents:
-          - section: Training
-            contents:
-            - text: "Overview"
-              href: guides/onboarding.qmd
-            - text: "Clone a Repo"
-              href: guides/onboarding/training/clone-repo.qmd
-            - text: "Open a PR"
-              href: guides/onboarding/training/first-pr.qmd
-          - text: Philosophy  
-            href: guides/onboarding/philosophy.qmd                
-          - text: Testing Envs
-            href: guides/onboarding/testing-envs.qmd
+        - text: "Overview"
+          href: guides/onboarding.qmd
+        - section: GitHub
+          contents:
+          - text: "Clone a Repo"
+            href: guides/onboarding/training/github/clone-repo.qmd
+          - text: "Open a PR"
+            href: guides/onboarding/training/github/first-pr.qmd
+        - text: Philosophy  
+          href: guides/onboarding/philosophy.qmd                
+        - text: Testing Envs
+          href: guides/onboarding/testing-envs.qmd
       - section: "Doc Requests"
         contents:
         - text: Workflow
