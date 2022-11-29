@@ -1,0 +1,177 @@
+---
+title: Style Guide
+---
+
+This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation.
+
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Formatting Guide
+
+The Doc Checklist & Formatting Style Guide is a separate guide providing:
+
+- Syntax references
+- Formatting references
+- The documentation workflow 
+- Documentation checklists for authoring and reviewing the documentation
+:::
+
+## Grammar
+
+### Active/passive voice
+	
+- Avoid passive voice unless it is unavoidable.
+- Use the active form of nouns (displays -not- displayed).    
+
+Per the Microsoft Manual of Style:
+
+- Active voice emphasizes the person or thing performing the action.
+- It’s more direct than passive voice, which can be confusing or sound formal.
+
+::: {.callout-tip}
+Please review the [Posit Voice](/getting-started/getting-started.html#posit-voice) section for additional information.
+:::
+
+### Parentheses 
+
+APA Style 6th Edition:
+
+- Punctuation goes inside of parentheses when the entire sentence is enclosed in the parentheses.
+
+- Punctuation goes outside of parentheses when only a portion of a sentence is enclosed in parentheses.
+
+### Contractions
+
+*Avoid*
+
+### Quotation marks
+
+Punctuation - (inside vs. outside):
+
+- Inside quotation marks. Piece of code = outside. 
+- Examples:     
+
+    - grammar: “My friend Mary,” she said, “is crazy!”  
+    - code: To start the program, run `runApp`.
+
+### Oxford (serial) comma
+
+- Include the final comma in a list of three or more items. The cat liked to jump, eat, and meow.
+
+### Dashes
+
+- En dash vs. Em dash:
+    - En dash:  A dash the width of an “n”. Use for ranges or spans of numbers.
+    - Em dash: A dash the width of an “m”. Can take the place of colons.
+
+### i.e. vs. e.g.
+
+- i.e.: In other words
+- e.g.:  For example
+
+### etc.
+
+- When used in the middle of a sentence, and is not enclosed in parentheses, include a period and a comma after the abbreviation.
+- If used at the end of a sentence, simply use a period.
+- If enclosed in a parentheses and is at the end of the sentence, use a period. No comma is needed.
+
+## Content
+
+### Titles and headings
+
+- Titles and H1s: Title Case
+- All other headings: Sentence case
+
+:::{.callout-tip appearance="simple" collapse="true"}
+#### Steps as headings
+
+Especially for docs.posit.co - proper:
+
+- If you are going to use a heading to represent a step/procedure, then the name of the heading should include the word “Step”. 
+- For example, an H2 representing a step/procedure would be written as, “Step 1: Install RStudio Connect”. 
+
+This is extremely important from an Accessibility perspective, especially for those who may be using a screen reader to listen to our documentation.
+:::
+
+### Callouts
+
+Callouts, sometimes referred to as "admonitions", are used to draw attention to content and/or information that doesn't fit into the normal flow of text.
+
+Quarto and MkDocs Material offer different types of callouts. 
+
+| Callout type | Definition
+|---|-------------------
+|note| 
+| 
+
+### Proper nouns and UI elements
+
+- Are always capitalized. 
+- However, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.
+    - For example, if a menu name isn't capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.
+
+
+### Procedures/steps
+
+Action → Result should always be part of the action step
+
+Examples: 
+
+- Click **OK**. A dialog displays.
+- The configuration section allows you to configure your product. Deleting this file may result in a loss of data.
+
+#### Procedure formatting definitions
+
+The checklist and formatting style guide has examples of when to use this formatting here.
+
+Formatting | Definition |
+---|----------|
+ **Bold** | The name of any button, panel, field, drop-down, etc.,  should be bolded.  |
+ *Italics* |Use as a placeholder, for emphasis, or for mathematical constants and variables. |
+ Quotes | Use quotes when instructing the user to type something specific. |
+
+### Lists
+
+#### Bulleted lists:
+
+- Ending punctuation: Be consistent. For each item in a list, stick to using ending punctuation or don’t use it at all.
+- If there are two items/steps or fewer, then use bullet points or nothing at all. 
+- When giving a user multiple options, for example:
+
+    - To install RStudio, do one of the following:
+    
+        - Manual installation
+        - Guided installation
+
+#### Numbered lists
+
+- Use ending punctuation.
+- Use when a procedure needs to be specifically referenced.
+- Use to describe things that need to be done in a sequential order
+
+Please see [Procedures/steps](#proceduressteps) for more information.
+
+### Calls to code
+
+Calls to R, Python code, shell commands, & other languages.
+
+Denote calls with the accent grave (example: `runApp`). Use the accent marks/backticks wherever appropriate. Ensure that  the text within already written accent marks exactly matches the code,  since it may change  how code is run and result in errors.
+
+If the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.
+
+### Gerunds & Tech jargon
+
+Avoid.
+
+### Numbers
+
+As a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.
+
+### Acronyms
+
+- Spell out the first occurrence of an acronym per topic/page/file, followed by the acronym in parentheses. 
+- You do not need to define common acronyms, such as IP.
+
+Example:
+- The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.
+

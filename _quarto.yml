@@ -26,24 +26,32 @@ website:
             href: getting-started/approach.qmd
           - text: Where should it live?
             href: getting-started/location.qmd
-      - section: "Guides"
+      - section: "Writing"
         contents:
           - text: "Style Guide"
-            href: guides/style-guide.qmd
-          - section: "Onboarding"
+            href: writing/style-guide.qmd
+          - text: "Rules & Best Practices"
+            href: writing/doc-rules.qmd  
+      - section: "Onboarding"
+        contents:
+          - section: Training
             contents:
-              - text: Training
-                href: guides/onboarding.qmd
-              - text: Approach  
-                href: guides/onboarding/philosophy.qmd                
-              - text: Testing Envs
-                href: guides/onboarding/testing-envs.qmd
-          - section: "Doc Requests"
-            contents:
-            - text: Workflow
-              href: guides/doc-requests.qmd
-            - text: Triage
-              href: guides/triage.qmd
+            - text: "Overview"
+              href: guides/onboarding.qmd
+            - text: "Clone a Repo"
+              href: guides/onboarding/training/clone-repo.qmd
+            - text: "Open a PR"
+              href: guides/onboarding/training/first-pr.qmd
+          - text: Philosophy  
+            href: guides/onboarding/philosophy.qmd                
+          - text: Testing Envs
+            href: guides/onboarding/testing-envs.qmd
+      - section: "Doc Requests"
+        contents:
+        - text: Workflow
+          href: guides/doc-requests.qmd
+        - text: Triage
+          href: guides/triage.qmd
       - section: "References"
         contents:
             - text: POCs

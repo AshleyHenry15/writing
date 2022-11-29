@@ -1,0 +1,59 @@
+---
+title: Cloning a Repository
+---
+
+This documentation walks you through pulling a remote repository, pulling changes from `main`, and creating a branch.
+
+## Prerequisites
+
+- The following instructions use [GitHub Desktop](https://desktop.github.com/).
+- Access to the [docs.rstudio.com repo](https://github.com/rstudio/docs.rstudio.com) *(Contact Ashley Henry for access requests)*
+
+
+## Clone via HTTPS
+
+1. Navigate to: <a href="https://github.com/rstudio/docs.rstudio.com">https://github.com/rstudio/docs.rstudio.com</a>
+1. <a id="step-2"></a>Copy the URL:
+    ![](/images/onboarding/clone-code.png)
+1. Open GitHub Desktop.
+1. From the File menu, click **Clone Repository...**:
+    ![](/images/onboarding/ghdesk-clone_repo.png)
+1. Do the following:
+    - In the Repository URL or GitHub username and repository field, paste the URL that you copied in [Step 2](#step-2).
+       ![](/images/onboarding/clone-url.png)
+    - In the Local Path field, either paste, type, or **Choose...** a location for the cloned repo.
+    - Click **Clone**.
+
+:::{ .callout-tip}
+A best practice is to create a local GitHub/Repositories dirctory (folder) and save all individual cloned repositories to that folder.
+:::
+
+
+Once all the repository has been cloned locally, you now have local access to all of the directories and files that live in the upstream repo.
+
+## Pull `main`
+
+Now that you have cloned the repository, let's make sure that you are synced with the `main` branch.
+
+- Do the following:
+
+    ![](/images/onboarding/pull-main.png)
+
+    1. From the GitHub Desktop app, verify that the branch that you cloned is selected from the Current Repository drop-down menu.
+    1. From the Current Branch drop-down menu, select **`main`**.
+    1. Click **Fetch origin**.
+
+If `main` has changes that you do not have locally, the **Fetch origin** button will display a Pull option with a count of the number of changes that you are behind `main. Go ahead and click that button to pull the latest changes to sync with the `main` upstream branch.
+
+
+## Create a branch
+
+1. Open GitHub Desktop.
+1. Click the **Current Branch** drop-down menu and select **New Branch**.
+    ![](/images/onboarding/new-branch.png)
+1. Add a name for your branch and click **Create Branch**.
+    ![](/images/onboarding/name-branch.png)
+
+Your new branch is automatically selected in the Current Branch drop-down menu.
+
+When you make a local change, you can commit the change, publish/push changes upstream to your branch in GitHub. 
