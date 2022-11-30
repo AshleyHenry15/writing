@@ -2,6 +2,8 @@
 title: Cloning a Repository
 ---
 
+>These procedures are for MacOS.
+
 This documentation walks you through pulling a remote repository, pulling changes from `main`, and creating a branch.
 
 ## Prerequisites

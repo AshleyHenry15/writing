@@ -81,7 +81,7 @@
     "href": "guides/onboarding/training/github/clone-repo.html",
     "title": "Cloning a Repository",
     "section": "",
-    "text": "This documentation walks you through pulling a remote repository, pulling changes from main, and creating a branch."
+    "text": "These procedures are for MacOS.\nThis documentation walks you through pulling a remote repository, pulling changes from main, and creating a branch."
   },
   {
     "objectID": "guides/onboarding/training/github/clone-repo.html#prerequisites",
