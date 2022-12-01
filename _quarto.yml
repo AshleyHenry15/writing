@@ -36,6 +36,8 @@ website:
         contents:
         - text: "Overview"
           href: guides/onboarding.qmd
+        - text: "Software list"
+          href: guides/onboarding/software.qmd  
         - section: GitHub
           contents:
           - text: "Clone a Repo"
