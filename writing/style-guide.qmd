@@ -83,6 +83,7 @@ Punctuation - (inside vs. outside):
 - All other headings: Sentence case
 
 :::{.callout-tip appearance="simple" collapse="true"}
+
 #### Steps as headings
 
 Especially for docs.posit.co - proper:
@@ -97,7 +98,8 @@ This is extremely important from an Accessibility perspective, especially for th
 
 Callouts, sometimes referred to as "admonitions", are used to draw attention to content and/or information that doesn't fit into the normal flow of text.
 
-Quarto and MkDocs Material offer different types of callouts. 
+Quarto and MkDocs Material offer different types of callouts. The following definitions are common between both tools:
+
 
 | Callout type | Definition
 |---|-------------------
