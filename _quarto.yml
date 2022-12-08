@@ -22,16 +22,24 @@ website:
             href: getting-started/getting-started.qmd
           - text: Authoring tools
             href: getting-started/authoring-tools.qmd
-          - text: Approach
-            href: getting-started/approach.qmd
+          - section: Approach
+            contents:
+              - text: Checklist & SDLC
+                href: getting-started/approach.qmd
+              - text: Philosophy  
+                href: getting-started/philosophy.qmd    
           - text: Where should it live?
             href: getting-started/location.qmd
       - section: "Writing"
         contents:
+          - text: "Planning"
+            href: writing/planning.qmd  
           - text: "Style Guide"
             href: writing/style-guide.qmd
           - text: "Rules & Best Practices"
             href: writing/doc-rules.qmd  
+          - text: "Release Checklists"
+            href: writing/prod-release-checklist.qmd
       - section: "Onboarding"
         contents:
         - text: "Overview"
@@ -43,9 +51,7 @@ website:
           - text: "Clone a Repo"
             href: guides/onboarding/training/github/clone-repo.qmd
           - text: "Open a PR"
-            href: guides/onboarding/training/github/first-pr.qmd
-        - text: Philosophy  
-          href: guides/onboarding/philosophy.qmd                
+            href: guides/onboarding/training/github/first-pr.qmd            
         - text: Testing Envs
           href: guides/onboarding/testing-envs.qmd
       - section: "Doc Requests"
