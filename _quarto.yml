@@ -30,6 +30,8 @@ website:
                 href: getting-started/philosophy.qmd    
           - text: Where should it live?
             href: getting-started/location.qmd
+          - text: Product Doc Overview
+            href: getting-started/prod-docs.qmd
       - section: "Writing"
         contents:
           - text: "Planning"
