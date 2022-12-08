@@ -1,0 +1,39 @@
+## Philosophy
+
+### Docs as code
+
+>The following information was taken from [Write the Docs](https://www.writethedocs.org/guide/docs-as-code/).
+
+Documenation as Code (Docs as Code) is an approach to writing and publishing documentation with the same tools and processes developers use to create code:
+
+- Issue Trackers
+- Version Control (Git)
+- Plain Text Markup (Markdown, reStructuredText, Asciidoc)
+- Code Reviews
+- Testing
+
+This means following the same workflows as development teams, and being integrated in the product team. It enables a culture where writers and developers both feel ownership of documentation, and work together to make it as good as possible.
+
+Generally a Docs as Code approach gives you the following benefits:
+
+- Writers integrate better with development teams.
+- Developers will often write a first draft of documentation.
+- You can block merging of new features if they don’t include documentation, which incentivizes developers to write about features while they are fresh.
+
+
+### Divio
+
+>The following information was taken from [DIVIO - The documentation system](https://documentation.divio.com/)
+
+Although we haven't fully adapted the [Divio documentation system](https://documentation.divio.com/), our teams have been slowly incorporating some of the system into our docs.
+
+Since our documentation doesn't neatly fit into four buckets as Divio suggests, use the Divio documentation system as a construct when creating new documentation/guides.
+
+Divio breaks documentation into four categories:
+
+- Tutorials
+- How-to guides
+- Technical reference
+- Explanation. 
+
+They represent four different purposes or functions, and require four different approaches to their creation.

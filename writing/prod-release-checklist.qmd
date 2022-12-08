@@ -1,0 +1,206 @@
+---
+title: Docs Site - Product Release Checklist
+---
+
+Overview
+
+This is a checklist for each professional product to ensure that all updates to the docs.rstudio.com site are complete prior to a minor or major release.
+
+::: { .callout-important}
+This checklist does NOT cover each file that may need to be updated. Instead, the files listed below probably provide content, such as installation commands, that are version-specific and are more likely to require an update for a release.  
+:::
+
+## Workbench
+
+::: {.callout-note appearance="simple" collapse="true"}
+### Expand for checklist
+<input type="checkbox"> Product Configuration Overview table:
+
+- URL: https://docs.rstudio.com/configuration/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/configuration.md
+
+<input type="checkbox"> Requirements:     
+
+- URL: https://docs.rstudio.com/rsp/requirements/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/requirements.md
+
+<input type="checkbox"> Installation:    
+
+- URL: https://docs.rstudio.com/rsp/installation/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/installation.md
+
+<input type="checkbox"> Upgrade:    
+
+- URL: https://docs.rstudio.com/rsp/upgrade/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/upgrade.md
+
+Configuration:    
+
+<input type="checkbox"> Active Directory        
+
+- URL: https://docs.rstudio.com/rsp/configuration/authentication/active-directory/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/configuration/authentication/active-directory.md
+
+Integration:    
+
+<input type="checkbox"> Python:        
+
+- URL: https://docs.rstudio.com/rsp/integration/python/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/integration/python.md
+
+<input type="checkbox"> Launcher Slurm:        
+
+- URL: https://docs.rstudio.com/rsp/integration/launcher-slurm/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/integration/launcher-slurm.md
+
+Support    
+
+<input type="checkbox"> Rollback        
+
+- URL: https://support.rstudio.com/hc/en-us/articles/360062132513
+
+<input type="checkbox"> All Documentation:
+
+Please check the All Versions drop-down and add the most recent version of applicable documentation guides.
+
+- URL: https://docs.rstudio.com/rsp/documentation
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/documentation.md
+
+<input type="checkbox"> Troubleshooting:    
+
+- URL: https://docs.rstudio.com/troubleshooting/launcher-kubernetes/
+- File path: https://github.com/rstudio/docs.rstudio.com/tree/master/docs/troubleshooting
+:::
+
+
+## Connect
+
+::: {.callout-note appearance="simple" collapse="true"}
+### Expand for checklist
+
+<input type="checkbox"> Product Configuration Overview table:     
+
+- URL: https://docs.rstudio.com/configuration/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/configuration.md
+
+<input type="checkbox"> Requirements:     
+
+- URL: https://docs.rstudio.com/rsc/requirements/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/requirements.md
+
+Installation:    
+
+<input type="checkbox"> Setup tool:        
+
+- URL: https://docs.rstudio.com/rsc/installation/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/installation.md
+
+<input type="checkbox"> Manual:        
+
+- URL: https://docs.rstudio.com/rsc/manual-install/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/manual-install.md
+
+<input type="checkbox"> Upgrade:    
+
+- URL: https://docs.rstudio.com/rsc/upgrade/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/upgrade.md
+
+Integration:    
+
+<input type="checkbox"> Python:        
+
+- URL: https://docs.rstudio.com/rsc/integration/python/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/integration/python.md
+
+<input type="checkbox"> TensorFlow:        
+
+- URL: https://docs.rstudio.com/rsc/integration/tensorflow/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/integration/tensorflow.md
+
+<input type="checkbox"> All Documentation:
+
+Please check the All Versions drop-down and add the most recent version of applicable documentation guides.
+
+- URL: https://docs.rstudio.com/rsc/documentation/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/documentation.md
+
+<input type="checkbox"> How To Guides:    
+
+- URL: https://docs.rstudio.com/how-to-guides/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/how-to-guides/index.md
+
+<input type="checkbox"> Tutorials:    
+
+- URL: https://docs.rstudio.com/tutorials/
+- File path: https://github.com/rstudio/docs.rstudio.com/tree/master/docs/tutorials
+
+:::
+
+## Package Manager
+
+::: {.callout-note appearance="simple" collapse="true"}
+### Expand for checklist
+<input type="checkbox"> Product Configuration Overview table:     
+
+- URL: https://docs.rstudio.com/configuration/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/configuration.md
+
+<input type="checkbox"> Requirements:     
+
+- URL: https://docs.rstudio.com/rpm/requirements/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/requirements.md
+
+<input type="checkbox"> Installation:    
+
+- URL: https://docs.rstudio.com/rpm/installation/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/installation.md
+
+<input type="checkbox"> Upgrade:    
+
+- URL: https://docs.rstudio.com/rpm/upgrade/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/upgrade.md
+
+<input type="checkbox"> All Documentation:
+
+Please check the All Versions drop-down and add the most recent version of applicable documentation guides.
+
+- URL: https://docs.rstudio.com/rpm/documentation/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/documentation.md
+:::
+
+
+## Pro Drivers
+
+::: {.callout-note appearance="simple" collapse="true"}
+### Expand for checklist
+
+<input type="checkbox"> Requirements:    
+
+- URL: https://docs.rstudio.com/pro-drivers/requirements/
+- File path:  https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/requirements.md
+
+<input type="checkbox"> Installing Pro Drivers:    
+
+- URL: https://docs.rstudio.com/pro-drivers/installation/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/installation.md        
+
+<input type="checkbox"> Desktop Install:            
+
+- URL: https://docs.rstudio.com/pro-drivers/desktop-install/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/desktop-install.md
+
+<input type="checkbox"> Linux:            
+
+- URL: https://docs.rstudio.com/pro-drivers/install-method/linux/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/linux.md
+
+<input type="checkbox"> Mac:            
+
+- URL: https://docs.rstudio.com/pro-drivers/install-method/macOS/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/macOS.md
+
+<input type="checkbox"> Windows:            
+
+- URL:  https://docs.rstudio.com/pro-drivers/install-method/windows/
+- File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/windows.md
+:::

@@ -4,9 +4,10 @@ title: Where should the docs live?
 
 Where we write/place documentation depends in a few key factors:
 
+- The product and who is responsible for maintaining the content once it is published
 - The type of documentation
 - The product that the documentation covers/belongs to
-- Who is responsible for maintaining the content once it is published
+
 
 | Type | Definition |
 -------------|------------------------------------------------------|

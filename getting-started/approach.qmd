@@ -15,3 +15,22 @@ Determine:
    - How many places may require an update
    - If other documented features may also require an update based on these changes
 - Coordinate with the product's documentation owner. See [POC](../references/pocs.qmd)
+
+
+
+## SDLC - How should docs "fit"
+
+We need to continue to integrate documentation into each team’s SDLC:
+
+- Docs is an equal stakeholder that is involved in backlog grooming, planning, development, QA, and release.
+- Documentation consideration from the start ensures that: 
+  - The writer can provide input in the early stages of development which may help make the feature more intuitive for the user.
+  - The writer can help scope out the documentation work required.
+  - The engineer developing a feature knows what is expected and required for documentation updates and has ample time to write/test documentation.
+  - The team has time to scrub existing documentation to make the required changes.
+  - QA has time to test the feature AND the documentation.
+  - We are less likely to have documentation gaps.
+
+If we can lay a solid foundation for SDLC documentation integration, we will be setting up a new writer for success and a much easier/more enjoyable onboarding process.
+
+

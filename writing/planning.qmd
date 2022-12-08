@@ -1,0 +1,76 @@
+# Planning Guide
+
+This document provides an outline that you should review and implement prior to Workbench, Connect, Package Manager, and docs.rstudio.com documentation tasks.
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Want a fillable template? 
+Check out the RStudio, PBC template gallery: 
+Enterprise Doc Planning Template
+:::
+
+**Before you write:**
+
+**ALWAYS search existing documentation**, topics, and all internal resources (don't forget about Support Articles and the Solutions site). Then ask:
+- Is this a new topic or updates to an existing topic?
+- Take note of topics that may need to be updated and/or deleted based on your doc changes.
+- Search the doc for existing verbiage that you may be able to use or base your changes on. This may help with consistency and standardization.
+- Avoid duplication; use Snippets, links, iframes, etc. 
+
+
+
+## Product improvement vs. doc
+
+Should this be a product-improvement task vs. a documentation update?
+
+- Product improvement requests should be brought to the development team for discussion and next steps.
+
+### What is the goal/purpose of the content?
+
+- Why are we writing this documentation?
+- What problem(s) does the documentation address?
+
+### Who is the audience?    
+
+- What assumptions can be made?
+  - E.g.: Is the target audience an IT Admin with Linux knowledge, or a data scientist that may not have experience with Linux or have elevated privileges?
+
+## Who should be involved?    
+
+- What team is responsible for development/product team?
+- When to involve them?
+  - Early! As soon as you identify a documentation task, ping the team to determine where they are in their release schedule, if someone may already be making these updates, resources, timelines, etc.
+
+
+## What type of technical documentation that you are writing?    
+
+- E.g.: Is this a companion guide for the Setup Tool or reference style documentation for the Admin Guide?
+- The Divio Documentation System is a great resource: https://documentation.divio.com/
+
+## Where should the documentation live?
+
+- Identify what product the documentation updates belong to
+- Then, determine if this is an Admin Guide update vs. a Support artice, etc.
+
+
+## Work Estimates
+
+- How much content needs to be created/changed/updated/deleted?
+- Do we need to wait for development to be complete before we can begin writing?
+- Other considerations:
+  - E.g.: Does the content require us to update 10 UI/product screenshots and do I have access to an environment?
+  - E.g.: Will the changes break links? If so, how long will these changes take, when can they be completed, and who is responsible for these changes?
+  - What type of review do we need and how long will the review take?
+
+## Deadline management
+
+- What needs to be accomplished to consider this task as “complete”?
+- How can we validate/test the documentation?
+- Who needs to review the documentation?
+- What are potential blockers?
+
+## Post-release follow up
+
+- Is there follow-up documentation tasks?    
+  - How do we make sure that these aren’t forgotten?
+    - open up and follow-up issues to make sure that the work isn't lost?
+Do we need to notify other teams of these changes?

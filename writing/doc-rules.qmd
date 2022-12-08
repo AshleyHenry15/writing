@@ -1,6 +1,4 @@
 # Documentation rules
-
-
 ## Best Practices
 
 Consistency & shared vocabulary

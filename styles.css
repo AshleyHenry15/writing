@@ -1,1 +1,16 @@
 /* css styles */
+.btn-action-primary {
+    color: white;
+    background-color: #447099 !important;
+  }
+  
+  .btn-action-primary:hover {
+    color: white;
+  }
+  
+  .btn-action {
+    min-width: 165px;
+    border-radius: 30px;
+    border: none;
+  }
+  

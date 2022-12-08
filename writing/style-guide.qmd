@@ -6,6 +6,7 @@ This guide serves as a reference for anyone authoring, editing, or reviewing the
 
 
 ::: {.callout-note appearance="simple" collapse="true"}
+
 ## Formatting Guide
 
 The Doc Checklist & Formatting Style Guide is a separate guide providing:
