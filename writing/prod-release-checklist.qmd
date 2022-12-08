@@ -2,7 +2,7 @@
 title: Docs Site - Product Release Checklist
 ---
 
-Overview
+## Overview
 
 This is a checklist for each professional product to ensure that all updates to the docs.rstudio.com site are complete prior to a minor or major release.
 
@@ -14,6 +14,8 @@ This checklist does NOT cover each file that may need to be updated. Instead, th
 
 ::: {.callout-note appearance="simple" collapse="true"}
 ### Expand for checklist
+
+:::{style="overflow-wrap: break-word;"}
 <input type="checkbox"> Product Configuration Overview table:
 
 - URL: https://docs.rstudio.com/configuration/
@@ -70,6 +72,8 @@ Please check the All Versions drop-down and add the most recent version of appli
 
 - URL: https://docs.rstudio.com/troubleshooting/launcher-kubernetes/
 - File path: https://github.com/rstudio/docs.rstudio.com/tree/master/docs/troubleshooting
+
+:::
 :::
 
 
@@ -77,6 +81,7 @@ Please check the All Versions drop-down and add the most recent version of appli
 
 ::: {.callout-note appearance="simple" collapse="true"}
 ### Expand for checklist
+:::{style="overflow-wrap: break-word;"}
 
 <input type="checkbox"> Product Configuration Overview table:     
 
@@ -135,11 +140,15 @@ Please check the All Versions drop-down and add the most recent version of appli
 - File path: https://github.com/rstudio/docs.rstudio.com/tree/master/docs/tutorials
 
 :::
+:::
 
 ## Package Manager
 
 ::: {.callout-note appearance="simple" collapse="true"}
 ### Expand for checklist
+
+:::{style="overflow-wrap: break-word;"}
+
 <input type="checkbox"> Product Configuration Overview table:     
 
 - URL: https://docs.rstudio.com/configuration/
@@ -166,13 +175,16 @@ Please check the All Versions drop-down and add the most recent version of appli
 
 - URL: https://docs.rstudio.com/rpm/documentation/
 - File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/documentation.md
-:::
 
+:::
+:::
 
 ## Pro Drivers
 
 ::: {.callout-note appearance="simple" collapse="true"}
 ### Expand for checklist
+
+:::{style="overflow-wrap: break-word;"}
 
 <input type="checkbox"> Requirements:    
 
@@ -203,4 +215,6 @@ Please check the All Versions drop-down and add the most recent version of appli
 
 - URL:  https://docs.rstudio.com/pro-drivers/install-method/windows/
 - File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/windows.md
+
+:::
 :::

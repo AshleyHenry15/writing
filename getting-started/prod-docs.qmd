@@ -1,0 +1,77 @@
+---
+title: Pro Product Docs Overview
+---
+
+::: {.callout-warning}
+This page is a partial duplicate of the [GitHub docs.rstudio.com/README](https://github.com/rstudio/docs.rstudio.com/blob/main/README.md).
+:::
+
+## docs.rstudio.com  
+
+Acts as a "home base" for new professional product users and professional product documentation focused on initial installations, configurations, and integrations.
+
+## Documentation Build
+
+The documentation is stored and hosted in an Amazon S3 bucket named docs.rstudio.com, which is associated with a CloudFront CDN distribution.
+
+docs.rstudio.com is the index at the root of the directories that make up the `docs.rstudio.com` Amazon S3 bucket. 
+Since `docs.rstudio.com/index.html` is at the root of these directories, this is the page that displays when you navigate to the docs.rstudio.com URL.
+
+::: {.callout-tip appearance="simple"}
+Feel free to take a look at the structure of the docs [S3 bucket](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fs3.console.aws.amazon.com%2Fs3%2Fbuckets%2Fdocs.rstudio.com%3Fregion%3Dus-east-1%26state%3DhashArgs%2523%26tab%3Dobjects%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fs3&forceMobileApp=0&code_challenge=Pr4VG9hqRx3P-Pwt6VIbfmswzVCkK43eMZ1SLfJRCQg&code_challenge_method=SHA-256).
+:::
+The `docs.rstudio.com` S3 bucket also hosts the directories for the rest of our professional product documentation:
+
+- Workbench guides
+- Connect guides
+- Package Manager guides *and* 
+- Other content that you access with the base URL of docs.rstudio.com.
+
+::: {.callout-note}
+### Example
+
+The docs.rstudio.com/rsc/installation page's source code lives within the main docs.rstudio.com index directory structure. The source code for this page lives at: https://github.com/rstudio/docs.rstudio.com.
+
+However, docs.rstudio.com/connect/admin does NOT live within the main docs.rstudio.com directory structure. The source code is available at: https://github.com/rstudio/connect.
+
+Essentially, we "drop" the professional product documentation files (HTML/JS/CSS) into subdirectories, like /connect.  
+:::
+
+###  How it builds 
+
+Jenkins or a GitHub (GH) action builds the documentation at the source and then drops the finished HTML/JS/CSS into a specific directory of the S3 bucket, for example, /connect.
+
+Now, the finished documentation is available via the docs.rstudio.com/connect URL even though the source code of the documentation does not live in the `docs.rstudio.com` GH repository.
+
+## Pro product doc source code
+
+For a list of Professional Products Guides, documentation URLs, and source code, please see the [docs.rstudio.com/README](https://github.com/rstudio/docs.rstudio.com/blob/main/README.md)
+
+## Product Doc Site Map
+
+Click image to zoom.
+
+<img src="img/site-map.png" width="500" fig-alt="..." onclick="window.open('img/site-map.png', '_blank');" />
+
+>Here is a [link to the source](https://miro.com/app/board/o9J_l_sEXxc=/) of the site map shown above (this doesn't include all sources within the docs.rstudio S3 bucket):
+
+## Misc
+
+### Doc Resources
+
+- [Planning Guide](/writing/planning.qmd)
+- [Documentation Style Guide](/writing/style-guide.qmd) 
+- Formatting & Syntax
+- [Product Release Checklist](/writing/prod-release-checklist.qmd)
+
+### Seeking another RStudio doc?
+
+You may be looking for documentation that lives outside of the docs.rstudio.com S3 bucket:
+
+
+URL | Source Code
+---------|----------
+rstudio.com | https://github.com/rstudio/rstudio.com 
+db.rstudio.com | https://github.com/rstudio/db.rstudio.com 
+solutions.rstudio.com | https://github.com/rstudio/solutions.rstudio.com
+shinyapps.io user guide | https://github.com/rstudio/shinyapps-users-guide
