@@ -299,15 +299,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#titles-and-headings" id="toc-titles-and-headings" class="nav-link" data-scroll-target="#titles-and-headings">Titles and headings</a></li>
   <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts">Callouts</a></li>
   <li><a href="#reusing-content" id="toc-reusing-content" class="nav-link" data-scroll-target="#reusing-content">Reusing content</a></li>
-  <li><a href="#proper-nouns-and-ui-elements" id="toc-proper-nouns-and-ui-elements" class="nav-link" data-scroll-target="#proper-nouns-and-ui-elements">Proper nouns and UI elements</a></li>
   <li><a href="#proceduressteps" id="toc-proceduressteps" class="nav-link" data-scroll-target="#proceduressteps">Procedures/steps</a></li>
   <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists">Lists</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   <li><a href="#calls-to-code" id="toc-calls-to-code" class="nav-link" data-scroll-target="#calls-to-code">Calls to code</a></li>
-  <li><a href="#gerunds-tech-jargon" id="toc-gerunds-tech-jargon" class="nav-link" data-scroll-target="#gerunds-tech-jargon">Gerunds &amp; Tech jargon</a></li>
   <li><a href="#numbers" id="toc-numbers" class="nav-link" data-scroll-target="#numbers">Numbers</a></li>
-  <li><a href="#acronyms" id="toc-acronyms" class="nav-link" data-scroll-target="#acronyms">Acronyms</a></li>
   <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  <li><a href="#acronyms" id="toc-acronyms" class="nav-link" data-scroll-target="#acronyms">Acronyms</a></li>
+  <li><a href="#gerunds-tech-jargon" id="toc-gerunds-tech-jargon" class="nav-link" data-scroll-target="#gerunds-tech-jargon">Gerunds &amp; Tech jargon</a></li>
+  <li><a href="#proper-nouns-and-ui-elements" id="toc-proper-nouns-and-ui-elements" class="nav-link" data-scroll-target="#proper-nouns-and-ui-elements">Proper nouns and UI elements</a></li>
+  <li><a href="#terminology-references" id="toc-terminology-references" class="nav-link" data-scroll-target="#terminology-references">Terminology references</a></li>
   </ul></li>
+  <li><a href="#didnt-find-what-you-are-looking-for" id="toc-didnt-find-what-you-are-looking-for" class="nav-link" data-scroll-target="#didnt-find-what-you-are-looking-for">Didn’t find what you are looking for?</a></li>
   </ul>
 </nav>
     </div>
@@ -563,17 +566,9 @@ Note
 <section id="cross-references" class="level4">
 <h4 class="anchored" data-anchor-id="cross-references">Cross references</h4>
 <p><em>Quarto, only</em></p>
+<p>Cross-references make it easier for readers to navigate your document by providing numbered references and hyperlinks to various entities like figures and tables.</p>
+<p>See the <a href="https://quarto.org/docs/authoring/cross-references.html">Quarto documentation</a> for additional information.</p>
 </section>
-</section>
-<section id="proper-nouns-and-ui-elements" class="level3">
-<h3 class="anchored" data-anchor-id="proper-nouns-and-ui-elements">Proper nouns and UI elements</h3>
-<ul>
-<li>Are always capitalized.</li>
-<li>However, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.
-<ul>
-<li>For example, if a menu name isn’t capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.</li>
-</ul></li>
-</ul>
 </section>
 <section id="proceduressteps" class="level3">
 <h3 class="anchored" data-anchor-id="proceduressteps">Procedures/steps</h3>
@@ -641,19 +636,30 @@ Note
 <p>Please see <a href="#proceduressteps">Procedures/steps</a> for more information.</p>
 </section>
 </section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code</h3>
+<p>We use code blocks throughout the documentation that perform syntax highlighting via the CodeHilte extension and the MkDocs-Material theme.</p>
+<p>CodeHilte uses Pygments for syntax highlighting of various languages. Pygments supports a number of different languages via different lexers.</p>
+<p>For the list of languages and when to use them, see the Code section in the Pro Product Doc - Cheatsheet</p>
+</section>
 <section id="calls-to-code" class="level3">
 <h3 class="anchored" data-anchor-id="calls-to-code">Calls to code</h3>
 <p>Calls to R, Python code, shell commands, &amp; other languages.</p>
 <p>Denote calls with the accent grave (example: <code>runApp</code>). Use the accent marks/backticks wherever appropriate. Ensure that the text within already written accent marks exactly matches the code, since it may change how code is run and result in errors.</p>
 <p>If the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.</p>
 </section>
-<section id="gerunds-tech-jargon" class="level3">
-<h3 class="anchored" data-anchor-id="gerunds-tech-jargon">Gerunds &amp; Tech jargon</h3>
-<p>Avoid.</p>
-</section>
 <section id="numbers" class="level3">
 <h3 class="anchored" data-anchor-id="numbers">Numbers</h3>
 <p>As a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.</p>
+</section>
+<section id="images" class="level3">
+<h3 class="anchored" data-anchor-id="images">Images</h3>
+<p>Ensure that images are legible, do your best to exclude blank space, and exclude things that are not necessary for the purpose of the image. When referencing something from the UI, use an image “callout”.&nbsp; Additionally, the image should always follow the reference to the image and the result of the action should come after the image.</p>
+<p>The image callouts, colors, styles, and examples are located here.</p>
+<section id="alt-text" class="level4">
+<h4 class="anchored" data-anchor-id="alt-text">Alt text</h4>
+<p>Images should include alternate text for screen-reader users. Informative text should be no more than 150 characters, roughly. Avoid including the words “image” or “graphic” because the screen-reader software automatically indicates that it is an image. However, it is acceptable to identify a screenshot as such. If the image is essential to accomplishing the task at hand, then you must include the necessary information in combination with the image’s alternate text and the technical documentation.</p>
+</section>
 </section>
 <section id="acronyms" class="level3">
 <h3 class="anchored" data-anchor-id="acronyms">Acronyms</h3>
@@ -663,11 +669,121 @@ Note
 </ul>
 <p>Example: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.</p>
 </section>
-<section id="images" class="level3">
-<h3 class="anchored" data-anchor-id="images">Images</h3>
-
-
+<section id="gerunds-tech-jargon" class="level3">
+<h3 class="anchored" data-anchor-id="gerunds-tech-jargon">Gerunds &amp; Tech jargon</h3>
+<p>Avoid.</p>
 </section>
+<section id="proper-nouns-and-ui-elements" class="level3">
+<h3 class="anchored" data-anchor-id="proper-nouns-and-ui-elements">Proper nouns and UI elements</h3>
+<ul>
+<li>Are always capitalized.</li>
+<li>However, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.
+<ul>
+<li>For example, if a menu name isn’t capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.</li>
+</ul></li>
+</ul>
+</section>
+<section id="terminology-references" class="level3">
+<h3 class="anchored" data-anchor-id="terminology-references">Terminology references</h3>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Use</th>
+<th>Do NOT use</th>
+<th>How to use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>check box</td>
+<td>checkbox</td>
+<td>N/A</td>
+</tr>
+<tr class="even">
+<td>clear</td>
+<td>uncheck</td>
+<td>Check boxes, radio buttons</td>
+</tr>
+<tr class="odd">
+<td>click</td>
+<td>N/A</td>
+<td>Buttons, menus, cursors, etc.</td>
+</tr>
+<tr class="even">
+<td>cursor / mouse cursor</td>
+<td>mouse</td>
+<td>Hover your cursor over the map. In the desired area, click-and-drag your cursor to draw a shape.</td>
+</tr>
+<tr class="odd">
+<td>dialog box</td>
+<td>dialog or dialogues</td>
+<td>It is ok to use “dialog” in other contexts, especially for a technical audience. A dialog box contains controls, such as command buttons and list boxes through which users can carry out a particular command or task. For example, a Save As dialog box the user must indicate in which folder and under what name the doc should be saved.</td>
+</tr>
+<tr class="even">
+<td>drop-down</td>
+<td>dropdown or drop down</td>
+<td>Can be used as a drop-down list, drop-down menu, drop-down arrow, etc.</td>
+</tr>
+<tr class="odd">
+<td>enter</td>
+<td>Do not use it as a synonym for “type”.</td>
+<td>Do not use it as a synonym for type except to indicate that a user can interact with the UI by multiple methods, such as either typing text or clicking a selection from a list. Additionally, if you are referring to the keyboard key. For example: Type your password, and then press Enter.</td>
+</tr>
+<tr class="even">
+<td>field</td>
+<td>box</td>
+<td>Search field, Name field, etc.</td>
+</tr>
+<tr class="odd">
+<td>pop-up</td>
+<td>popup</td>
+<td>Do not use it as a noun. Do not use it as a verb to mean open or appear. It is ok to use “pop-up window”.</td>
+</tr>
+<tr class="even">
+<td>select</td>
+<td>check</td>
+<td>Check boxes, radio buttons, items in a list box, drop-downs, etc.</td>
+</tr>
+<tr class="odd">
+<td>toolbar</td>
+<td>tool bar</td>
+<td>Contains buttons and can have submenus.</td>
+</tr>
+<tr class="even">
+<td>type</td>
+<td>“insert or type in”</td>
+<td>Use when directing the user to enter information. For example, Type your password. Use when directing the user to enter specific information. In the field, type “12345”.</td>
+</tr>
+<tr class="odd">
+<td>open source</td>
+<td>open-source</td>
+<td>Should be lowercase (e.g., the open source community) unless speaking of a specific thing that has the words “open source” in its title (e.g., the Open Source Initiative)</td>
+</tr>
+<tr class="even">
+<td>email</td>
+<td>e-mail</td>
+<td>N/A</td>
+</tr>
+<tr class="odd">
+<td>user-interface</td>
+<td>user interface</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="didnt-find-what-you-are-looking-for" class="level2">
+<h2 class="anchored" data-anchor-id="didnt-find-what-you-are-looking-for">Didn’t find what you are looking for?</h2>
+<p>Check out the Microsoft Manual of Style to use as a reference. Don’t think of it as a definitive rulebook but as a reference to help you if you get stuck. Many of the references included in this guide came straight out of the <a href="https://drive.google.com/file/d/1JLazPeIVkP2nHf-FNekJ3dtEBgMIT8ta/view">Microsoft Manual of Style pdf</a>.&nbsp;</p>
+<p>The web version is located <a href="https://docs.microsoft.com/en-us/style-guide/welcome/">here</a>.</p>
+
+
 </section>
 
 </main> <!-- /main -->

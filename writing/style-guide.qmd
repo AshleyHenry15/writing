@@ -157,13 +157,9 @@ Quarto has a [complete description and the notation of includes](https://quarto.
 
 *Quarto, only*
 
+Cross-references make it easier for readers to navigate your document by providing numbered references and hyperlinks to various entities like figures and tables. 
 
-### Proper nouns and UI elements
-
-- Are always capitalized. 
-- However, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.
-    - For example, if a menu name isn't capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.
-
+See the [Quarto documentation](https://quarto.org/docs/authoring/cross-references.html) for additional information.
 
 ### Procedures/steps
 
@@ -205,6 +201,16 @@ Formatting | Definition |
 
 Please see [Procedures/steps](#proceduressteps) for more information.
 
+
+### Code
+
+We use code blocks throughout the documentation that perform syntax highlighting via the CodeHilte extension and the MkDocs-Material theme.
+
+CodeHilte uses Pygments for syntax highlighting of various languages. Pygments supports a number of different languages via different lexers.
+
+For the list of languages and when to use them, see the Code section in the Pro Product Doc - Cheatsheet
+
+
 ### Calls to code
 
 Calls to R, Python code, shell commands, & other languages.
@@ -213,13 +219,21 @@ Denote calls with the accent grave (example: `runApp`). Use the accent marks/bac
 
 If the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.
 
-### Gerunds & Tech jargon
-
-Avoid.
 
 ### Numbers
 
 As a general rule, spell out single-digit numbers, and use numerals to represent double-digit numbers, e.g., one and. 10.
+
+
+### Images
+
+Ensure that images are legible, do your best to exclude blank space, and exclude things that are not necessary for the purpose of the image. When referencing something from the UI, use an image “callout”.  Additionally, the image should always follow the reference to the image and the result of the action should come after the image.
+
+The image callouts, colors, styles, and examples are located here.
+
+#### Alt text
+
+Images should include alternate text for screen-reader users. Informative text should be no more than 150 characters, roughly. Avoid including the words “image” or “graphic” because the screen-reader software automatically indicates that it is an image. However, it is acceptable to identify a screenshot as such. If the image is essential to accomplishing the task at hand, then you must include the necessary information in combination with the image’s alternate text and the technical documentation.
 
 ### Acronyms
 
@@ -229,5 +243,39 @@ As a general rule, spell out single-digit numbers, and use numerals to represent
 Example:
 - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.
 
-### Images
+### Gerunds & Tech jargon
 
+Avoid.
+
+### Proper nouns and UI elements
+
+- Are always capitalized. 
+- However, always follow the same capitalization format that is displayed in the UI when referring to product screens directly.
+    - For example, if a menu name isn't capitalized in the UI, write it exactly as it appears. If it is in all caps, use all caps when referencing it in the docs.
+
+
+### Terminology references
+
+Use| Do NOT use | How to use
+------- | ------- | -------
+check box | checkbox | N/A
+clear | uncheck | Check boxes, radio buttons
+click | N/A | Buttons, menus, cursors, etc.
+cursor / mouse cursor | mouse | Hover your cursor over the map. In the desired area, click-and-drag your cursor to draw a shape.
+dialog box | dialog or dialogues | It is ok to use "dialog" in other contexts, especially for a technical audience. A dialog box contains controls, such as command buttons and list boxes through which users can carry out a particular command or task. For example, a Save As dialog box the user must indicate in which folder and under what name the doc should be saved.
+drop-down | dropdown or drop down | Can be used as a drop-down list, drop-down menu, drop-down arrow, etc.
+enter | Do not use it as a synonym for "type". | Do not use it as a synonym for type except to indicate that a user can interact with the UI by multiple methods, such as either typing text or clicking a selection from a list. Additionally, if you are referring to the keyboard key. For example: Type your password, and then press Enter.
+field | box | Search field, Name field, etc.
+pop-up | popup | Do not use it as a noun. Do not use it as a verb to mean open or appear. It is ok to use "pop-up window".
+select | check | Check boxes, radio buttons, items in a list box, drop-downs, etc.
+toolbar | tool bar | Contains buttons and can have submenus.
+type | "insert or type in" | Use when directing the user to enter information. For example, Type your password. Use when directing the user to enter specific information. In the field, type "12345".
+open source | open-source | Should be lowercase (e.g., the open source community) unless speaking of a specific thing that has the words “open source” in its title (e.g., the Open Source Initiative)
+email | e-mail | N/A
+user-interface | user interface | N/A
+
+## Didn't find what you are looking for?
+
+Check out the Microsoft Manual of Style to use as a reference. Don’t think of it as a definitive rulebook but as a reference to help you if you get stuck. Many of the references included in this guide came straight out of the [Microsoft Manual of Style pdf](https://drive.google.com/file/d/1JLazPeIVkP2nHf-FNekJ3dtEBgMIT8ta/view). 
+
+The web version is located [here](https://docs.microsoft.com/en-us/style-guide/welcome/).
