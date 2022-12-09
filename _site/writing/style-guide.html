@@ -299,6 +299,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#titles-and-headings" id="toc-titles-and-headings" class="nav-link" data-scroll-target="#titles-and-headings">Titles and headings</a></li>
   <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts">Callouts</a></li>
   <li><a href="#reusing-content" id="toc-reusing-content" class="nav-link" data-scroll-target="#reusing-content">Reusing content</a></li>
+  <li><a href="#formatting-text-instructions" id="toc-formatting-text-instructions" class="nav-link" data-scroll-target="#formatting-text-instructions">Formatting text instructions</a></li>
   <li><a href="#proceduressteps" id="toc-proceduressteps" class="nav-link" data-scroll-target="#proceduressteps">Procedures/steps</a></li>
   <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists">Lists</a></li>
   <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
@@ -335,28 +336,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation.</p>
-<div class="callout-note callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Formatting Guide
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The Doc Checklist &amp; Formatting Style Guide is a separate guide providing:</p>
-<ul>
-<li>Syntax references</li>
-<li>Formatting references</li>
-<li>The documentation workflow</li>
-<li>Documentation checklists for authoring and reviewing the documentation</li>
-</ul>
-</div>
-</div>
-</div>
 <section id="grammar" class="level2">
 <h2 class="anchored" data-anchor-id="grammar">Grammar</h2>
 <section id="activepassive-voice" class="level3">
@@ -450,7 +429,7 @@ Tip
 <li>All other headings: Sentence case</li>
 </ul>
 <div class="callout-tip callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -459,7 +438,7 @@ Steps as headings
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Especially for docs.posit.co - proper:</p>
 <ul>
@@ -570,43 +549,53 @@ Note
 <p>See the <a href="https://quarto.org/docs/authoring/cross-references.html">Quarto documentation</a> for additional information.</p>
 </section>
 </section>
+<section id="formatting-text-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="formatting-text-instructions">Formatting text instructions</h3>
+<p><strong>Bold</strong></p>
+<p>From the <strong>View</strong> menu, click <strong>Publish</strong>.</p>
+<ul>
+<li>When you must refer to a button, check box, or other options, use <strong>bold</strong> formatting for the name.</li>
+<li>Sentence style unless you need to match the UI.</li>
+</ul>
+<p>“Quotes”</p>
+<p>In the <strong>Password</strong> field, type “1234”.</p>
+<ul>
+<li>User-supplied values.</li>
+</ul>
+<p><code>Inline-code</code> &amp; configuration properties</p>
+<p>In the Connect configuration file, navigate to the <code>Server.Address</code> property.</p>
+<ul>
+<li>Inline-code/configuration properties should be within backticks.</li>
+</ul>
+</section>
 <section id="proceduressteps" class="level3">
 <h3 class="anchored" data-anchor-id="proceduressteps">Procedures/steps</h3>
 <p>Action → Result should always be part of the action step</p>
+<p>Multi-step procedures, use:</p>
+<ul>
+<li><a href="#numbered-lists">Numbered list</a></li>
+</ul>
+<p>Single-step procedures, use:</p>
+<ul>
+<li><a href="#bulleted-lists">Unordered (bulleted) list</a></li>
+</ul>
 <p>Examples:</p>
 <ul>
 <li>Click <strong>OK</strong>. A dialog displays.</li>
 <li>The configuration section allows you to configure your product. Deleting this file may result in a loss of data.</li>
 </ul>
-<section id="procedure-formatting-definitions" class="level4">
-<h4 class="anchored" data-anchor-id="procedure-formatting-definitions">Procedure formatting definitions</h4>
-<p>The checklist and formatting style guide has examples of when to use this formatting here.</p>
-<table class="table">
-<colgroup>
-<col style="width: 23%">
-<col style="width: 76%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Formatting</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Bold</strong></td>
-<td>The name of any button, panel, field, drop-down, etc., should be bolded.</td>
-</tr>
-<tr class="even">
-<td><em>Italics</em></td>
-<td>Use as a placeholder, for emphasis, or for mathematical constants and variables.</td>
-</tr>
-<tr class="odd">
-<td>Quotes</td>
-<td>Use quotes when instructing the user to type something specific.</td>
-</tr>
-</tbody>
-</table>
+<section id="simple-sequences" class="level4">
+<h4 class="anchored" data-anchor-id="simple-sequences">Simple sequences</h4>
+<p>You can use a right angle bracket to abbreviate simple sequences (steps).</p>
+<ul>
+<li>There should be a space before and after the bracket</li>
+<li>Do not bold the bracket</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>Select <strong>File</strong> &gt; <strong>New Document</strong> &gt; <strong>Markdown</strong>.</li>
+<li>Select <strong>Projects</strong> &gt; <strong>New</strong> and click <strong>Markdown</strong>.</li>
+</ul>
 </section>
 </section>
 <section id="lists" class="level3">
@@ -614,6 +603,7 @@ Note
 <section id="bulleted-lists" class="level4">
 <h4 class="anchored" data-anchor-id="bulleted-lists">Bulleted lists:</h4>
 <ul>
+<li><p>Can be used for lists or procedures.</p></li>
 <li><p>Ending punctuation: Be consistent. For each item in a list, stick to using ending punctuation or don’t use it at all.</p></li>
 <li><p>If there are two items/steps or fewer, then use bullet points or nothing at all.</p></li>
 <li><p>When giving a user multiple options, for example:</p>
@@ -629,6 +619,7 @@ Note
 <section id="numbered-lists" class="level4">
 <h4 class="anchored" data-anchor-id="numbered-lists">Numbered lists</h4>
 <ul>
+<li>Can be used for lists or procedures.</li>
 <li>Use ending punctuation.</li>
 <li>Use when a procedure needs to be specifically referenced.</li>
 <li>Use to describe things that need to be done in a sequential order</li>
@@ -654,8 +645,90 @@ Note
 </section>
 <section id="images" class="level3">
 <h3 class="anchored" data-anchor-id="images">Images</h3>
-<p>Ensure that images are legible, do your best to exclude blank space, and exclude things that are not necessary for the purpose of the image. When referencing something from the UI, use an image “callout”.&nbsp; Additionally, the image should always follow the reference to the image and the result of the action should come after the image.</p>
-<p>The image callouts, colors, styles, and examples are located here.</p>
+<p>Images should NEVER be used to replace written steps/be essential to completing a task (see <a href="../writing/doc-rules.html#accessibility">Accessibility</a>).</p>
+<ul>
+<li>Ensure that images are legible, do your best to exclude blank space, and exclude things that are not necessary for the purpose of the image.</li>
+<li>When referencing something from the UI, use an image “step tag” or “callout box/shape”.</li>
+<li>Additionally, the image should always follow the reference to the image and the result of the action should come after the image.</li>
+</ul>
+<section id="image-callout-boxshape-and-step-tags" class="level4">
+<h4 class="anchored" data-anchor-id="image-callout-boxshape-and-step-tags">Image callout box/shape and step tags</h4>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The formatting guidance below provides guidance that works for most images. In certain cases, you may need to change the size, color, and/or weight of the shapes and step tags. Be as consistent as possible. If your editing software is unable to follow these guidelines, please contact Ashley Henry or Annika Kriov for assistance.</p>
+</div>
+</div>
+<section id="shapes" class="level5">
+<h5 class="anchored" data-anchor-id="shapes">Shapes</h5>
+<p><strong>Rectangle/box:</strong></p>
+<p>Ensure that they are close to the border of the buttons, menu items, etc.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/rectangle.png" class="img-fluid figure-img" width="200"></p>
+</figure>
+</div>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Outline color</td>
+<td>#CD2026</td>
+</tr>
+<tr class="even">
+<td>Fill</td>
+<td>None/transparent</td>
+</tr>
+<tr class="odd">
+<td>Border weight</td>
+<td>5pt</td>
+</tr>
+<tr class="even">
+<td>Shadow</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Arrows:</strong></p>
+<p>Typically used as a replacement for our “rectangle shape”. In certain cases, our rectangle shape blends into the UI. If that is the case, use an arrow instead.</p>
+<p>Do your best to make the arrows the same size,&nbsp; style, and color. Arrows are used to point to one specific item on the UI.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Line end</td>
+<td>Filled line end</td>
+</tr>
+<tr class="even">
+<td>Color</td>
+<td>#CD3034</td>
+</tr>
+<tr class="odd">
+<td>Width</td>
+<td>5pt</td>
+</tr>
+<tr class="even">
+<td>Shadow</td>
+<td>none</td>
+</tr>
+<tr class="odd">
+<td>Style</td>
+<td><img src="img/arrow-style.png" class="img-fluid" width="200"></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="image-borders" class="level4">
+<h4 class="anchored" data-anchor-id="image-borders">Image borders</h4>
+<p>Since our documentation UI and our product UIs are so similar, in some cases, we need to add image borders to have add distinction so it is clear where the image “starts and ends”.</p>
+<p>It would be best to add a CSS/SCSS element that automatically adds a border to ALL images automatically.</p>
+</section>
 <section id="alt-text" class="level4">
 <h4 class="anchored" data-anchor-id="alt-text">Alt text</h4>
 <p>Images should include alternate text for screen-reader users. Informative text should be no more than 150 characters, roughly. Avoid including the words “image” or “graphic” because the screen-reader software automatically indicates that it is an image. However, it is acceptable to identify a screenshot as such. If the image is essential to accomplishing the task at hand, then you must include the necessary information in combination with the image’s alternate text and the technical documentation.</p>
@@ -667,7 +740,10 @@ Note
 <li>Spell out the first occurrence of an acronym per topic/page/file, followed by the acronym in parentheses.</li>
 <li>You do not need to define common acronyms, such as IP.</li>
 </ul>
-<p>Example: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.</p>
+<p>Example:</p>
+<ul>
+<li>The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.</li>
+</ul>
 </section>
 <section id="gerunds-tech-jargon" class="level3">
 <h3 class="anchored" data-anchor-id="gerunds-tech-jargon">Gerunds &amp; Tech jargon</h3>

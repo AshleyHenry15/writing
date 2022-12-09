@@ -4,19 +4,6 @@ title: Style Guide
 
 This guide serves as a reference for anyone authoring, editing, or reviewing the pro-product documentation.
 
-
-::: {.callout-note appearance="simple" collapse="true"}
-
-## Formatting Guide
-
-The Doc Checklist & Formatting Style Guide is a separate guide providing:
-
-- Syntax references
-- Formatting references
-- The documentation workflow 
-- Documentation checklists for authoring and reviewing the documentation
-:::
-
 ## Grammar
 
 ### Active/passive voice
@@ -161,29 +148,62 @@ Cross-references make it easier for readers to navigate your document by providi
 
 See the [Quarto documentation](https://quarto.org/docs/authoring/cross-references.html) for additional information.
 
+### Formatting text instructions
+
+**Bold**
+
+From the **View** menu, click **Publish**.
+
+- When you must refer to a button, check box, or other options, use **bold** formatting for the name.
+- Sentence style unless you need to match the UI.
+
+
+"Quotes"
+
+In the **Password** field, type "1234".
+
+- User-supplied values.
+
+`Inline-code` & configuration properties
+
+In the Connect configuration file, navigate to the `Server.Address` property.
+
+- Inline-code/configuration properties should be within backticks.
+
 ### Procedures/steps
 
 Action → Result should always be part of the action step
+
+Multi-step procedures, use:
+
+- [Numbered list](#numbered-lists)
+
+Single-step procedures, use:
+
+- [Unordered (bulleted) list](#bulleted-lists)
 
 Examples: 
 
 - Click **OK**. A dialog displays.
 - The configuration section allows you to configure your product. Deleting this file may result in a loss of data.
 
-#### Procedure formatting definitions
+#### Simple sequences
 
-The checklist and formatting style guide has examples of when to use this formatting here.
+You can use a right angle bracket to abbreviate simple sequences (steps).
 
-Formatting | Definition |
----|----------|
- **Bold** | The name of any button, panel, field, drop-down, etc.,  should be bolded.  |
- *Italics* |Use as a placeholder, for emphasis, or for mathematical constants and variables. |
- Quotes | Use quotes when instructing the user to type something specific. |
+- There should be a space before and after the bracket
+- Do not bold the bracket
+
+Examples:
+
+- Select **File** > **New Document** > **Markdown**.
+- Select **Projects** > **New** and click **Markdown**.
 
 ### Lists
 
 #### Bulleted lists:
 
+- Can be used for lists or procedures.
 - Ending punctuation: Be consistent. For each item in a list, stick to using ending punctuation or don’t use it at all.
 - If there are two items/steps or fewer, then use bullet points or nothing at all. 
 - When giving a user multiple options, for example:
@@ -195,12 +215,12 @@ Formatting | Definition |
 
 #### Numbered lists
 
+- Can be used for lists or procedures.
 - Use ending punctuation.
 - Use when a procedure needs to be specifically referenced.
 - Use to describe things that need to be done in a sequential order
 
 Please see [Procedures/steps](#proceduressteps) for more information.
-
 
 ### Code
 
@@ -227,9 +247,55 @@ As a general rule, spell out single-digit numbers, and use numerals to represent
 
 ### Images
 
-Ensure that images are legible, do your best to exclude blank space, and exclude things that are not necessary for the purpose of the image. When referencing something from the UI, use an image “callout”.  Additionally, the image should always follow the reference to the image and the result of the action should come after the image.
+Images should NEVER be used to replace written steps/be essential to completing a task (see [Accessibility](doc-rules.qmd#accessibility)).
 
-The image callouts, colors, styles, and examples are located here.
+- Ensure that images are legible, do your best to exclude blank space, and exclude things that are not necessary for the purpose of the image. 
+- When referencing something from the UI, use an image “step tag” or "callout box/shape".
+- Additionally, the image should always follow the reference to the image and the result of the action should come after the image.
+
+#### Image callout box/shape and step tags
+
+:::{.callout-note}
+The formatting guidance below provides guidance that works for most images. In certain cases, you may need to change the size, color, and/or weight of the shapes and step tags. Be as consistent as possible. If your editing software is unable to follow these guidelines, please contact Ashley Henry or Annika Kriov for assistance.
+:::
+
+##### Shapes
+
+**Rectangle/box:**
+
+Ensure that they are close to the border of the buttons, menu items, etc.
+
+![](img/rectangle.png){width="200px" fig-align="center"}
+
+|         |
+|---------|----------|
+ Outline color | #CD2026
+ Fill | None/transparent
+ Border weight | 5pt 
+ Shadow | none
+
+
+**Arrows:**
+
+Typically used as a replacement for our "rectangle shape". In certain cases, our rectangle shape blends into the UI. If that is the case, use an arrow instead.
+
+
+Do your best to make the arrows the same size,  style, and color. Arrows are used to point to one specific item on the UI.
+
+|         |
+|---------|----------|
+ Line end | Filled line end
+ Color | #CD3034 
+ Width | 5pt 
+ Shadow | none
+ Style | ![](img/arrow-style.png){width="200px"}
+
+#### Image borders
+
+Since our documentation UI and our product UIs are so similar, in some cases, we need to add image borders to have add distinction so it is clear where the image "starts and ends".
+
+It would be best to add a CSS/SCSS element that automatically adds a border to ALL images automatically.
+
 
 #### Alt text
 
@@ -241,6 +307,7 @@ Images should include alternate text for screen-reader users. Informative text s
 - You do not need to define common acronyms, such as IP.
 
 Example:
+
 - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.
 
 ### Gerunds & Tech jargon
