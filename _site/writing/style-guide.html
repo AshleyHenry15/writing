@@ -157,6 +157,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../getting-started/location.html" class="sidebar-item-text sidebar-link">Where should it live?</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../getting-started/prod-docs.html" class="sidebar-item-text sidebar-link">Product Doc Overview</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -293,6 +298,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#titles-and-headings" id="toc-titles-and-headings" class="nav-link" data-scroll-target="#titles-and-headings">Titles and headings</a></li>
   <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts">Callouts</a></li>
+  <li><a href="#reusing-content" id="toc-reusing-content" class="nav-link" data-scroll-target="#reusing-content">Reusing content</a></li>
   <li><a href="#proper-nouns-and-ui-elements" id="toc-proper-nouns-and-ui-elements" class="nav-link" data-scroll-target="#proper-nouns-and-ui-elements">Proper nouns and UI elements</a></li>
   <li><a href="#proceduressteps" id="toc-proceduressteps" class="nav-link" data-scroll-target="#proceduressteps">Procedures/steps</a></li>
   <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists">Lists</a></li>
@@ -300,6 +306,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#gerunds-tech-jargon" id="toc-gerunds-tech-jargon" class="nav-link" data-scroll-target="#gerunds-tech-jargon">Gerunds &amp; Tech jargon</a></li>
   <li><a href="#numbers" id="toc-numbers" class="nav-link" data-scroll-target="#numbers">Numbers</a></li>
   <li><a href="#acronyms" id="toc-acronyms" class="nav-link" data-scroll-target="#acronyms">Acronyms</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -464,8 +471,29 @@ Steps as headings
 <section id="callouts" class="level3">
 <h3 class="anchored" data-anchor-id="callouts">Callouts</h3>
 <p>Callouts, sometimes referred to as “admonitions”, are used to draw attention to content and/or information that doesn’t fit into the normal flow of text.</p>
-<p>Quarto and MkDocs Material offer different types of callouts. The following definitions are common between both tools:</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Quarto and MkDocs Material offer different types of callouts.</p>
+<p>Items marked with an <bold>*</bold> are only available w/ MkDocs Material.</p>
+<ul>
+<li><a href="https://quarto.org/docs/authoring/callouts.html#callout-types">Quarto’s callout types</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/">MkDocs Matieral callout types</a></li>
+</ul>
+</div>
+</div>
 <table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 86%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Callout type</th>
@@ -474,15 +502,68 @@ Steps as headings
 </thead>
 <tbody>
 <tr class="odd">
-<td>note</td>
-<td></td>
+<td>example <bold>*</bold></td>
+<td>Used for steps/procedures.</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td>important</td>
+<td>If this information is ignored, it is unlikely that the user will be able to complete the task or make configuration changes in the future.</td>
+</tr>
+<tr class="odd">
+<td>info <bold>*</bold></td>
+<td>Additional information, such as, “Our recommended installation instructions for R allow you to make multiple versions of R available.”</td>
+</tr>
+<tr class="even">
+<td>note</td>
+<td>Information that helps the user, provides additional information, clarity, and may increase efficiency.</td>
+</tr>
+<tr class="odd">
+<td>question <bold>*</bold></td>
+<td>Typically reserved for when a user may require help information, solutions, support, etc. For example, “If you require help information, run <code>$ bash ./rsc-installer.sh help&lt;LICENSE-KEY&gt;</code>.”</td>
+</tr>
+<tr class="even">
+<td>quote <bold>*</bold></td>
+<td>When you directly quote the works of others in your documentation.</td>
+</tr>
+<tr class="odd">
+<td>success <bold>*</bold></td>
+<td>Indicates that the install and/or configuration is complete.</td>
+</tr>
+<tr class="even">
+<td>tip</td>
+<td>Information that makes the user’s experience easier, may contain additional functionality that is not required for installation or configuration or has information that an advanced user may be interested in.</td>
+</tr>
+<tr class="odd">
+<td>warning / caution</td>
+<td>Warning: Explains dangers that may result in personal injury or death. <br>Caution: Explains hazards that could damage a product, including data loss.</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="reusing-content" class="level3">
+<h3 class="anchored" data-anchor-id="reusing-content">Reusing content</h3>
+<p>We have several options for conveinently reusing content across our documentation. This allows us to easily duplicate information, without needing to update it in several places. Common use cases for this would be version numbers, common callouts/warnings, etc.</p>
+<section id="snippets-macros" class="level4">
+<h4 class="anchored" data-anchor-id="snippets-macros">Snippets / macros</h4>
+<p><em>MkDocs Material, only</em></p>
+<p>You can include the contents of another file, into your current file,&nbsp;by using a snippet. If the included file is updated, the updates automatically update anywhere that the snippet has been used.</p>
+<p>MkDocs Material has a <a href="https://facelessuser.github.io/pymdown-extensions/extensions/snippets/">complete description and the notation of snippets</a>.</p>
+<p>Notation:</p>
+<p><code>--8&lt;-- "filename.ext"</code></p>
+</section>
+<section id="includes" class="level4">
+<h4 class="anchored" data-anchor-id="includes">Includes</h4>
+<p><em>Quarto, only</em></p>
+<p>To include a file, add the shortcode at the location in your document where you want it included:</p>
+<p>A very important thing to understand about includes is that they are equivalent to copying and pasting the text from the included file into the main file. This means that relative references (links, images, etc.) inside the included file resolve based on the directory of the main file not the included file.</p>
+<p>Notation:</p>
+<p><code>{{&lt; include _content.qmd &gt;}}</code></p>
+<p>Quarto has a <a href="https://quarto.org/docs/authoring/includes.html">complete description and the notation of includes</a>.</p>
+</section>
+<section id="cross-references" class="level4">
+<h4 class="anchored" data-anchor-id="cross-references">Cross references</h4>
+<p><em>Quarto, only</em></p>
+</section>
 </section>
 <section id="proper-nouns-and-ui-elements" class="level3">
 <h3 class="anchored" data-anchor-id="proper-nouns-and-ui-elements">Proper nouns and UI elements</h3>
@@ -581,6 +662,9 @@ Steps as headings
 <li>You do not need to define common acronyms, such as IP.</li>
 </ul>
 <p>Example: - The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the federal government of the United States. The CIA has no law enforcement function.</p>
+</section>
+<section id="images" class="level3">
+<h3 class="anchored" data-anchor-id="images">Images</h3>
 
 
 </section>
