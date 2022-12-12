@@ -92,9 +92,9 @@ Quarto and MkDocs Material offer different types of callouts.
 Items marked with an <bold>*</bold> are only available w/ MkDocs Material.
 
 
- - [Quarto's callout types](https://quarto.org/docs/authoring/callouts.html#callout-types)
- - [MkDocs Matieral callout types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
-
+ - [Quarto's callout types & syntax](https://quarto.org/docs/authoring/callouts.html#callout-types)
+ - [MkDocs Matieral callout types & syntax](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+    - Lists, procedures, admonitions, tables, images, snippets, and code blocks can be nested within admonition blocks.
 :::
 
 | Callout type | Definition
@@ -230,14 +230,89 @@ CodeHilte uses Pygments for syntax highlighting of various languages. Pygments s
 
 For the list of languages and when to use them, see the Code section in the Pro Product Doc - Cheatsheet
 
+#### Inline-code
 
-### Calls to code
+Inline-code is typically used when part or all of a command is used within a step/sentence. For example:
+
+If you require help information, in a terminal run `$ bash ./rsc-installer.sh help<LICENSE-KEY>`
+
+Use a backtick before and after the code to format:
+```
+`$ bash ./rsc-installer.sh help<LICENSE-KEY>`
+```
+
+#### Calls to code
 
 Calls to R, Python code, shell commands, & other languages.
 
 Denote calls with the accent grave (example: `runApp`). Use the accent marks/backticks wherever appropriate. Ensure that  the text within already written accent marks exactly matches the code,  since it may change  how code is run and result in errors.
 
 If the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.
+
+
+#### Code Blocks
+
+> MkDocs Material
+
+*This section needs updating based on newly introduced styles from MkDocs Material theme.*
+
+We use code blocks throughout the documentation that perform syntax highlighting via the CodeHilte extension and the MkDocs-Material theme.
+
+CodeHilte uses Pygments for syntax highlighting of various languages. Pygments supports a number of different languages via different lexers.
+
+Language type | Usage
+------- | ---------
+console or terminal | For commands that are to be run in a terminal
+text | For text that needs to be in a code block but with no syntax highlighting (e.g., log files)
+cfg or ini | For contents of an ini-style config file with key=value pairs, such as an RSP/RSC/RSPM configuration file. Both of these are aliases/short names that call the same “IniLexer”.
+r | For R code chunks
+python | For Python code chunks
+bash | For showing the contents of a bash script (although, this type of content is rare in our docs. However, it is being used almost 100% currently, and will be updated in the future).
+
+#### Code blocks with titles
+
+In MkDocs Material, the following is an example of a code block titled "Terminal":
+
+![](img/title-terminal.png){fig-align="center"}
+
+Syntax:
+
+```
+    ``` bash title="Terminal"
+    $ sudo systemctl status rstudio-connect
+    ```
+```
+
+In Quarto, you can add a "Code Filename": https://quarto.org/docs/output-formats/html-code.html#highlighting
+
+
+#### Tabbed code blocks
+
+Tabbed code blocks can be used as an OS selector, version selector, etc.
+
+Commonly, we used tabbed code blocks for installation and upgrade commands that may be slightly different based on the user's OS.
+
+In MkDocs Material, the following is an example of a tabbed code block:
+
+![](img/tabbed-block.png){fig-align="center"}
+
+Syntax:
+
+```
+    === "Ubuntu 20.04"
+        ```
+        $ sudo apt-get install gdebi-core
+        $ curl -O https://cdn.rstudio.com/connect/{{ vars.connect.rsc.short_version }}/rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu20_amd64.deb
+        $ sudo gdebi rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu20_amd64.deb
+        ```
+
+    === "Ubuntu 18.04"
+        ```
+        $ sudo apt-get install gdebi-core
+        $ curl -O https://cdn.rstudio.com/connect/{{ vars.connect.rsc.short_version }}/rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu18_amd64.deb
+        $ sudo gdebi rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu18_amd64.deb
+        ```
+```
 
 
 ### Numbers
@@ -265,7 +340,7 @@ The formatting guidance below provides guidance that works for most images. In c
 
 Ensure that they are close to the border of the buttons, menu items, etc.
 
-![](img/rectangle.png){width="200px" fig-align="center"}
+![](img/rectangle.png){width="300px" fig-align="center"}
 
 |         |
 |---------|----------|
@@ -279,8 +354,9 @@ Ensure that they are close to the border of the buttons, menu items, etc.
 
 Typically used as a replacement for our "rectangle shape". In certain cases, our rectangle shape blends into the UI. If that is the case, use an arrow instead.
 
-
 Do your best to make the arrows the same size,  style, and color. Arrows are used to point to one specific item on the UI.
+
+![](img/arrow.png){width="400px" fig-align="center"}
 
 |         |
 |---------|----------|
@@ -289,6 +365,49 @@ Do your best to make the arrows the same size,  style, and color. Arrows are us
  Width | 5pt 
  Shadow | none
  Style | ![](img/arrow-style.png){width="200px"}
+
+** Step tags / sequential image arrows
+
+Step tags: 
+
+You can use these to show procedures in sequential order or to call out numerous items on a page.
+
+Google slides example
+
+![](img/step-callouts-gs.png){width="300px" fig-align="center"}
+
+Snagit example
+
+![](img/step-callouts-snag.png){width="300px" fig-align="center"}
+
+|         |
+|---------|-------------|
+Shape > Arrows > Pentagon | (if using Google Slides)
+Step > Shape > Basic > Cone | (If using Snagit)
+Fill Color | #CD3034 *or* Red (Google Slides)
+Border | None
+Font | Arial
+Font Size | 10 or 12pt 
+Font color | #ffffff
+
+---
+
+
+Sequential image arrows:
+
+These arrows are sometimes used to show the progression between multiple menu pages, wizards, etc.
+
+![](img/blue-arrow.png)
+
+|         |
+|---------|-------------|
+Shape > Arrows > Right Arrow | (if using Google Slides)
+Fill color | #D0E3F4 *or* Light blue 3 (Google Slides)
+Border color | Gray (Google Slides)
+Border weight | 1px
+
+
+The preformatted arrows and callouts shown above are available for use in this “[template](https://docs.google.com/presentation/d/1s5uVzDWuszSWQhMDIEAg_X_3L1oiMRjKym4w9RLWc2s/edit#slide=id.p)”.
 
 #### Image borders
 

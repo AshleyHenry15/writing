@@ -303,7 +303,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#proceduressteps" id="toc-proceduressteps" class="nav-link" data-scroll-target="#proceduressteps">Procedures/steps</a></li>
   <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists">Lists</a></li>
   <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
-  <li><a href="#calls-to-code" id="toc-calls-to-code" class="nav-link" data-scroll-target="#calls-to-code">Calls to code</a></li>
   <li><a href="#numbers" id="toc-numbers" class="nav-link" data-scroll-target="#numbers">Numbers</a></li>
   <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
   <li><a href="#acronyms" id="toc-acronyms" class="nav-link" data-scroll-target="#acronyms">Acronyms</a></li>
@@ -466,8 +465,11 @@ Note
 <p>Quarto and MkDocs Material offer different types of callouts.</p>
 <p>Items marked with an <bold>*</bold> are only available w/ MkDocs Material.</p>
 <ul>
-<li><a href="https://quarto.org/docs/authoring/callouts.html#callout-types">Quarto’s callout types</a></li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/">MkDocs Matieral callout types</a></li>
+<li><a href="https://quarto.org/docs/authoring/callouts.html#callout-types">Quarto’s callout types &amp; syntax</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/">MkDocs Matieral callout types &amp; syntax</a>
+<ul>
+<li>Lists, procedures, admonitions, tables, images, snippets, and code blocks can be nested within admonition blocks.</li>
+</ul></li>
 </ul>
 </div>
 </div>
@@ -632,12 +634,105 @@ Note
 <p>We use code blocks throughout the documentation that perform syntax highlighting via the CodeHilte extension and the MkDocs-Material theme.</p>
 <p>CodeHilte uses Pygments for syntax highlighting of various languages. Pygments supports a number of different languages via different lexers.</p>
 <p>For the list of languages and when to use them, see the Code section in the Pro Product Doc - Cheatsheet</p>
+<section id="inline-code" class="level4">
+<h4 class="anchored" data-anchor-id="inline-code">Inline-code</h4>
+<p>Inline-code is typically used when part or all of a command is used within a step/sentence. For example:</p>
+<p>If you require help information, in a terminal run <code>$ bash ./rsc-installer.sh help&lt;LICENSE-KEY&gt;</code></p>
+<p>Use a backtick before and after the code to format:</p>
+<pre><code>`$ bash ./rsc-installer.sh help&lt;LICENSE-KEY&gt;`</code></pre>
 </section>
-<section id="calls-to-code" class="level3">
-<h3 class="anchored" data-anchor-id="calls-to-code">Calls to code</h3>
+<section id="calls-to-code" class="level4">
+<h4 class="anchored" data-anchor-id="calls-to-code">Calls to code</h4>
 <p>Calls to R, Python code, shell commands, &amp; other languages.</p>
 <p>Denote calls with the accent grave (example: <code>runApp</code>). Use the accent marks/backticks wherever appropriate. Ensure that the text within already written accent marks exactly matches the code, since it may change how code is run and result in errors.</p>
 <p>If the documentation framework doesn’t support accent graves, use code blocks, inline code, or whatever the framework supports.</p>
+</section>
+<section id="code-blocks" class="level4">
+<h4 class="anchored" data-anchor-id="code-blocks">Code Blocks</h4>
+<blockquote class="blockquote">
+<p>MkDocs Material</p>
+</blockquote>
+<p><em>This section needs updating based on newly introduced styles from MkDocs Material theme.</em></p>
+<p>We use code blocks throughout the documentation that perform syntax highlighting via the CodeHilte extension and the MkDocs-Material theme.</p>
+<p>CodeHilte uses Pygments for syntax highlighting of various languages. Pygments supports a number of different languages via different lexers.</p>
+<table class="table">
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Language type</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>console or terminal</td>
+<td>For commands that are to be run in a terminal</td>
+</tr>
+<tr class="even">
+<td>text</td>
+<td>For text that needs to be in a code block but with no syntax highlighting (e.g., log files)</td>
+</tr>
+<tr class="odd">
+<td>cfg or ini</td>
+<td>For contents of an ini-style config file with key=value pairs, such as an RSP/RSC/RSPM configuration file. Both of these are aliases/short names that call the same “IniLexer”.</td>
+</tr>
+<tr class="even">
+<td>r</td>
+<td>For R code chunks</td>
+</tr>
+<tr class="odd">
+<td>python</td>
+<td>For Python code chunks</td>
+</tr>
+<tr class="even">
+<td>bash</td>
+<td>For showing the contents of a bash script (although, this type of content is rare in our docs. However, it is being used almost 100% currently, and will be updated in the future).</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="code-blocks-with-titles" class="level4">
+<h4 class="anchored" data-anchor-id="code-blocks-with-titles">Code blocks with titles</h4>
+<p>In MkDocs Material, the following is an example of a code block titled “Terminal”:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/title-terminal.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Syntax:</p>
+<pre><code>    ``` bash title="Terminal"
+    $ sudo systemctl status rstudio-connect
+    ```</code></pre>
+<p>In Quarto, you can add a “Code Filename”: https://quarto.org/docs/output-formats/html-code.html#highlighting</p>
+</section>
+<section id="tabbed-code-blocks" class="level4">
+<h4 class="anchored" data-anchor-id="tabbed-code-blocks">Tabbed code blocks</h4>
+<p>Tabbed code blocks can be used as an OS selector, version selector, etc.</p>
+<p>Commonly, we used tabbed code blocks for installation and upgrade commands that may be slightly different based on the user’s OS.</p>
+<p>In MkDocs Material, the following is an example of a tabbed code block:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/tabbed-block.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Syntax:</p>
+<pre><code>    === "Ubuntu 20.04"
+        ```
+        $ sudo apt-get install gdebi-core
+        $ curl -O https://cdn.rstudio.com/connect/{{ vars.connect.rsc.short_version }}/rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu20_amd64.deb
+        $ sudo gdebi rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu20_amd64.deb
+        ```
+
+    === "Ubuntu 18.04"
+        ```
+        $ sudo apt-get install gdebi-core
+        $ curl -O https://cdn.rstudio.com/connect/{{ vars.connect.rsc.short_version }}/rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu18_amd64.deb
+        $ sudo gdebi rstudio-connect_{{ vars.connect.rsc.full_version }}~ubuntu18_amd64.deb
+        ```</code></pre>
+</section>
 </section>
 <section id="numbers" class="level3">
 <h3 class="anchored" data-anchor-id="numbers">Numbers</h3>
@@ -672,7 +767,7 @@ Note
 <p>Ensure that they are close to the border of the buttons, menu items, etc.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/rectangle.png" class="img-fluid figure-img" width="200"></p>
+<p><img src="img/rectangle.png" class="img-fluid figure-img" width="300"></p>
 </figure>
 </div>
 <table class="table">
@@ -698,6 +793,11 @@ Note
 <p><strong>Arrows:</strong></p>
 <p>Typically used as a replacement for our “rectangle shape”. In certain cases, our rectangle shape blends into the UI. If that is the case, use an arrow instead.</p>
 <p>Do your best to make the arrows the same size,&nbsp; style, and color. Arrows are used to point to one specific item on the UI.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/arrow.png" class="img-fluid figure-img" width="400"></p>
+</figure>
+</div>
 <table class="table">
 <tbody>
 <tr class="odd">
@@ -722,6 +822,78 @@ Note
 </tr>
 </tbody>
 </table>
+<p>** Step tags / sequential image arrows</p>
+<p>Step tags:</p>
+<p>You can use these to show procedures in sequential order or to call out numerous items on a page.</p>
+<p>Google slides example</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/step-callouts-gs.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>Snagit example</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/step-callouts-snag.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Shape &gt; Arrows &gt; Pentagon</td>
+<td>(if using Google Slides)</td>
+</tr>
+<tr class="even">
+<td>Step &gt; Shape &gt; Basic &gt; Cone</td>
+<td>(If using Snagit)</td>
+</tr>
+<tr class="odd">
+<td>Fill Color</td>
+<td>#CD3034 <em>or</em> Red (Google Slides)</td>
+</tr>
+<tr class="even">
+<td>Border</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td>Font</td>
+<td>Arial</td>
+</tr>
+<tr class="even">
+<td>Font Size</td>
+<td>10 or 12pt</td>
+</tr>
+<tr class="odd">
+<td>Font color</td>
+<td>#ffffff</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Sequential image arrows:</p>
+<p>These arrows are sometimes used to show the progression between multiple menu pages, wizards, etc.</p>
+<p><img src="img/blue-arrow.png" class="img-fluid"></p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Shape &gt; Arrows &gt; Right Arrow</td>
+<td>(if using Google Slides)</td>
+</tr>
+<tr class="even">
+<td>Fill color</td>
+<td>#D0E3F4 <em>or</em> Light blue 3 (Google Slides)</td>
+</tr>
+<tr class="odd">
+<td>Border color</td>
+<td>Gray (Google Slides)</td>
+</tr>
+<tr class="even">
+<td>Border weight</td>
+<td>1px</td>
+</tr>
+</tbody>
+</table>
+<p>The preformatted arrows and callouts shown above are available for use in this “<a href="https://docs.google.com/presentation/d/1s5uVzDWuszSWQhMDIEAg_X_3L1oiMRjKym4w9RLWc2s/edit#slide=id.p">template</a>”.</p>
 </section>
 </section>
 <section id="image-borders" class="level4">
