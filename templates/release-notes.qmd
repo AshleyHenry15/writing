@@ -1,0 +1,36 @@
+Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.
+
+
+
+```{html}
+
+# Introduction
+
+>Current version number
+
+Introduction summary about what the release notes offer. 
+
+## <Product Name> <Version Number>
+
+Name of release (if applicable), Date of release (in this format - March 02, 2021)
+
+Release summary (if applicable)
+
+### New
+
+- List "new" items in a bullet list, if applicable.
+
+### Fixed
+
+- List "fixed" items in a bullet list with issue number, if applicable.
+
+### Breaking
+
+- List "breaking" items (changes that result in a breakage in configuration with the new/suggested change listed) in a bullet list, if applicable.
+- Example: Removes the top-level `rspm import` command, use `rspm import ssh-key` or `rspm import https-credential` instead. (#8399)
+
+<h3>Deprecated/Removed</h3>
+ <ul> 
+    <li>List "breaking" items in a bullet list, if applicable.</li>
+  </ul>
+```
