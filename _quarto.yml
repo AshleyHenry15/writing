@@ -66,6 +66,12 @@ website:
         contents:
             - text: POCs
               href: references/pocs.qmd
+      - section: "Templates"
+        contents:
+            - text: New Content/Section
+              href: templates/section-outline.qmd
+            - text: Release Notes/News
+              href: templates/release-notes.qmd
 
 format:
   html:

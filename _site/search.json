@@ -254,8 +254,64 @@
   {
     "objectID": "templates/release-notes.html",
     "href": "templates/release-notes.html",
-    "title": "Technical Writing at Posit",
+    "title": "Template - Release Notes/News",
     "section": "",
-    "text": "Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.\n\n# Introduction\n\n>Current version number\n\nIntroduction summary about what the release notes offer. \n\n## <Product Name> <Version Number>\n\nName of release (if applicable), Date of release (in this format - March 02, 2021)\n\nRelease summary (if applicable)\n\n### New\n\n- List \"new\" items in a bullet list, if applicable.\n\n### Fixed\n\n- List \"fixed\" items in a bullet list with issue number, if applicable.\n\n### Breaking\n\n- List \"breaking\" items (changes that result in a breakage in configuration with the new/suggested change listed) in a bullet list, if applicable.\n- Example: Removes the top-level `rspm import` command, use `rspm import ssh-key` or `rspm import https-credential` instead. (#8399)\n\n<h3>Deprecated/Removed</h3>\n <ul> \n    <li>List \"breaking\" items in a bullet list, if applicable.</li>\n  </ul>"
+    "text": "Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.\n\n# Introduction\n\n>Current version number\n\nIntroduction summary about what the release notes offer. \n\n## <Product Name> <Version Number>\n\nName of release (if applicable), Date of release (in this format - March 02, 2021)\n\nRelease summary (if applicable)\n\n### New\n\n- List \"new\" items in a bullet list, if applicable.\n\n### Fixed\n\n- List \"fixed\" items in a bullet list with issue number, if applicable.\n\n### Breaking\n\n- List \"breaking\" items (changes that result in a breakage in configuration with the new/suggested change listed) in a bullet list, if applicable.\n- Example: Removes the top-level `rspm import` command, use `rspm import ssh-key` or `rspm import https-credential` instead. (#8399)\n\n### Deprecated/Removed\n\n- List \"breaking\" items in a bullet list, if applicable.\n- Example: Server.RVersion is deprecated and will be removed in an upcoming release. Use R.Executable instead and reference the full R binary path rather than the path to a directory containing an R installation. (#21473)\n\n    Earlier releases specify an R installation using Server.RVersion to target a directory:\n\n    ; /etc/rstudio-connect/rstudio-connect.gcfg\n    [Server]\n    RVersion = /opt/R/3.6.3"
+  },
+  {
+    "objectID": "templates/section-outline.html",
+    "href": "templates/section-outline.html",
+    "title": "Template - New section/content",
+    "section": "",
+    "text": "Before you begin:"
+  },
+  {
+    "objectID": "templates/section-outline.html#the-template",
+    "href": "templates/section-outline.html#the-template",
+    "title": "Template - New section/content",
+    "section": "The template",
+    "text": "The template\nThis is the general structure of each topic for the docs.rstudio.com site (as applicable):\nRemember, this is a suggested template so everything may not be applicable. Additionally, you aren’t limited to this structed. For example, you may want to add related features and links/references throughout the topic.\n\nMarkdown example\nBelow is an example of the markdown formatting and an example of the content that should be used as an example when adding a new topic to docs.rstudio.com:\ntitle: HTML Title of the Document\ndescription: Add a brief description of the contents of the file."
+  },
+  {
+    "objectID": "templates/section-outline.html#prerequisites",
+    "href": "templates/section-outline.html#prerequisites",
+    "title": "Template - New section/content",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore you can install RSC, complete the following:\n\nPrereq\nPrereq\nPrereq"
+  },
+  {
+    "objectID": "templates/section-outline.html#step-1.-download-and-install",
+    "href": "templates/section-outline.html#step-1.-download-and-install",
+    "title": "Template - New section/content",
+    "section": "Step 1. Download and Install",
+    "text": "Step 1. Download and Install\n\nAdd the “substeps” of what you need to do to complete the “main step” listed in the heading of this section.\nOnly use numbered “substeps” if you need to repeat or directly reference a specific step or range of steps.."
+  },
+  {
+    "objectID": "templates/section-outline.html#step-2.-configure-authentication",
+    "href": "templates/section-outline.html#step-2.-configure-authentication",
+    "title": "Template - New section/content",
+    "section": "Step 2. Configure Authentication",
+    "text": "Step 2. Configure Authentication"
+  },
+  {
+    "objectID": "templates/section-outline.html#step-3.-additional-tasks",
+    "href": "templates/section-outline.html#step-3.-additional-tasks",
+    "title": "Template - New section/content",
+    "section": "Step 3. Additional Tasks",
+    "text": "Step 3. Additional Tasks"
+  },
+  {
+    "objectID": "templates/section-outline.html#related-documentation",
+    "href": "templates/section-outline.html#related-documentation",
+    "title": "Template - New section/content",
+    "section": "Related Documentation",
+    "text": "Related Documentation"
+  },
+  {
+    "objectID": "templates/section-outline.html#markdown-template",
+    "href": "templates/section-outline.html#markdown-template",
+    "title": "Template - New section/content",
+    "section": "Markdown template",
+    "text": "Markdown template\nBelow is an example of the markdown syntax that you may use when creating new or updating existing documentation:\n\n# Overview (h1/h2)     \n\nIntroduce the user to the feature and explain what it does, what it is used for, and “real-life” examples. For example, if you are documenting a guided installation feature, open by telling our users what the guided installation is, and why/when they should/could use it.\n\n## Prerequisites (h2)\n\nA description of the feature\n\n## Configuration    \n\nExplaination and examples (h2/h3)\n\n## Procedures & expected output (h2/h3)  \n\nExplaination, steps, output, examples, screenshots, etc.\n\n## Related documentation (h2/h3)\n\nThis is a nice thing to include in its own section at the end of the topic."
   }
 ]

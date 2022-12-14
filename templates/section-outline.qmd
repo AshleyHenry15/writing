@@ -1,0 +1,82 @@
+---
+title: Template - New section/content
+---
+
+Before you begin:
+
+- Make sure that the content flows in a logical order.
+- Search existing content to see if the content exists, but may not be "living" in the "right" place. 
+- Read through existing topics and determine if they could be/should be restructured 
+
+
+## The template
+
+This is the general structure of each topic for the docs.rstudio.com site (as applicable):
+
+
+Remember, this is a suggested template so everything may not be applicable. Additionally, you aren't limited to this structed. For example, you may want to add related features and links/references throughout the topic. 
+
+
+### Markdown example
+
+
+Below is an example of the markdown formatting and an example of the content that should be used as an example when adding a new topic to docs.rstudio.com:
+
+
+title: HTML Title of the Document
+
+description: Add a brief description of the contents of the file.
+
+# Title
+
+Brief description that covers the purpose of this topic/file.
+
+## Prerequisites
+
+Before you can install RSC, complete the following:
+  
+  - Prereq
+  - Prereq
+  - Prereq
+
+## Step 1. Download and Install 
+
+- Add the "substeps" of what you need to do to complete the "main step" listed in the heading of this section.
+- Only use numbered "substeps" if you need to repeat or directly reference a specific step or range of steps..
+
+## Step 2. Configure Authentication
+
+## Step 3. Additional Tasks
+
+## Related Documentation
+
+
+## Markdown template
+
+Below is an example of the markdown syntax that you may use when creating new or updating existing documentation:
+
+```{markdown}
+
+# Overview (h1/h2)     
+
+Introduce the user to the feature and explain what it does, what it is used for, and “real-life” examples. For example, if you are documenting a guided installation feature, open by telling our users what the guided installation is, and why/when they should/could use it.
+
+## Prerequisites (h2)
+
+A description of the feature
+
+## Configuration    
+
+Explaination and examples (h2/h3)
+
+## Procedures & expected output (h2/h3)  
+
+Explaination, steps, output, examples, screenshots, etc.
+
+## Related documentation (h2/h3)
+
+This is a nice thing to include in its own section at the end of the topic.
+
+```
+
+

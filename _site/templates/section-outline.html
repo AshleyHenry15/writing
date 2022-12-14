@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Technical Writing at Posit - Where should the docs live?</title>
+<title>Technical Writing at Posit - Template - New section/content</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../getting-started/prod-docs.html" rel="next">
-<link href="../getting-started/philosophy.html" rel="prev">
+<link href="../templates/release-notes.html" rel="next">
+<link href="../references/pocs.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Where should the docs live?</h1>
+      <h1 class="quarto-secondary-nav-title">Template - New section/content</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../getting-started/location.html" class="sidebar-item-text sidebar-link active">Where should it live?</a>
+  <a href="../getting-started/location.html" class="sidebar-item-text sidebar-link">Where should it live?</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -284,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../templates/section-outline.html" class="sidebar-item-text sidebar-link">New Content/Section</a>
+  <a href="../templates/section-outline.html" class="sidebar-item-text sidebar-link active">New Content/Section</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -299,14 +299,32 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-template" id="toc-the-template" class="nav-link active" data-scroll-target="#the-template">The template</a>
+  <ul class="collapse">
+  <li><a href="#markdown-example" id="toc-markdown-example" class="nav-link" data-scroll-target="#markdown-example">Markdown example</a></li>
+  </ul></li>
+  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title">Title</a>
+  <ul class="collapse">
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#step-1.-download-and-install" id="toc-step-1.-download-and-install" class="nav-link" data-scroll-target="#step-1.-download-and-install">Step 1. Download and Install</a></li>
+  <li><a href="#step-2.-configure-authentication" id="toc-step-2.-configure-authentication" class="nav-link" data-scroll-target="#step-2.-configure-authentication">Step 2. Configure Authentication</a></li>
+  <li><a href="#step-3.-additional-tasks" id="toc-step-3.-additional-tasks" class="nav-link" data-scroll-target="#step-3.-additional-tasks">Step 3. Additional Tasks</a></li>
+  <li><a href="#related-documentation" id="toc-related-documentation" class="nav-link" data-scroll-target="#related-documentation">Related Documentation</a></li>
+  <li><a href="#markdown-template" id="toc-markdown-template" class="nav-link" data-scroll-target="#markdown-template">Markdown template</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Where should the docs live?</h1>
+<h1 class="title d-none d-lg-block">Template - New section/content</h1>
 </div>
 
 
@@ -321,56 +339,79 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Where we write/place documentation depends in a few key factors:</p>
+<p>Before you begin:</p>
 <ul>
-<li>The product and who is responsible for maintaining the content once it is published</li>
-<li>The type of documentation</li>
-<li>The product that the documentation covers/belongs to</li>
+<li>Make sure that the content flows in a logical order.</li>
+<li>Search existing content to see if the content exists, but may not be “living” in the “right” place.</li>
+<li>Read through existing topics and determine if they could be/should be restructured</li>
 </ul>
-<table class="table">
-<colgroup>
-<col style="width: 19%">
-<col style="width: 80%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Admin Gude</td>
-<td>An administrator uses these guides to install, configure, or reference before handing the product off to the user. Generally, anything that may require elevated privileges.</td>
-</tr>
-<tr class="even">
-<td>User Guide</td>
-<td>Explanations of features, feature configurations, and step-by-step instructions, examples, etc. User guides tend to be informal and contain standalone topics.</td>
-</tr>
-<tr class="odd">
-<td>QuickStart Guide</td>
-<td>For users that are familiar with our product, Linux distributions, code languages, etc., and want to accomplish a task as quickly as possible. They can be written in sequential order or as a series of tasks. It should be based on existing documentation.</td>
-</tr>
-<tr class="even">
-<td>Getting Start Guide</td>
-<td>For an audience that is unfamiliar with our products, Linux distributions, code languages, etc. These guides provide a more detailed description of what it does, basic concepts, detailed setup instructions, and basic explanations/examples about what they are doing and why. Should be based on existing documentation.</td>
-</tr>
-<tr class="odd">
-<td>Install Guide</td>
-<td>Describes the steps that are needed to install our products, provided as a one-off guide.</td>
-</tr>
-<tr class="even">
-<td>Tutorials</td>
-<td>Learning-oriented documentation/videos that teach a user how to do something.</td>
-</tr>
-<tr class="odd">
-<td>How-to guide Guide</td>
-<td>Goal-oriented documentation that solves a specific problem in a series of steps. Should be based on existing documentation, if applicable.</td>
-</tr>
-</tbody>
-</table>
+<section id="the-template" class="level2">
+<h2 class="anchored" data-anchor-id="the-template">The template</h2>
+<p>This is the general structure of each topic for the docs.rstudio.com site (as applicable):</p>
+<p>Remember, this is a suggested template so everything may not be applicable. Additionally, you aren’t limited to this structed. For example, you may want to add related features and links/references throughout the topic.</p>
+<section id="markdown-example" class="level3">
+<h3 class="anchored" data-anchor-id="markdown-example">Markdown example</h3>
+<p>Below is an example of the markdown formatting and an example of the content that should be used as an example when adding a new topic to docs.rstudio.com:</p>
+<p>title: HTML Title of the Document</p>
+<p>description: Add a brief description of the contents of the file.</p>
+</section>
+</section>
+<section id="title" class="level1">
+<h1>Title</h1>
+<p>Brief description that covers the purpose of this topic/file.</p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Before you can install RSC, complete the following:</p>
+<ul>
+<li>Prereq</li>
+<li>Prereq</li>
+<li>Prereq</li>
+</ul>
+</section>
+<section id="step-1.-download-and-install" class="level2">
+<h2 class="anchored" data-anchor-id="step-1.-download-and-install">Step 1. Download and Install</h2>
+<ul>
+<li>Add the “substeps” of what you need to do to complete the “main step” listed in the heading of this section.</li>
+<li>Only use numbered “substeps” if you need to repeat or directly reference a specific step or range of steps..</li>
+</ul>
+</section>
+<section id="step-2.-configure-authentication" class="level2">
+<h2 class="anchored" data-anchor-id="step-2.-configure-authentication">Step 2. Configure Authentication</h2>
+</section>
+<section id="step-3.-additional-tasks" class="level2">
+<h2 class="anchored" data-anchor-id="step-3.-additional-tasks">Step 3. Additional Tasks</h2>
+</section>
+<section id="related-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="related-documentation">Related Documentation</h2>
+</section>
+<section id="markdown-template" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-template">Markdown template</h2>
+<p>Below is an example of the markdown syntax that you may use when creating new or updating existing documentation:</p>
+<pre class="{markdown}"><code>
+# Overview (h1/h2)     
+
+Introduce the user to the feature and explain what it does, what it is used for, and “real-life” examples. For example, if you are documenting a guided installation feature, open by telling our users what the guided installation is, and why/when they should/could use it.
+
+## Prerequisites (h2)
+
+A description of the feature
+
+## Configuration    
+
+Explaination and examples (h2/h3)
+
+## Procedures &amp; expected output (h2/h3)  
+
+Explaination, steps, output, examples, screenshots, etc.
+
+## Related documentation (h2/h3)
+
+This is a nice thing to include in its own section at the end of the topic.
+</code></pre>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -508,13 +549,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../getting-started/philosophy.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Philosophy</span>
+      <a href="../references/pocs.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">POCs</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../getting-started/prod-docs.html" class="pagination-link">
-        <span class="nav-page-text">Product Doc Overview</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../templates/release-notes.html" class="pagination-link">
+        <span class="nav-page-text">Release Notes/News</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

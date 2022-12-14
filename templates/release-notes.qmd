@@ -1,5 +1,8 @@
-Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.
+---
+title: Template - Release Notes/News
+---
 
+Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.
 
 
 ```{html}
@@ -29,8 +32,15 @@ Release summary (if applicable)
 - List "breaking" items (changes that result in a breakage in configuration with the new/suggested change listed) in a bullet list, if applicable.
 - Example: Removes the top-level `rspm import` command, use `rspm import ssh-key` or `rspm import https-credential` instead. (#8399)
 
-<h3>Deprecated/Removed</h3>
- <ul> 
-    <li>List "breaking" items in a bullet list, if applicable.</li>
-  </ul>
+### Deprecated/Removed
+
+- List "breaking" items in a bullet list, if applicable.
+- Example: Server.RVersion is deprecated and will be removed in an upcoming release. Use R.Executable instead and reference the full R binary path rather than the path to a directory containing an R installation. (#21473)
+
+    Earlier releases specify an R installation using Server.RVersion to target a directory:
+
+    ; /etc/rstudio-connect/rstudio-connect.gcfg
+    [Server]
+    RVersion = /opt/R/3.6.3
+
 ```
