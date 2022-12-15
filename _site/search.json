@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "references/pocs.html",
+    "href": "references/pocs.html",
+    "title": "Points of Contact",
+    "section": "",
+    "text": "These are the points of contact for our professional product documentation"
+  },
+  {
+    "objectID": "references/pocs.html#technical-writers",
+    "href": "references/pocs.html#technical-writers",
+    "title": "Points of Contact",
+    "section": "Technical Writers",
+    "text": "Technical Writers\n\nAshley Henry: Lead writer for general professional product documentation projects.\nAnnika Krivlov: Assigned to the Connect team; assists with docs.posit.com updates."
+  },
+  {
+    "objectID": "references/pocs.html#docs.posit.co",
+    "href": "references/pocs.html#docs.posit.co",
+    "title": "Points of Contact",
+    "section": "docs.posit.co",
+    "text": "docs.posit.co\n\nOwner: Ashley Henry\nBackup(s): Annika Krivlov, Aron Atkins, David Aja"
+  },
+  {
+    "objectID": "references/pocs.html#worbench",
+    "href": "references/pocs.html#worbench",
+    "title": "Points of Contact",
+    "section": "Worbench",
+    "text": "Worbench\n\nOwner: Maria Semple\nBackup: Melissa Barca\n\nWorkbench Area Owners"
+  },
+  {
+    "objectID": "references/pocs.html#connect",
+    "href": "references/pocs.html#connect",
+    "title": "Points of Contact",
+    "section": "Connect",
+    "text": "Connect\n\nOwner(s): Aron Atkins/Kelly O’Briant\nBackup(s): Annika Krivlov, Allyson Lubimir, Ashley Henry"
+  },
+  {
+    "objectID": "references/pocs.html#package-manager",
+    "href": "references/pocs.html#package-manager",
+    "title": "Points of Contact",
+    "section": "Package Manager",
+    "text": "Package Manager\nOwner: Tyler Finethy\nRSPM Area Owners"
+  },
+  {
     "objectID": "best-practices.html#topic-types",
     "href": "best-practices.html#topic-types",
     "title": "Best practices",
@@ -172,7 +214,70 @@
     "href": "guides/onboarding/software.html",
     "title": "Recommended Software",
     "section": "",
-    "text": "This software list is recommended for members of the technical writing team.\n\nFor macOS\n\n\nVisual Studio Code\nGitHub Desktop\nDocker Desktop\n\nInstall docs\n\nSnagit\n\nRequest license\n\nRStudio"
+    "text": "Before you can dive in, we have a recommended software list for members of the technical writing team.\nWe HIGHLY recommend that you use a mac!\n\nFor macOS\n\n\nVisual Studio Code\nGitHub Desktop\nDocker Desktop\n\nInstall docs\n\nSnagit\n\nRequest license\n\nRStudio IDE"
+  },
+  {
+    "objectID": "templates/release-notes.html",
+    "href": "templates/release-notes.html",
+    "title": "Template - Release Notes/News",
+    "section": "",
+    "text": "Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.\n\n# Introduction\n\n>Current version number\n\nIntroduction summary about what the release notes offer. \n\n## <Product Name> <Version Number>\n\nName of release (if applicable), Date of release (in this format - March 02, 2021)\n\nRelease summary (if applicable)\n\n### New\n\n- List \"new\" items in a bullet list, if applicable.\n\n### Fixed\n\n- List \"fixed\" items in a bullet list with issue number, if applicable.\n\n### Breaking\n\n- List \"breaking\" items (changes that result in a breakage in configuration with the new/suggested change listed) in a bullet list, if applicable.\n- Example: Removes the top-level `rspm import` command, use `rspm import ssh-key` or `rspm import https-credential` instead. (#8399)\n\n### Deprecated/Removed\n\n- List \"breaking\" items in a bullet list, if applicable.\n- Example: Server.RVersion is deprecated and will be removed in an upcoming release. Use R.Executable instead and reference the full R binary path rather than the path to a directory containing an R installation. (#21473)\n\n    Earlier releases specify an R installation using Server.RVersion to target a directory:\n\n    ; /etc/rstudio-connect/rstudio-connect.gcfg\n    [Server]\n    RVersion = /opt/R/3.6.3"
+  },
+  {
+    "objectID": "templates/section-outline.html",
+    "href": "templates/section-outline.html",
+    "title": "Template - New section/content",
+    "section": "",
+    "text": "Before you begin:"
+  },
+  {
+    "objectID": "templates/section-outline.html#the-template",
+    "href": "templates/section-outline.html#the-template",
+    "title": "Template - New section/content",
+    "section": "The template",
+    "text": "The template\nThis is the general structure of each topic for the docs.rstudio.com site (as applicable):\nRemember, this is a suggested template so everything may not be applicable. Additionally, you aren’t limited to this structed. For example, you may want to add related features and links/references throughout the topic.\n\nMarkdown example\nBelow is an example of the markdown formatting and an example of the content that should be used as an example when adding a new topic to docs.rstudio.com:\ntitle: HTML Title of the Document\ndescription: Add a brief description of the contents of the file."
+  },
+  {
+    "objectID": "templates/section-outline.html#prerequisites",
+    "href": "templates/section-outline.html#prerequisites",
+    "title": "Template - New section/content",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore you can install RSC, complete the following:\n\nPrereq\nPrereq\nPrereq"
+  },
+  {
+    "objectID": "templates/section-outline.html#step-1.-download-and-install",
+    "href": "templates/section-outline.html#step-1.-download-and-install",
+    "title": "Template - New section/content",
+    "section": "Step 1. Download and Install",
+    "text": "Step 1. Download and Install\n\nAdd the “substeps” of what you need to do to complete the “main step” listed in the heading of this section.\nOnly use numbered “substeps” if you need to repeat or directly reference a specific step or range of steps.."
+  },
+  {
+    "objectID": "templates/section-outline.html#step-2.-configure-authentication",
+    "href": "templates/section-outline.html#step-2.-configure-authentication",
+    "title": "Template - New section/content",
+    "section": "Step 2. Configure Authentication",
+    "text": "Step 2. Configure Authentication"
+  },
+  {
+    "objectID": "templates/section-outline.html#step-3.-additional-tasks",
+    "href": "templates/section-outline.html#step-3.-additional-tasks",
+    "title": "Template - New section/content",
+    "section": "Step 3. Additional Tasks",
+    "text": "Step 3. Additional Tasks"
+  },
+  {
+    "objectID": "templates/section-outline.html#related-documentation",
+    "href": "templates/section-outline.html#related-documentation",
+    "title": "Template - New section/content",
+    "section": "Related Documentation",
+    "text": "Related Documentation"
+  },
+  {
+    "objectID": "templates/section-outline.html#markdown-template",
+    "href": "templates/section-outline.html#markdown-template",
+    "title": "Template - New section/content",
+    "section": "Markdown template",
+    "text": "Markdown template\nBelow is an example of the markdown syntax that you may use when creating new or updating existing documentation:\n\n# Overview (h1/h2)     \n\nIntroduce the user to the feature and explain what it does, what it is used for, and “real-life” examples. For example, if you are documenting a guided installation feature, open by telling our users what the guided installation is, and why/when they should/could use it.\n\n## Prerequisites (h2)\n\nA description of the feature\n\n## Configuration    \n\nExplaination and examples (h2/h3)\n\n## Procedures & expected output (h2/h3)  \n\nExplaination, steps, output, examples, screenshots, etc.\n\n## Related documentation (h2/h3)\n\nThis is a nice thing to include in its own section at the end of the topic."
   },
   {
     "objectID": "writing/doc-rules.html",
@@ -252,108 +357,17 @@
     "text": "This document provides an outline that you should review and implement prior to Workbench, Connect, Package Manager, and docs.rstudio.com documentation tasks.\n\n\n\n\n\n\nWant a fillable template?\n\n\n\n\n\nCheck out the RStudio, PBC template gallery: Enterprise Doc Planning Template\n\n\n\nBefore you write:\nALWAYS search existing documentation, topics, and all internal resources (don’t forget about Support Articles and the Solutions site). Then ask: - Is this a new topic or updates to an existing topic? - Take note of topics that may need to be updated and/or deleted based on your doc changes. - Search the doc for existing verbiage that you may be able to use or base your changes on. This may help with consistency and standardization. - Avoid duplication; use Snippets, links, iframes, etc.\n\n\nShould this be a product-improvement task vs. a documentation update?\n\nProduct improvement requests should be brought to the development team for discussion and next steps.\n\n\n\n\nWhy are we writing this documentation?\nWhat problem(s) does the documentation address?\n\n\n\n\n\nWhat assumptions can be made?\n\nE.g.: Is the target audience an IT Admin with Linux knowledge, or a data scientist that may not have experience with Linux or have elevated privileges?\n\n\n\n\n\n\n\nWhat team is responsible for development/product team?\nWhen to involve them?\n\nEarly! As soon as you identify a documentation task, ping the team to determine where they are in their release schedule, if someone may already be making these updates, resources, timelines, etc.\n\n\n\n\n\n\nE.g.: Is this a companion guide for the Setup Tool or reference style documentation for the Admin Guide?\nThe Divio Documentation System is a great resource: https://documentation.divio.com/\n\n\n\n\n\nIdentify what product the documentation updates belong to\nThen, determine if this is an Admin Guide update vs. a Support artice, etc.\n\n\n\n\n\nHow much content needs to be created/changed/updated/deleted?\nDo we need to wait for development to be complete before we can begin writing?\nOther considerations:\n\nE.g.: Does the content require us to update 10 UI/product screenshots and do I have access to an environment?\nE.g.: Will the changes break links? If so, how long will these changes take, when can they be completed, and who is responsible for these changes?\nWhat type of review do we need and how long will the review take?\n\n\n\n\n\n\nWhat needs to be accomplished to consider this task as “complete”?\nHow can we validate/test the documentation?\nWho needs to review the documentation?\nWhat are potential blockers?\n\n\n\n\n\nIs there follow-up documentation tasks?\n\nHow do we make sure that these aren’t forgotten?\n\nopen up and follow-up issues to make sure that the work isn’t lost? Do we need to notify other teams of these changes?"
   },
   {
-    "objectID": "templates/release-notes.html",
-    "href": "templates/release-notes.html",
-    "title": "Template - Release Notes/News",
+    "objectID": "references/pocs.html#workbench",
+    "href": "references/pocs.html#workbench",
+    "title": "Points of Contact",
+    "section": "Workbench",
+    "text": "Workbench\n\nOwner: Maria Semple\nBackup: Melissa Barca\n\nWorkbench Area Owners"
+  },
+  {
+    "objectID": "guides/onboarding.html",
+    "href": "guides/onboarding.html",
+    "title": "Onboarding for Technical Writers",
     "section": "",
-    "text": "Use this template as a reference when creating release notes for our Posit Professional products to ensure that our release notes are standardized and predictable.\n\n# Introduction\n\n>Current version number\n\nIntroduction summary about what the release notes offer. \n\n## <Product Name> <Version Number>\n\nName of release (if applicable), Date of release (in this format - March 02, 2021)\n\nRelease summary (if applicable)\n\n### New\n\n- List \"new\" items in a bullet list, if applicable.\n\n### Fixed\n\n- List \"fixed\" items in a bullet list with issue number, if applicable.\n\n### Breaking\n\n- List \"breaking\" items (changes that result in a breakage in configuration with the new/suggested change listed) in a bullet list, if applicable.\n- Example: Removes the top-level `rspm import` command, use `rspm import ssh-key` or `rspm import https-credential` instead. (#8399)\n\n### Deprecated/Removed\n\n- List \"breaking\" items in a bullet list, if applicable.\n- Example: Server.RVersion is deprecated and will be removed in an upcoming release. Use R.Executable instead and reference the full R binary path rather than the path to a directory containing an R installation. (#21473)\n\n    Earlier releases specify an R installation using Server.RVersion to target a directory:\n\n    ; /etc/rstudio-connect/rstudio-connect.gcfg\n    [Server]\n    RVersion = /opt/R/3.6.3"
-  },
-  {
-    "objectID": "templates/section-outline.html",
-    "href": "templates/section-outline.html",
-    "title": "Template - New section/content",
-    "section": "",
-    "text": "Before you begin:"
-  },
-  {
-    "objectID": "templates/section-outline.html#the-template",
-    "href": "templates/section-outline.html#the-template",
-    "title": "Template - New section/content",
-    "section": "The template",
-    "text": "The template\nThis is the general structure of each topic for the docs.rstudio.com site (as applicable):\nRemember, this is a suggested template so everything may not be applicable. Additionally, you aren’t limited to this structed. For example, you may want to add related features and links/references throughout the topic.\n\nMarkdown example\nBelow is an example of the markdown formatting and an example of the content that should be used as an example when adding a new topic to docs.rstudio.com:\ntitle: HTML Title of the Document\ndescription: Add a brief description of the contents of the file."
-  },
-  {
-    "objectID": "templates/section-outline.html#prerequisites",
-    "href": "templates/section-outline.html#prerequisites",
-    "title": "Template - New section/content",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nBefore you can install RSC, complete the following:\n\nPrereq\nPrereq\nPrereq"
-  },
-  {
-    "objectID": "templates/section-outline.html#step-1.-download-and-install",
-    "href": "templates/section-outline.html#step-1.-download-and-install",
-    "title": "Template - New section/content",
-    "section": "Step 1. Download and Install",
-    "text": "Step 1. Download and Install\n\nAdd the “substeps” of what you need to do to complete the “main step” listed in the heading of this section.\nOnly use numbered “substeps” if you need to repeat or directly reference a specific step or range of steps.."
-  },
-  {
-    "objectID": "templates/section-outline.html#step-2.-configure-authentication",
-    "href": "templates/section-outline.html#step-2.-configure-authentication",
-    "title": "Template - New section/content",
-    "section": "Step 2. Configure Authentication",
-    "text": "Step 2. Configure Authentication"
-  },
-  {
-    "objectID": "templates/section-outline.html#step-3.-additional-tasks",
-    "href": "templates/section-outline.html#step-3.-additional-tasks",
-    "title": "Template - New section/content",
-    "section": "Step 3. Additional Tasks",
-    "text": "Step 3. Additional Tasks"
-  },
-  {
-    "objectID": "templates/section-outline.html#related-documentation",
-    "href": "templates/section-outline.html#related-documentation",
-    "title": "Template - New section/content",
-    "section": "Related Documentation",
-    "text": "Related Documentation"
-  },
-  {
-    "objectID": "templates/section-outline.html#markdown-template",
-    "href": "templates/section-outline.html#markdown-template",
-    "title": "Template - New section/content",
-    "section": "Markdown template",
-    "text": "Markdown template\nBelow is an example of the markdown syntax that you may use when creating new or updating existing documentation:\n\n# Overview (h1/h2)     \n\nIntroduce the user to the feature and explain what it does, what it is used for, and “real-life” examples. For example, if you are documenting a guided installation feature, open by telling our users what the guided installation is, and why/when they should/could use it.\n\n## Prerequisites (h2)\n\nA description of the feature\n\n## Configuration    \n\nExplaination and examples (h2/h3)\n\n## Procedures & expected output (h2/h3)  \n\nExplaination, steps, output, examples, screenshots, etc.\n\n## Related documentation (h2/h3)\n\nThis is a nice thing to include in its own section at the end of the topic."
-  },
-  {
-    "objectID": "references/pocs.html",
-    "href": "references/pocs.html",
-    "title": "Points of Contact",
-    "section": "",
-    "text": "These are the points of contact for our professional product documentation"
-  },
-  {
-    "objectID": "references/pocs.html#technical-writers",
-    "href": "references/pocs.html#technical-writers",
-    "title": "Points of Contact",
-    "section": "Technical Writers",
-    "text": "Technical Writers\nAshley Henry: Lead writer for general professional product documentation projects.\nAnnika Krivlov: Assigned to the Connect team; assists with docs.posit.com updates."
-  },
-  {
-    "objectID": "references/pocs.html#docs.posit.co",
-    "href": "references/pocs.html#docs.posit.co",
-    "title": "Points of Contact",
-    "section": "docs.posit.co",
-    "text": "docs.posit.co\nOwner: Ashley Henry Backup: Annika Krivlov, Aron Atkins, David Aja"
-  },
-  {
-    "objectID": "references/pocs.html#worbench",
-    "href": "references/pocs.html#worbench",
-    "title": "Points of Contact",
-    "section": "Worbench",
-    "text": "Worbench\nOwner: Maria Semple Backup: Melissa Barca"
-  },
-  {
-    "objectID": "references/pocs.html#connect",
-    "href": "references/pocs.html#connect",
-    "title": "Points of Contact",
-    "section": "Connect",
-    "text": "Connect\nOwner(s): Aron Atkins/Kelly O’Briant Backup: Annika Krivlov, Allyson Lubimir, Ashley Henry"
-  },
-  {
-    "objectID": "references/pocs.html#package-manager",
-    "href": "references/pocs.html#package-manager",
-    "title": "Points of Contact",
-    "section": "Package Manager",
-    "text": "Package Manager\nOwner: Tyler Finethy\nRSPM Area Owners"
+    "text": "Welcome to Posit! Although we expect every developer to also wear a technical-writing hat, we understand that “formal” technical writers may need to take a slightly different onboarding path.\nHere at Posit, at the minimum we expect our writers to:\n\nUphold and implement our Style Guide\nAct as a mentor to developers that are writing documentation\nLearn technologies quickly\nHave strong communication skills\nTreat docs-as-code\nUnderstand git and how to we use GitHub\n\nThis onboarding section covers some of the basics that will help get you up and running here at Posit!"
   }
 ]

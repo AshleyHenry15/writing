@@ -2,7 +2,11 @@
 title: Recommended Software
 ---
 
-This software list is recommended for members of the technical writing team.
+Before you can dive in, we have a recommended software list for members of the technical writing team.
+
+
+We HIGHLY recommend that you use a mac!
+
 
 >For macOS
 
@@ -12,7 +16,7 @@ This software list is recommended for members of the technical writing team.
     - [Install docs](https://docs.docker.com/desktop/install/mac-install/)
 - [Snagit](https://www.techsmith.com/download/snagit/)
     - [Request license](https://rstudiopbc.atlassian.net/servicedesk/customer/portal/2/group/8/create/23)
-- [RStudio](https://posit.co/downloads/)
+- [RStudio IDE](https://posit.co/downloads/)
 
 
 

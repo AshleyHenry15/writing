@@ -6,25 +6,27 @@ These are the points of contact for our professional product documentation
 
 ## Technical Writers
 
-Ashley Henry: Lead writer for general professional product documentation projects.
-
-Annika Krivlov: Assigned to the Connect team; assists with docs.posit.com updates.
+- Ashley Henry: Lead writer for general professional product documentation projects.
+- Annika Krivlov: Assigned to the Connect team; assists with docs.posit.com updates.
 
 ## docs.posit.co
 
-Owner: Ashley Henry
-Backup: Annika Krivlov, Aron Atkins, David Aja
+- Owner: Ashley Henry
+- Backup(s): Annika Krivlov, Aron Atkins, David Aja
 
 
-## Worbench
+## Workbench
 
-Owner: Maria Semple
-Backup: Melissa Barca
+- Owner: Maria Semple
+- Backup: Melissa Barca
+
+[Workbench Area Owners](https://rstudiopbc.atlassian.net/wiki/spaces/ENG/pages/123633688/Area+Owners+-+IDE+and+Workbench)
+
 
 ## Connect
 
-Owner(s): Aron Atkins/Kelly O'Briant
-Backup: Annika Krivlov, Allyson Lubimir, Ashley Henry
+- Owner(s): Aron Atkins/Kelly O'Briant
+- Backup(s): Annika Krivlov, Allyson Lubimir, Ashley Henry
 
 
 ## Package Manager

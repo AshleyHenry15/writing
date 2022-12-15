@@ -1,3 +1,18 @@
 ---
-title: Onboarding
+title: Onboarding for Technical Writers
 ---
+
+Welcome to Posit! Although we expect every developer to also wear a technical-writing hat, we understand that "formal" technical writers may need to take a slightly different onboarding path.
+
+Here at Posit, at the minimum we expect our writers to:
+
+- Uphold and implement our Style Guide
+- Act as a mentor to developers that are writing documentation
+- Learn technologies quickly
+- Have strong communication skills
+- Treat docs-as-code
+- Understand git and how to we use GitHub
+
+
+This onboarding section covers some of the basics that will help get you up and running here at Posit!
+
