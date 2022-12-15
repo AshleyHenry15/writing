@@ -2,3 +2,33 @@
 title: Points of Contact
 ---
 
+These are the points of contact for our professional product documentation 
+
+## Technical Writers
+
+Ashley Henry: Lead writer for general professional product documentation projects.
+
+Annika Krivlov: Assigned to the Connect team; assists with docs.posit.com updates.
+
+## docs.posit.co
+
+Owner: Ashley Henry
+Backup: Annika Krivlov, Aron Atkins, David Aja
+
+
+## Worbench
+
+Owner: Maria Semple
+Backup: Melissa Barca
+
+## Connect
+
+Owner(s): Aron Atkins/Kelly O'Briant
+Backup: Annika Krivlov, Allyson Lubimir, Ashley Henry
+
+
+## Package Manager
+
+Owner: Tyler Finethy
+
+[RSPM Area Owners](https://rstudiopbc.atlassian.net/wiki/spaces/ENG/pages/36244998/RSPM+Area+Owners)

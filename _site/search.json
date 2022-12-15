@@ -313,5 +313,47 @@
     "title": "Template - New section/content",
     "section": "Markdown template",
     "text": "Markdown template\nBelow is an example of the markdown syntax that you may use when creating new or updating existing documentation:\n\n# Overview (h1/h2)     \n\nIntroduce the user to the feature and explain what it does, what it is used for, and “real-life” examples. For example, if you are documenting a guided installation feature, open by telling our users what the guided installation is, and why/when they should/could use it.\n\n## Prerequisites (h2)\n\nA description of the feature\n\n## Configuration    \n\nExplaination and examples (h2/h3)\n\n## Procedures & expected output (h2/h3)  \n\nExplaination, steps, output, examples, screenshots, etc.\n\n## Related documentation (h2/h3)\n\nThis is a nice thing to include in its own section at the end of the topic."
+  },
+  {
+    "objectID": "references/pocs.html",
+    "href": "references/pocs.html",
+    "title": "Points of Contact",
+    "section": "",
+    "text": "These are the points of contact for our professional product documentation"
+  },
+  {
+    "objectID": "references/pocs.html#technical-writers",
+    "href": "references/pocs.html#technical-writers",
+    "title": "Points of Contact",
+    "section": "Technical Writers",
+    "text": "Technical Writers\nAshley Henry: Lead writer for general professional product documentation projects.\nAnnika Krivlov: Assigned to the Connect team; assists with docs.posit.com updates."
+  },
+  {
+    "objectID": "references/pocs.html#docs.posit.co",
+    "href": "references/pocs.html#docs.posit.co",
+    "title": "Points of Contact",
+    "section": "docs.posit.co",
+    "text": "docs.posit.co\nOwner: Ashley Henry Backup: Annika Krivlov, Aron Atkins, David Aja"
+  },
+  {
+    "objectID": "references/pocs.html#worbench",
+    "href": "references/pocs.html#worbench",
+    "title": "Points of Contact",
+    "section": "Worbench",
+    "text": "Worbench\nOwner: Maria Semple Backup: Melissa Barca"
+  },
+  {
+    "objectID": "references/pocs.html#connect",
+    "href": "references/pocs.html#connect",
+    "title": "Points of Contact",
+    "section": "Connect",
+    "text": "Connect\nOwner(s): Aron Atkins/Kelly O’Briant Backup: Annika Krivlov, Allyson Lubimir, Ashley Henry"
+  },
+  {
+    "objectID": "references/pocs.html#package-manager",
+    "href": "references/pocs.html#package-manager",
+    "title": "Points of Contact",
+    "section": "Package Manager",
+    "text": "Package Manager\nOwner: Tyler Finethy\nRSPM Area Owners"
   }
 ]
