@@ -1,0 +1,22 @@
+---
+title: Final Documentation Review
+---
+
+Now that you have your documentation ready for review, please run through the following list before you open a PR.
+
+:::{.callout-note}
+Some of the items may not be applicable.
+:::
+
+
+- Did I follow the [Template/Outline](/templates/section-outline.qmd)?
+- Did I remove outdated information?
+- Did I add information in other places, if applicable?
+- Verify Terminology & References  & Connect UI Naming Conventions
+- Did I follow the [Documentation Style Guide](/writing/style-guide.qmd)
+  - Additionally, review the entire file that you are working on and make standardization updates referencing the Style Guide.
+- Did I run through all of the steps and verify that they’re accurate?
+- Test for broken links
+- Open PR 
+
+PR → PR Approval → Merge!

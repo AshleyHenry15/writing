@@ -40,6 +40,8 @@ website:
             href: writing/style-guide.qmd
           - text: "Rules & Best Practices"
             href: writing/doc-rules.qmd  
+          - text: "Final Doc Review"
+            href: writing/final-reviews.qmd
           - text: "Release Checklists"
             href: writing/prod-release-checklist.qmd
       - section: "Onboarding"

@@ -21,11 +21,11 @@
     "text": "docs.posit.co\n\nOwner: Ashley Henry\nBackup(s): Annika Krivlov, Aron Atkins, David Aja"
   },
   {
-    "objectID": "references/pocs.html#worbench",
-    "href": "references/pocs.html#worbench",
+    "objectID": "references/pocs.html#workbench",
+    "href": "references/pocs.html#workbench",
     "title": "Points of Contact",
-    "section": "Worbench",
-    "text": "Worbench\n\nOwner: Maria Semple\nBackup: Melissa Barca\n\nWorkbench Area Owners"
+    "section": "Workbench",
+    "text": "Workbench\n\nOwner: Maria Semple\nBackup: Melissa Barca\n\nWorkbench Area Owners"
   },
   {
     "objectID": "references/pocs.html#connect",
@@ -152,6 +152,13 @@
     "title": "Where should the docs live?",
     "section": "",
     "text": "Where we write/place documentation depends in a few key factors:\n\nThe product and who is responsible for maintaining the content once it is published\nThe type of documentation\nThe product that the documentation covers/belongs to\n\n\n\n\n\n\n\n\nType\nDefinition\n\n\n\n\nAdmin Gude\nAn administrator uses these guides to install, configure, or reference before handing the product off to the user. Generally, anything that may require elevated privileges.\n\n\nUser Guide\nExplanations of features, feature configurations, and step-by-step instructions, examples, etc. User guides tend to be informal and contain standalone topics.\n\n\nQuickStart Guide\nFor users that are familiar with our product, Linux distributions, code languages, etc., and want to accomplish a task as quickly as possible. They can be written in sequential order or as a series of tasks. It should be based on existing documentation.\n\n\nGetting Start Guide\nFor an audience that is unfamiliar with our products, Linux distributions, code languages, etc. These guides provide a more detailed description of what it does, basic concepts, detailed setup instructions, and basic explanations/examples about what they are doing and why. Should be based on existing documentation.\n\n\nInstall Guide\nDescribes the steps that are needed to install our products, provided as a one-off guide.\n\n\nTutorials\nLearning-oriented documentation/videos that teach a user how to do something.\n\n\nHow-to guide Guide\nGoal-oriented documentation that solves a specific problem in a series of steps. Should be based on existing documentation, if applicable."
+  },
+  {
+    "objectID": "guides/onboarding.html",
+    "href": "guides/onboarding.html",
+    "title": "Onboarding for Technical Writers",
+    "section": "",
+    "text": "Welcome to Posit! Although we expect every developer to also wear a technical-writing hat, we understand that “formal” technical writers may need to take a slightly different onboarding path.\nHere at Posit, at the minimum we expect our writers to:\n\nUphold and implement our Style Guide\nAct as a mentor to developers that are writing documentation\nLearn technologies quickly\nHave strong communication skills\nTreat docs-as-code\nUnderstand git and how to we use GitHub\n\nThis onboarding section covers some of the basics that will help get you up and running here at Posit!"
   },
   {
     "objectID": "guides/doc-requests.html",
@@ -357,17 +364,10 @@
     "text": "This document provides an outline that you should review and implement prior to Workbench, Connect, Package Manager, and docs.rstudio.com documentation tasks.\n\n\n\n\n\n\nWant a fillable template?\n\n\n\n\n\nCheck out the RStudio, PBC template gallery: Enterprise Doc Planning Template\n\n\n\nBefore you write:\nALWAYS search existing documentation, topics, and all internal resources (don’t forget about Support Articles and the Solutions site). Then ask: - Is this a new topic or updates to an existing topic? - Take note of topics that may need to be updated and/or deleted based on your doc changes. - Search the doc for existing verbiage that you may be able to use or base your changes on. This may help with consistency and standardization. - Avoid duplication; use Snippets, links, iframes, etc.\n\n\nShould this be a product-improvement task vs. a documentation update?\n\nProduct improvement requests should be brought to the development team for discussion and next steps.\n\n\n\n\nWhy are we writing this documentation?\nWhat problem(s) does the documentation address?\n\n\n\n\n\nWhat assumptions can be made?\n\nE.g.: Is the target audience an IT Admin with Linux knowledge, or a data scientist that may not have experience with Linux or have elevated privileges?\n\n\n\n\n\n\n\nWhat team is responsible for development/product team?\nWhen to involve them?\n\nEarly! As soon as you identify a documentation task, ping the team to determine where they are in their release schedule, if someone may already be making these updates, resources, timelines, etc.\n\n\n\n\n\n\nE.g.: Is this a companion guide for the Setup Tool or reference style documentation for the Admin Guide?\nThe Divio Documentation System is a great resource: https://documentation.divio.com/\n\n\n\n\n\nIdentify what product the documentation updates belong to\nThen, determine if this is an Admin Guide update vs. a Support artice, etc.\n\n\n\n\n\nHow much content needs to be created/changed/updated/deleted?\nDo we need to wait for development to be complete before we can begin writing?\nOther considerations:\n\nE.g.: Does the content require us to update 10 UI/product screenshots and do I have access to an environment?\nE.g.: Will the changes break links? If so, how long will these changes take, when can they be completed, and who is responsible for these changes?\nWhat type of review do we need and how long will the review take?\n\n\n\n\n\n\nWhat needs to be accomplished to consider this task as “complete”?\nHow can we validate/test the documentation?\nWho needs to review the documentation?\nWhat are potential blockers?\n\n\n\n\n\nIs there follow-up documentation tasks?\n\nHow do we make sure that these aren’t forgotten?\n\nopen up and follow-up issues to make sure that the work isn’t lost? Do we need to notify other teams of these changes?"
   },
   {
-    "objectID": "references/pocs.html#workbench",
-    "href": "references/pocs.html#workbench",
-    "title": "Points of Contact",
-    "section": "Workbench",
-    "text": "Workbench\n\nOwner: Maria Semple\nBackup: Melissa Barca\n\nWorkbench Area Owners"
-  },
-  {
-    "objectID": "guides/onboarding.html",
-    "href": "guides/onboarding.html",
-    "title": "Onboarding for Technical Writers",
+    "objectID": "writing/final-reviews.html",
+    "href": "writing/final-reviews.html",
+    "title": "Final Documentation Review",
     "section": "",
-    "text": "Welcome to Posit! Although we expect every developer to also wear a technical-writing hat, we understand that “formal” technical writers may need to take a slightly different onboarding path.\nHere at Posit, at the minimum we expect our writers to:\n\nUphold and implement our Style Guide\nAct as a mentor to developers that are writing documentation\nLearn technologies quickly\nHave strong communication skills\nTreat docs-as-code\nUnderstand git and how to we use GitHub\n\nThis onboarding section covers some of the basics that will help get you up and running here at Posit!"
+    "text": "Now that you have your documentation ready for review, please run through the following list before you open a PR.\n\n\n\n\n\n\nNote\n\n\n\nSome of the items may not be applicable.\n\n\n\nDid I follow the Template/Outline?\nDid I remove outdated information?\nDid I add information in other places, if applicable?\nVerify Terminology & References & Connect UI Naming Conventions\nDid I follow the Documentation Style Guide\n\nAdditionally, review the entire file that you are working on and make standardization updates referencing the Style Guide.\n\nDid I run through all of the steps and verify that they’re accurate?\nTest for broken links\nOpen PR\n\nPR → PR Approval → Merge!"
   }
 ]

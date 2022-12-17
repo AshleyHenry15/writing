@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Technical Writing at Posit - Docs Site - Product Release Checklist</title>
+<title>Technical Writing at Posit - Final Documentation Review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../guides/onboarding.html" rel="next">
-<link href="../writing/final-reviews.html" rel="prev">
+<link href="../writing/prod-release-checklist.html" rel="next">
+<link href="../writing/doc-rules.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Docs Site - Product Release Checklist</h1>
+      <h1 class="quarto-secondary-nav-title">Final Documentation Review</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -189,12 +189,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../writing/final-reviews.html" class="sidebar-item-text sidebar-link">Final Doc Review</a>
+  <a href="../writing/final-reviews.html" class="sidebar-item-text sidebar-link active">Final Doc Review</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../writing/prod-release-checklist.html" class="sidebar-item-text sidebar-link active">Release Checklists</a>
+  <a href="../writing/prod-release-checklist.html" class="sidebar-item-text sidebar-link">Release Checklists</a>
   </div>
 </li>
       </ul>
@@ -304,24 +304,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#workbench" id="toc-workbench" class="nav-link" data-scroll-target="#workbench">Workbench</a></li>
-  <li><a href="#connect" id="toc-connect" class="nav-link" data-scroll-target="#connect">Connect</a></li>
-  <li><a href="#package-manager" id="toc-package-manager" class="nav-link" data-scroll-target="#package-manager">Package Manager</a></li>
-  <li><a href="#pro-drivers" id="toc-pro-drivers" class="nav-link" data-scroll-target="#pro-drivers">Pro Drivers</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Docs Site - Product Release Checklist</h1>
+<h1 class="title d-none d-lg-block">Final Documentation Review</h1>
 </div>
 
 
@@ -336,267 +326,36 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This is a checklist for each professional product to ensure that all updates to the docs.rstudio.com site are complete prior to a minor or major release.</p>
-<div class="callout-important callout callout-style-default callout-captioned">
+<p>Now that you have your documentation ready for review, please run through the following list before you open a PR.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Important
+Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This checklist does NOT cover each file that may need to be updated. Instead, the files listed below probably provide content, such as installation commands, that are version-specific and are more likely to require an update for a release.</p>
+<p>Some of the items may not be applicable.</p>
 </div>
 </div>
-</section>
-<section id="workbench" class="level2">
-<h2 class="anchored" data-anchor-id="workbench">Workbench</h2>
-<div class="callout-note callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Expand for checklist
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="overflow-wrap: break-word;">
-<p><input type="checkbox"> Product Configuration Overview table:</p>
 <ul>
-<li>URL: https://docs.rstudio.com/configuration/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/configuration.md</li>
-</ul>
-<p><input type="checkbox"> Requirements:&nbsp;</p>
+<li>Did I follow the <a href="../templates/section-outline.html">Template/Outline</a>?</li>
+<li>Did I remove outdated information?</li>
+<li>Did I add information in other places, if applicable?</li>
+<li>Verify Terminology &amp; References &amp; Connect UI Naming Conventions</li>
+<li>Did I follow the <a href="../writing/style-guide.html">Documentation Style Guide</a>
 <ul>
-<li>URL: https://docs.rstudio.com/rsp/requirements/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/requirements.md</li>
+<li>Additionally, review the entire file that you are working on and make standardization updates referencing the Style Guide.</li>
+</ul></li>
+<li>Did I run through all of the steps and verify that they’re accurate?</li>
+<li>Test for broken links</li>
+<li>Open PR</li>
 </ul>
-<p><input type="checkbox"> Installation:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsp/installation/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/installation.md</li>
-</ul>
-<p><input type="checkbox"> Upgrade:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsp/upgrade/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/upgrade.md</li>
-</ul>
-<p>Configuration:</p>
-<p><input type="checkbox"> Active Directory</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsp/configuration/authentication/active-directory/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/configuration/authentication/active-directory.md</li>
-</ul>
-<p>Integration:</p>
-<p><input type="checkbox"> Python:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsp/integration/python/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/integration/python.md</li>
-</ul>
-<p><input type="checkbox"> Launcher Slurm:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsp/integration/launcher-slurm/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/integration/launcher-slurm.md</li>
-</ul>
-<p>Support</p>
-<p><input type="checkbox"> Rollback</p>
-<ul>
-<li>URL: https://support.rstudio.com/hc/en-us/articles/360062132513</li>
-</ul>
-<p><input type="checkbox"> All Documentation:</p>
-<p>Please check the All Versions drop-down and add the most recent version of applicable documentation guides.</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsp/documentation</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsp/documentation.md</li>
-</ul>
-<p><input type="checkbox"> Troubleshooting:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/troubleshooting/launcher-kubernetes/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/tree/master/docs/troubleshooting</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="connect" class="level2">
-<h2 class="anchored" data-anchor-id="connect">Connect</h2>
-<div class="callout-note callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Expand for checklist
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="overflow-wrap: break-word;">
-<p><input type="checkbox"> Product Configuration Overview table:&nbsp;</p>
-<ul>
-<li>URL: https://docs.rstudio.com/configuration/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/configuration.md</li>
-</ul>
-<p><input type="checkbox"> Requirements:&nbsp;</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/requirements/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/requirements.md</li>
-</ul>
-<p>Installation:</p>
-<p><input type="checkbox"> Setup tool:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/installation/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/installation.md</li>
-</ul>
-<p><input type="checkbox"> Manual:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/manual-install/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/manual-install.md</li>
-</ul>
-<p><input type="checkbox"> Upgrade:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/upgrade/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/upgrade.md</li>
-</ul>
-<p>Integration:</p>
-<p><input type="checkbox"> Python:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/integration/python/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/integration/python.md</li>
-</ul>
-<p><input type="checkbox"> TensorFlow:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/integration/tensorflow/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/integration/tensorflow.md</li>
-</ul>
-<p><input type="checkbox"> All Documentation:</p>
-<p>Please check the All Versions drop-down and add the most recent version of applicable documentation guides.</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rsc/documentation/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rsc/documentation.md</li>
-</ul>
-<p><input type="checkbox"> How To Guides:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/how-to-guides/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/how-to-guides/index.md</li>
-</ul>
-<p><input type="checkbox"> Tutorials:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/tutorials/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/tree/master/docs/tutorials</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="package-manager" class="level2">
-<h2 class="anchored" data-anchor-id="package-manager">Package Manager</h2>
-<div class="callout-note callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Expand for checklist
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="overflow-wrap: break-word;">
-<p><input type="checkbox"> Product Configuration Overview table:&nbsp;</p>
-<ul>
-<li>URL: https://docs.rstudio.com/configuration/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/configuration.md</li>
-</ul>
-<p><input type="checkbox"> Requirements:&nbsp;</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rpm/requirements/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/requirements.md</li>
-</ul>
-<p><input type="checkbox"> Installation:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rpm/installation/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/installation.md</li>
-</ul>
-<p><input type="checkbox"> Upgrade:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rpm/upgrade/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/upgrade.md</li>
-</ul>
-<p><input type="checkbox"> All Documentation:</p>
-<p>Please check the All Versions drop-down and add the most recent version of applicable documentation guides.</p>
-<ul>
-<li>URL: https://docs.rstudio.com/rpm/documentation/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/rpm/documentation.md</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="pro-drivers" class="level2">
-<h2 class="anchored" data-anchor-id="pro-drivers">Pro Drivers</h2>
-<div class="callout-note callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Expand for checklist
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div style="overflow-wrap: break-word;">
-<p><input type="checkbox"> Requirements:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/pro-drivers/requirements/</li>
-<li>File path: &nbsp;https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/requirements.md</li>
-</ul>
-<p><input type="checkbox"> Installing Pro Drivers:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/pro-drivers/installation/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/installation.md</li>
-</ul>
-<p><input type="checkbox"> Desktop Install:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/pro-drivers/desktop-install/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/desktop-install.md</li>
-</ul>
-<p><input type="checkbox"> Linux:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/pro-drivers/install-method/linux/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/linux.md</li>
-</ul>
-<p><input type="checkbox"> Mac:</p>
-<ul>
-<li>URL: https://docs.rstudio.com/pro-drivers/install-method/macOS/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/macOS.md</li>
-</ul>
-<p><input type="checkbox"> Windows:</p>
-<ul>
-<li>URL: &nbsp;https://docs.rstudio.com/pro-drivers/install-method/windows/</li>
-<li>File path: https://github.com/rstudio/docs.rstudio.com/blob/master/docs/pro-drivers/install-method/windows.md</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
+<p>PR → PR Approval → Merge!</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -734,13 +493,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../writing/final-reviews.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Final Doc Review</span>
+      <a href="../writing/doc-rules.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Rules &amp; Best Practices</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../guides/onboarding.html" class="pagination-link">
-        <span class="nav-page-text">Overview</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../writing/prod-release-checklist.html" class="pagination-link">
+        <span class="nav-page-text">Release Checklists</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
